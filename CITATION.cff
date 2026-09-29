@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this data or code, please cite this repository."
+title: "Phylogenetic analysis of interferon-stimulated genes with direct antiviral activity"
+authors:
+  - family-names: Litvin
+    given-names: Ulad
+    affiliation: "MRC-University of Glasgow Centre for Virus Research"
+date-released: 2026-09-29
+url: "https://github.com/ulad-litvin/isg-origin-phylogenetics.git"
+version: "1.0.0"
+keywords:
+  - interferon-stimulated genes
+  - phylogenetics
+  - antiviral immunity
+  - molecular evolution
