@@ -1,0 +1,221 @@
+IQ-TREE multicore version 2.1.3 COVID-edition for Linux 64-bit built Apr 21 2021
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    alpha2.cvr.gla.ac.uk (AVX512, FMA3, 4031 GB RAM)
+Command: iqtree2 -nt 8 -s angry_phylogenies/processing/TTC39B-like_mammalia_iqtree_ufboot_alrt_nt_ref/52_TTC39B-like_mammalia_nt_curated_ref.pal2nal.trimal.fasta -m MFP -B 1000 -alrt 1000 --prefix angry_phylogenies/processing/TTC39B-like_mammalia_iqtree_ufboot_alrt_nt_ref/52_TTC39B-like_mammalia_nt_curated_ref.pal2nal.trimal
+Seed:    292840 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Apr 22 02:43:28 2026
+Kernel:  AVX+FMA - 8 threads (224 CPU cores detected)
+
+Reading alignment file angry_phylogenies/processing/TTC39B-like_mammalia_iqtree_ufboot_alrt_nt_ref/52_TTC39B-like_mammalia_nt_curated_ref.pal2nal.trimal.fasta ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 52 sequences with 1764 columns, 1119 distinct patterns
+1039 parsimony-informative, 169 singleton sites, 556 constant sites
+                Gap/Ambiguity  Composition  p-value
+   1  XP_049508215.1    0.00%    passed     75.74%
+   2  XP_045303036.1    0.00%    passed     90.71%
+   3  XP_040352501.1    0.00%    passed     84.08%
+   4  XP_026889394.2    0.00%    passed     96.12%
+   5  XP_046924413.1    0.00%    passed     85.08%
+   6  XP_025783215.1    0.00%    passed     72.97%
+   7  XP_039107170.1    0.00%    passed     95.88%
+   8  XP_035922045.1    0.00%    passed     99.59%
+   9  XP_032266221.1    0.00%    passed     99.67%
+  10  XP_045740405.1    0.00%    passed     99.64%
+  11  XP_034856841.1    0.00%    passed     99.33%
+  12  XP_030897129.1    0.00%    passed     99.92%
+  13  XP_021553387.1    0.00%    passed     99.18%
+  14  XP_004410054.1    0.00%    passed     95.51%
+  15  XP_025723879.1    0.00%    passed     94.75%
+  16  XP_022376246.1    0.00%    passed     87.73%
+  17  XP_047600658.1    0.00%    passed     89.33%
+  18  VCW50096.1        0.00%    passed     95.13%
+  19  XP_055183468.1    0.00%    passed     39.63%
+  20  XP_015443088.1    0.00%    passed      7.77%
+  21  XP_016017810.2    0.00%    passed     15.90%
+  22  XP_028370155.1    0.00%    passed     26.98%
+  23  XP_045684548.1    0.00%    passed     49.30%
+  24  XP_054421874.1    0.00%    passed     31.42%
+  25  XP_045045437.1    0.00%    passed     81.70%
+  26  XP_008521741.1    0.00%    passed     85.86%
+  27  XP_014647839.1    0.00%    passed     25.29%
+  28  XP_010966066.1    0.34%    passed     79.35%
+  29  XP_031540852.1    0.34%    passed     76.23%
+  30  KAI4577132.1      0.68%    passed     26.70%
+  31  XP_048209047.1    0.00%    passed     54.05%
+  32  XP_042531418.1    0.00%    passed     73.91%
+  33  XP_020017581.1    0.00%    passed     93.80%
+  34  XP_040848682.1    0.00%    failed      3.90%
+  35  XP_037384096.1    0.00%    passed     68.91%
+  36  XP_053443698.1    0.17%    passed     22.65%
+  37  XP_045405389.1    0.17%    passed     30.96%
+  38  XP_037662553.1    2.89%    passed     78.10%
+  39  XP_041487135.1    0.17%    failed      2.82%
+  40  XP_057638155.1    0.17%    passed     12.00%
+  41  XP_038173747.1    0.17%    passed     10.24%
+  42  XP_050019451.1    0.34%    passed     10.72%
+  43  XP_048272030.1    0.17%    passed      9.13%
+  44  XP_034369939.1    0.17%    passed     16.55%
+  45  XP_052040755.1    0.17%    passed     39.63%
+  46  XP_032763362.1    0.17%    passed      7.68%
+  47  XP_031213192.1    0.17%    passed     24.03%
+  48  XP_051009226.1    0.17%    failed      0.87%
+  49  XP_054330232.1    0.17%    passed     44.90%
+  50  XP_043837076.1    0.00%    passed      7.89%
+  51  XP_051831099.1    2.89%    failed      0.18%
+  52  XP_036605927.1    0.00%    passed      8.57%
+****  TOTAL             0.18%  4 sequences failed composition chi2 test (p-value<5%; df=3)
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.006 seconds
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -21617.538
+Optimal log-likelihood: -21616.837
+Rate parameters:  A-C: 1.56896  A-G: 5.26191  A-T: 0.72190  C-G: 1.81513  C-T: 5.91535  G-T: 1.00000
+Base frequencies:  A: 0.322  C: 0.189  G: 0.202  T: 0.286
+Proportion of invariable sites: 0.169
+Gamma shape alpha: 1.495
+Parameters optimization took 1 rounds (0.034 sec)
+Time for fast ML tree search: 0.251 seconds
+
+NOTE: ModelFinder requires 23 MB RAM!
+ModelFinder will test up to 286 DNA models (sample size: 1764) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  GTR+F         22361.392    109 44940.783    44955.282    45537.595
+  2  GTR+F+I       21788.141    110 43796.282    43811.055    44398.569
+  3  GTR+F+G4      21638.974    110 43497.948    43512.721    44100.235
+  4  GTR+F+I+G4    21615.116    111 43452.232    43467.283    44059.995
+  5  GTR+F+R2      21678.377    111 43578.754    43593.805    44186.517
+  6  GTR+F+R3      21615.689    113 43457.378    43472.993    44076.092
+  7  GTR+F+R4      21615.388    115 43460.776    43476.965    44090.440
+ 17  SYM+I+G4      21683.680    108 43583.361    43597.587    44174.698
+ 30  TVM+F+I+G4    21617.472    110 43454.943    43469.716    44057.230
+ 43  TVMe+I+G4     21683.691    107 43581.382    43595.339    44167.243
+ 56  TIM3+F+I+G4   21621.031    109 43460.063    43474.561    44056.875
+ 69  TIM3e+I+G4    21686.862    106 43585.725    43599.415    44166.111
+ 82  TIM2+F+I+G4   21669.847    109 43557.695    43572.193    44154.507
+ 95  TIM2e+I+G4    21695.825    106 43603.650    43617.340    44184.036
+108  TIM+F+I+G4    21666.513    109 43551.027    43565.525    44147.839
+121  TIMe+I+G4     21697.400    106 43606.800    43620.490    44187.186
+134  TPM3u+F+I+G4  21623.477    108 43462.954    43477.180    44054.290
+147  TPM3+F+I+G4   21623.466    108 43462.933    43477.159    44054.270
+160  TPM2u+F+I+G4  21671.631    108 43559.263    43573.489    44150.599
+173  TPM2+F+I+G4   21671.631    108 43559.263    43573.489    44150.599
+186  K3Pu+F+I+G4   21668.376    108 43552.752    43566.978    44144.089
+199  K3P+I+G4      21697.475    105 43604.949    43618.375    44179.860
+212  TN+F+I+G4     21674.935    108 43565.869    43580.095    44157.206
+225  TNe+I+G4      21698.883    105 43607.766    43621.192    44182.676
+238  HKY+F+I+G4    21676.809    107 43567.617    43581.574    44153.478
+251  K2P+I+G4      21698.970    104 43605.939    43619.104    44175.375
+264  F81+F+I+G4    22704.630    106 45621.261    45634.951    46201.647
+277  JC+I+G4       22642.538    103 45491.076    45503.982    46055.036
+Akaike Information Criterion:           GTR+F+I+G4
+Corrected Akaike Information Criterion: GTR+F+I+G4
+Bayesian Information Criterion:         TPM3+F+I+G4
+Best-fit model: TPM3+F+I+G4 chosen according to BIC
+
+All model information printed to angry_phylogenies/processing/TTC39B-like_mammalia_iqtree_ufboot_alrt_nt_ref/52_TTC39B-like_mammalia_nt_curated_ref.pal2nal.trimal.model.gz
+CPU time for ModelFinder: 36.645 seconds (0h:0m:36s)
+Wall-clock time for ModelFinder: 4.617 seconds (0h:0m:4s)
+Generating 1000 samples for ultrafast bootstrap (seed: 292840)...
+
+NOTE: 11 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Thoroughly optimizing +I+G parameters from 10 start values...
+Init pinv, alpha: 0.000, 1.809 / Estimate: 0.000, 0.812 / LogL: -21648.090
+Init pinv, alpha: 0.035, 1.809 / Estimate: 0.199, 1.751 / LogL: -21623.578
+Init pinv, alpha: 0.070, 1.809 / Estimate: 0.199, 1.752 / LogL: -21623.574
+Init pinv, alpha: 0.105, 1.809 / Estimate: 0.199, 1.752 / LogL: -21623.577
+Init pinv, alpha: 0.140, 1.809 / Estimate: 0.198, 1.743 / LogL: -21623.604
+Init pinv, alpha: 0.175, 1.809 / Estimate: 0.198, 1.742 / LogL: -21623.609
+Init pinv, alpha: 0.210, 1.809 / Estimate: 0.209, 1.855 / LogL: -21623.460
+Init pinv, alpha: 0.245, 1.809 / Estimate: 0.213, 1.898 / LogL: -21623.519
+Init pinv, alpha: 0.280, 1.809 / Estimate: 0.214, 1.904 / LogL: -21623.531
+Init pinv, alpha: 0.315, 1.809 / Estimate: 0.213, 1.896 / LogL: -21623.515
+Optimal pinv,alpha: 0.209, 1.855 / LogL: -21623.460
+
+Parameters optimization took 1.966 sec
+Computing ML distances based on estimated model parameters...
+Computing ML distances took 0.006860 sec (of wall-clock time) 0.054867 sec(of CPU time)
+Computing RapidNJ tree took 0.005165 sec (of wall-clock time) 0.048027 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -21748.201
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.681 second
+Computing log-likelihood of 98 initial trees ... 0.731 seconds
+Current best score: -21623.460
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -21623.457
+UPDATE BEST LOG-LIKELIHOOD: -21623.457
+Iteration 10 / LogL: -21623.467 / Time: 0h:0m:4s
+Iteration 20 / LogL: -21623.988 / Time: 0h:0m:5s
+Finish initializing candidate tree set (3)
+Current best tree score: -21623.457 / CPU time: 3.131
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -21624.328 / Time: 0h:0m:6s (0h:0m:16s left)
+Iteration 40 / LogL: -21624.401 / Time: 0h:0m:8s (0h:0m:12s left)
+Iteration 50 / LogL: -21623.984 / Time: 0h:0m:9s (0h:0m:10s left)
+Log-likelihood cutoff on original alignment: -21657.353
+Iteration 60 / LogL: -21624.227 / Time: 0h:0m:11s (0h:0m:7s left)
+Iteration 70 / LogL: -21624.252 / Time: 0h:0m:12s (0h:0m:5s left)
+Iteration 80 / LogL: -21623.998 / Time: 0h:0m:14s (0h:0m:3s left)
+Iteration 90 / LogL: -21623.462 / Time: 0h:0m:15s (0h:0m:1s left)
+Iteration 100 / LogL: -21624.256 / Time: 0h:0m:17s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -21657.353
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 1.000
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:0m:17s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -21623.457
+Optimal log-likelihood: -21623.454
+Rate parameters:  A-C: 1.98275  A-G: 6.69311  A-T: 1.00000  C-G: 1.98275  C-T: 6.69311  G-T: 1.00000
+Base frequencies:  A: 0.322  C: 0.189  G: 0.202  T: 0.286
+Proportion of invariable sites: 0.208
+Gamma shape alpha: 1.845
+Parameters optimization took 1 rounds (0.018 sec)
+BEST SCORE FOUND : -21623.454
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+0.186 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file angry_phylogenies/processing/TTC39B-like_mammalia_iqtree_ufboot_alrt_nt_ref/52_TTC39B-like_mammalia_nt_curated_ref.pal2nal.trimal.splits.nex
+Total tree length: 2.862
+
+Total number of iterations: 102
+CPU time used for tree search: 123.112 sec (0h:2m:3s)
+Wall-clock time used for tree search: 15.830 sec (0h:0m:15s)
+Total CPU time used: 141.890 sec (0h:2m:21s)
+Total wall-clock time used: 18.182 sec (0h:0m:18s)
+
+Computing bootstrap consensus tree...
+Reading input file angry_phylogenies/processing/TTC39B-like_mammalia_iqtree_ufboot_alrt_nt_ref/52_TTC39B-like_mammalia_nt_curated_ref.pal2nal.trimal.splits.nex...
+52 taxa and 179 splits.
+Consensus tree written to angry_phylogenies/processing/TTC39B-like_mammalia_iqtree_ufboot_alrt_nt_ref/52_TTC39B-like_mammalia_nt_curated_ref.pal2nal.trimal.contree
+Reading input trees file angry_phylogenies/processing/TTC39B-like_mammalia_iqtree_ufboot_alrt_nt_ref/52_TTC39B-like_mammalia_nt_curated_ref.pal2nal.trimal.contree
+Log-likelihood of consensus tree: -21623.461
+
+Analysis results written to: 
+  IQ-TREE report:                angry_phylogenies/processing/TTC39B-like_mammalia_iqtree_ufboot_alrt_nt_ref/52_TTC39B-like_mammalia_nt_curated_ref.pal2nal.trimal.iqtree
+  Maximum-likelihood tree:       angry_phylogenies/processing/TTC39B-like_mammalia_iqtree_ufboot_alrt_nt_ref/52_TTC39B-like_mammalia_nt_curated_ref.pal2nal.trimal.treefile
+  Likelihood distances:          angry_phylogenies/processing/TTC39B-like_mammalia_iqtree_ufboot_alrt_nt_ref/52_TTC39B-like_mammalia_nt_curated_ref.pal2nal.trimal.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          angry_phylogenies/processing/TTC39B-like_mammalia_iqtree_ufboot_alrt_nt_ref/52_TTC39B-like_mammalia_nt_curated_ref.pal2nal.trimal.splits.nex
+  Consensus tree:                angry_phylogenies/processing/TTC39B-like_mammalia_iqtree_ufboot_alrt_nt_ref/52_TTC39B-like_mammalia_nt_curated_ref.pal2nal.trimal.contree
+  Screen log file:               angry_phylogenies/processing/TTC39B-like_mammalia_iqtree_ufboot_alrt_nt_ref/52_TTC39B-like_mammalia_nt_curated_ref.pal2nal.trimal.log
+
+Date and Time: Wed Apr 22 02:43:51 2026

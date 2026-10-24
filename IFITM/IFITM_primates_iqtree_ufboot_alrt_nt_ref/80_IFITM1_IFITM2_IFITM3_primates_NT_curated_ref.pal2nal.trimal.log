@@ -1,0 +1,341 @@
+IQ-TREE multicore version 2.1.3 COVID-edition for Linux 64-bit built Apr 21 2021
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    alpha2.cvr.gla.ac.uk (AVX512, FMA3, 4031 GB RAM)
+Command: iqtree2 -nt 8 -s angry_phylogenies/processing/IFITM_primates_iqtree_ufboot_alrt_nt_ref/80_IFITM1_IFITM2_IFITM3_primates_NT_curated_ref.pal2nal.trimal.fasta -m MFP -B 1000 -alrt 1000 --prefix angry_phylogenies/processing/IFITM_primates_iqtree_ufboot_alrt_nt_ref/80_IFITM1_IFITM2_IFITM3_primates_NT_curated_ref.pal2nal.trimal
+Seed:    830430 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Apr 10 04:48:43 2026
+Kernel:  AVX+FMA - 8 threads (224 CPU cores detected)
+
+Reading alignment file angry_phylogenies/processing/IFITM_primates_iqtree_ufboot_alrt_nt_ref/80_IFITM1_IFITM2_IFITM3_primates_NT_curated_ref.pal2nal.trimal.fasta ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 80 sequences with 438 columns, 358 distinct patterns
+259 parsimony-informative, 88 singleton sites, 91 constant sites
+                      Gap/Ambiguity  Composition  p-value
+   1  ENSGGOP00000018769.2    8.90%    passed     86.70%
+   2  ENSP00000382707.4       8.90%    passed     84.08%
+   3  ENSGGOP00000001382.3    8.90%    passed     82.95%
+   4  ENSPTRP00000005484.5   23.29%    passed     69.33%
+   5  XP_025247680.1          9.59%    passed     86.88%
+   6  XP_011906988.1          8.90%    passed     87.97%
+   7  XP_050615257.1          8.90%    passed     90.67%
+   8  ANJ01443.1              8.90%    passed     76.53%
+   9  ANJ01446.1              8.90%    passed     92.28%
+  10  XP_011760557.1          8.90%    passed     91.72%
+  11  ANJ01442.1              8.90%    passed     77.27%
+  12  XP_055115512.1          8.90%    passed     75.59%
+  13  ENSNLEP00000022554.2    8.90%    passed     86.25%
+  14  XP_033057341.1          8.90%    passed     95.61%
+  15  XP_026305057.1          8.90%    passed     96.59%
+  16  XP_023051382.1          8.90%    passed     95.69%
+  17  XP_033062408.1          8.90%    passed     96.95%
+  18  XP_033043690.1          8.90%    passed     95.81%
+  19  ANJ01448.1              8.90%    passed     95.81%
+  20  XP_011896320.1          8.90%    passed     96.21%
+  21  ANJ01447.1              8.90%    passed     80.94%
+  22  XP_050662112.1         23.97%    passed     94.69%
+  23  XP_033076703.1          8.90%    passed     90.45%
+  24  XP_011817244.1         10.96%    passed     91.80%
+  25  XP_033046789.1         10.96%    passed     89.67%
+  26  XP_055144453.1          8.90%    passed     94.97%
+  27  XP_032035162.1          8.90%    passed     91.56%
+  28  ENSGGOP00000024284.1    9.59%    passed     73.09%
+  29  ENSP00000484689.1       9.59%    passed     98.27%
+  30  ENSPTRP00000005482.5    9.59%    passed     89.70%
+  31  ENSPPAP00000031310.1    9.59%    passed     94.21%
+  32  ENSGGOP00000018412.1    9.59%    passed     84.65%
+  33  XP_033089736.1         23.97%    passed     99.74%
+  34  XP_032104452.1          8.90%    passed     75.13%
+  35  XP_054351571.1          9.59%    passed     91.61%
+  36  XP_033087979.1          9.59%    passed     63.87%
+  37  ENSP00000386187.3      14.38%    passed     54.35%
+  38  ENSPTRP00000048340.3   14.38%    passed     47.45%
+  39  ENSPPYP00000033335.1    0.00%    passed     24.61%
+  40  XP_031993470.1         14.38%    passed     13.40%
+  41  ENSNLEP00000026689.1   21.92%    passed     13.40%
+  42  XP_011785372.1          0.00%    passed     47.14%
+  43  ENSMLEP00000021135.1   14.38%    passed     33.59%
+  44  ENSRBIP00000013477.1   14.38%    passed     37.21%
+  45  XP_033062411.1         14.38%    passed     31.59%
+  46  ENSCSAP00000007315.1   14.38%    passed     54.95%
+  47  ENSMFAP00000006911.1   14.38%    passed     49.53%
+  48  ENSRROP00000003877.1   14.38%    passed     36.03%
+  49  XP_023039206.1         14.38%    passed     38.56%
+  50  ENSCSAP00000018878.1   14.38%    passed     11.36%
+  51  XP_050653010.1          2.05%    failed      1.71%
+  52  XP_025213588.1          0.00%    passed     97.20%
+  53  ENSPSMP00000031511.1    8.22%    passed     10.17%
+  54  XP_045414539.1          8.22%    passed      8.00%
+  55  XP_045414538.1          8.22%    passed      5.70%
+  56  ENSPCOP00000018953.1    8.90%    passed     10.62%
+  57  ENSPCOP00000028050.1    8.90%    passed     13.24%
+  58  ENSMICP00000017541.1    8.90%    passed     13.23%
+  59  XP_055117110.1          8.90%    passed     85.57%
+  60  XP_032616899.1          8.90%    passed     94.39%
+  61  XP_033059543.1          8.90%    passed     62.38%
+  62  XP_054353650.1          9.59%    passed     50.28%
+  63  XP_050649522.1          8.90%    passed     64.90%
+  64  ENSCJAP00000037103.3   14.38%    passed     61.15%
+  65  ENSANAP00000022976.1   14.38%    passed     61.85%
+  66  ENSSBOP00000021527.1   14.38%    passed     18.15%
+  67  ENSCCAP00000025246.1   23.97%    passed     64.50%
+  68  ENSTSYP00000024764.1    9.59%    passed      9.88%
+  69  ENSTSYP00000019342.1   31.51%    passed     32.03%
+  70  XP_055099433.1          0.68%    passed     15.59%
+  71  XP_054331003.1          2.05%    passed      7.00%
+  72  ENSOGAP00000021535.1   10.96%    passed     97.08%
+  73  XP_053418633.1         11.64%    passed     98.54%
+  74  XP_053418632.1         10.96%    passed     95.37%
+  75  XP_053418541.1         10.96%    passed     89.64%
+  76  ENSOGAP00000019077.1   13.70%    passed     94.14%
+  77  ENSOGAP00000018404.1   10.96%    passed     75.25%
+  78  XP_033062412.1         34.25%    passed     95.73%
+  79  XP_011897567.1         19.86%    passed     84.99%
+  80  XP_025214254.1         34.25%    passed     78.64%
+****  TOTAL                  11.52%  1 sequences failed composition chi2 test (p-value<5%; df=3)
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.005 seconds
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -6357.512
+Optimal log-likelihood: -6357.288
+Rate parameters:  A-C: 0.87790  A-G: 4.39802  A-T: 0.75690  C-G: 0.81996  C-T: 2.57591  G-T: 1.00000
+Base frequencies:  A: 0.203  C: 0.331  G: 0.244  T: 0.221
+Proportion of invariable sites: 0.070
+Gamma shape alpha: 1.254
+Parameters optimization took 1 rounds (0.022 sec)
+Time for fast ML tree search: 0.189 seconds
+
+NOTE: ModelFinder requires 10 MB RAM!
+ModelFinder will test up to 286 DNA models (sample size: 438) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+  1  GTR+F         6555.477     165 13440.954    13642.351    14114.521
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+  2  GTR+F+I       6454.232     166 13240.465    13445.055    13918.113
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+  3  GTR+F+G4      6356.147     166 13044.295    13248.885    13721.943
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+  4  GTR+F+I+G4    6356.941     167 13047.881    13255.703    13729.612
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+  5  GTR+F+R2      6361.339     167 13056.678    13264.500    13738.409
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+  6  GTR+F+R3      6355.332     169 13048.665    13263.068    13738.560
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 16  SYM+G4        6356.409     163 13038.818    13233.942    13704.220
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 17  SYM+I+G4      6357.325     164 13042.650    13240.891    13712.134
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 29  TVM+F+G4      6371.285     165 13072.570    13273.967    13746.136
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 30  TVM+F+I+G4    6372.095     166 13076.189    13280.780    13753.838
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 42  TVMe+G4       6361.792     162 13047.584    13239.628    13708.904
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 43  TVMe+I+G4     6362.737     163 13051.475    13246.599    13716.876
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 55  TIM3+F+G4     6357.121     164 13042.243    13240.485    13711.727
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 56  TIM3+F+I+G4   6357.866     165 13045.732    13247.129    13719.298
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 68  TIM3e+G4      6359.159     161 13040.318    13229.318    13697.556
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 69  TIM3e+I+G4    6360.049     162 13044.097    13236.141    13705.417
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 81  TIM2+F+G4     6357.105     164 13042.211    13240.452    13711.695
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 82  TIM2+F+I+G4   6357.886     165 13045.772    13247.169    13719.338
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 94  TIM2e+G4      6359.152     161 13040.304    13229.304    13697.542
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 95  TIM2e+I+G4    6360.030     162 13044.060    13236.103    13705.379
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+107  TIM+F+G4      6356.536     164 13041.071    13239.313    13710.555
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+108  TIM+F+I+G4    6357.299     165 13044.597    13245.994    13718.163
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+120  TIMe+G4       6361.096     161 13044.192    13233.192    13701.429
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+121  TIMe+I+G4     6362.034     162 13048.069    13240.113    13709.388
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+133  TPM3u+F+G4    6372.214     163 13070.427    13265.552    13735.829
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+134  TPM3u+F+I+G4  6373.029     164 13074.058    13272.300    13743.542
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+146  TPM3+F+G4     6372.214     163 13070.427    13265.552    13735.829
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+147  TPM3+F+I+G4   6373.029     164 13074.058    13272.300    13743.542
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+159  TPM2u+F+G4    6372.226     163 13070.451    13265.575    13735.853
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+160  TPM2u+F+I+G4  6373.063     164 13074.125    13272.367    13743.609
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+172  TPM2+F+G4     6372.226     163 13070.451    13265.575    13735.853
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+173  TPM2+F+I+G4   6373.063     164 13074.125    13272.367    13743.609
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+185  K3Pu+F+G4     6371.616     163 13069.232    13264.357    13734.634
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+186  K3Pu+F+I+G4   6372.441     164 13072.881    13271.123    13742.365
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+198  K3P+G4        6366.550     160 13053.101    13239.094    13706.256
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+199  K3P+I+G4      6367.439     161 13056.878    13245.878    13714.116
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+211  TN+F+G4       6357.219     163 13040.438    13235.562    13705.840
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+212  TN+F+I+G4     6357.992     164 13043.984    13242.225    13713.468
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+224  TNe+G4        6361.172     160 13042.344    13228.337    13695.499
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+225  TNe+I+G4      6362.111     161 13046.221    13235.221    13703.458
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+237  HKY+F+G4      6372.307     162 13068.614    13260.658    13729.934
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+238  HKY+F+I+G4    6373.139     163 13072.279    13267.403    13737.680
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+250  K2P+G4        6366.626     159 13051.252    13234.274    13700.325
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+251  K2P+I+G4      6367.514     160 13055.027    13241.020    13708.182
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+263  F81+F+G4      6591.828     161 13505.656    13694.656    14162.893
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+264  F81+F+I+G4    6592.698     162 13509.396    13701.440    14170.716
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+276  JC+G4         6576.825     158 13469.651    13649.737    14114.641
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+277  JC+I+G4       6577.718     159 13473.436    13656.458    14122.509
+Akaike Information Criterion:           SYM+G4
+Corrected Akaike Information Criterion: TNe+G4
+Bayesian Information Criterion:         TNe+G4
+Best-fit model: TNe+G4 chosen according to BIC
+
+All model information printed to angry_phylogenies/processing/IFITM_primates_iqtree_ufboot_alrt_nt_ref/80_IFITM1_IFITM2_IFITM3_primates_NT_curated_ref.pal2nal.trimal.model.gz
+CPU time for ModelFinder: 18.974 seconds (0h:0m:18s)
+Wall-clock time for ModelFinder: 2.397 seconds (0h:0m:2s)
+Generating 1000 samples for ultrafast bootstrap (seed: 830430)...
+
+NOTE: 5 MB RAM (0 GB) is required!
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -6361.172
+Optimal log-likelihood: -6361.172
+Rate parameters:  A-C: 1.00000  A-G: 4.39620  A-T: 1.00000  C-G: 1.00000  C-T: 3.18962  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 1.039
+Parameters optimization took 1 rounds (0.027 sec)
+Computing ML distances based on estimated model parameters...
+Computing ML distances took 0.009350 sec (of wall-clock time) 0.074584 sec(of CPU time)
+Computing RapidNJ tree took 0.010732 sec (of wall-clock time) 0.089999 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -6433.911
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.551 second
+Computing log-likelihood of 98 initial trees ... 1.662 seconds
+Current best score: -6358.063
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -6345.785
+Iteration 10 / LogL: -6355.194 / Time: 0h:0m:5s
+Iteration 20 / LogL: -6357.280 / Time: 0h:0m:8s
+Finish initializing candidate tree set (20)
+Current best tree score: -6345.785 / CPU time: 8.294
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 27: -6345.460
+Iteration 30 / LogL: -6348.535 / Time: 0h:0m:13s (0h:0m:44s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 32: -6344.715
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 37: -6344.097
+Iteration 40 / LogL: -6426.168 / Time: 0h:0m:18s (0h:0m:45s left)
+Iteration 50 / LogL: -6347.643 / Time: 0h:0m:23s (0h:0m:41s left)
+Log-likelihood cutoff on original alignment: -6382.148
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 53: -6343.159
+Iteration 60 / LogL: -6354.257 / Time: 0h:0m:29s (0h:0m:46s left)
+BETTER TREE FOUND at iteration 65: -6343.157
+UPDATE BEST LOG-LIKELIHOOD: -6343.157
+Iteration 70 / LogL: -6354.344 / Time: 0h:0m:34s (0h:0m:47s left)
+UPDATE BEST LOG-LIKELIHOOD: -6343.156
+Iteration 80 / LogL: -6343.404 / Time: 0h:0m:38s (0h:0m:41s left)
+BETTER TREE FOUND at iteration 86: -6343.156
+Iteration 90 / LogL: -6345.957 / Time: 0h:0m:43s (0h:0m:47s left)
+UPDATE BEST LOG-LIKELIHOOD: -6343.156
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 93: -6342.965
+Iteration 100 / LogL: -6346.627 / Time: 0h:0m:49s (0h:0m:46s left)
+Log-likelihood cutoff on original alignment: -6382.148
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.986
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 110 / LogL: -6342.966 / Time: 0h:0m:54s (0h:0m:44s left)
+Iteration 120 / LogL: -6346.512 / Time: 0h:0m:58s (0h:0m:39s left)
+UPDATE BEST LOG-LIKELIHOOD: -6342.965
+UPDATE BEST LOG-LIKELIHOOD: -6342.965
+Iteration 130 / LogL: -6343.662 / Time: 0h:1m:3s (0h:0m:34s left)
+UPDATE BEST LOG-LIKELIHOOD: -6342.965
+Iteration 140 / LogL: -6344.223 / Time: 0h:1m:7s (0h:0m:29s left)
+Iteration 150 / LogL: -6342.965 / Time: 0h:1m:13s (0h:0m:24s left)
+Log-likelihood cutoff on original alignment: -6382.148
+Iteration 160 / LogL: -6396.891 / Time: 0h:1m:17s (0h:0m:19s left)
+Iteration 170 / LogL: -6342.965 / Time: 0h:1m:22s (0h:0m:14s left)
+Iteration 180 / LogL: -6344.138 / Time: 0h:1m:26s (0h:0m:9s left)
+Iteration 190 / LogL: -6345.487 / Time: 0h:1m:32s (0h:0m:4s left)
+Iteration 200 / LogL: -6347.325 / Time: 0h:1m:37s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -6382.148
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+TREE SEARCH COMPLETED AFTER 200 ITERATIONS / Time: 0h:1m:37s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -6342.965
+Optimal log-likelihood: -6342.965
+Rate parameters:  A-C: 1.00000  A-G: 4.48356  A-T: 1.00000  C-G: 1.00000  C-T: 3.15013  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 1.040
+Parameters optimization took 1 rounds (0.032 sec)
+BEST SCORE FOUND : -6342.965
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+0.183 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file angry_phylogenies/processing/IFITM_primates_iqtree_ufboot_alrt_nt_ref/80_IFITM1_IFITM2_IFITM3_primates_NT_curated_ref.pal2nal.trimal.splits.nex
+Total tree length: 3.489
+
+Total number of iterations: 200
+CPU time used for tree search: 768.697 sec (0h:12m:48s)
+Wall-clock time used for tree search: 97.845 sec (0h:1m:37s)
+Total CPU time used: 773.112 sec (0h:12m:53s)
+Total wall-clock time used: 98.481 sec (0h:1m:38s)
+
+Computing bootstrap consensus tree...
+Reading input file angry_phylogenies/processing/IFITM_primates_iqtree_ufboot_alrt_nt_ref/80_IFITM1_IFITM2_IFITM3_primates_NT_curated_ref.pal2nal.trimal.splits.nex...
+80 taxa and 497 splits.
+Consensus tree written to angry_phylogenies/processing/IFITM_primates_iqtree_ufboot_alrt_nt_ref/80_IFITM1_IFITM2_IFITM3_primates_NT_curated_ref.pal2nal.trimal.contree
+Reading input trees file angry_phylogenies/processing/IFITM_primates_iqtree_ufboot_alrt_nt_ref/80_IFITM1_IFITM2_IFITM3_primates_NT_curated_ref.pal2nal.trimal.contree
+Log-likelihood of consensus tree: -6347.811
+
+Analysis results written to: 
+  IQ-TREE report:                angry_phylogenies/processing/IFITM_primates_iqtree_ufboot_alrt_nt_ref/80_IFITM1_IFITM2_IFITM3_primates_NT_curated_ref.pal2nal.trimal.iqtree
+  Maximum-likelihood tree:       angry_phylogenies/processing/IFITM_primates_iqtree_ufboot_alrt_nt_ref/80_IFITM1_IFITM2_IFITM3_primates_NT_curated_ref.pal2nal.trimal.treefile
+  Likelihood distances:          angry_phylogenies/processing/IFITM_primates_iqtree_ufboot_alrt_nt_ref/80_IFITM1_IFITM2_IFITM3_primates_NT_curated_ref.pal2nal.trimal.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          angry_phylogenies/processing/IFITM_primates_iqtree_ufboot_alrt_nt_ref/80_IFITM1_IFITM2_IFITM3_primates_NT_curated_ref.pal2nal.trimal.splits.nex
+  Consensus tree:                angry_phylogenies/processing/IFITM_primates_iqtree_ufboot_alrt_nt_ref/80_IFITM1_IFITM2_IFITM3_primates_NT_curated_ref.pal2nal.trimal.contree
+  Screen log file:               angry_phylogenies/processing/IFITM_primates_iqtree_ufboot_alrt_nt_ref/80_IFITM1_IFITM2_IFITM3_primates_NT_curated_ref.pal2nal.trimal.log
+
+Date and Time: Fri Apr 10 04:50:25 2026

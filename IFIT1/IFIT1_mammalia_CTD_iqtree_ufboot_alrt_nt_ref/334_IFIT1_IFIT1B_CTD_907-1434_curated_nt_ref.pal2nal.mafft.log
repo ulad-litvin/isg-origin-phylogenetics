@@ -1,0 +1,601 @@
+IQ-TREE multicore version 2.1.3 COVID-edition for Linux 64-bit built Apr 21 2021
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    alpha2.cvr.gla.ac.uk (AVX512, FMA3, 4031 GB RAM)
+Command: iqtree2 -nt 8 -s angry_phylogenies/processing/IFIT1_mammalia_CTD_iqtree_ufboot_alrt_nt_ref/334_IFIT1_IFIT1B_CTD_907-1434_curated_nt_ref.pal2nal.mafft.fasta -m MFP -B 1000 -alrt 1000 --prefix angry_phylogenies/processing/IFIT1_mammalia_CTD_iqtree_ufboot_alrt_nt_ref/334_IFIT1_IFIT1B_CTD_907-1434_curated_nt_ref.pal2nal.mafft
+Seed:    408244 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Apr 10 03:19:56 2026
+Kernel:  AVX+FMA - 8 threads (224 CPU cores detected)
+
+Reading alignment file angry_phylogenies/processing/IFIT1_mammalia_CTD_iqtree_ufboot_alrt_nt_ref/334_IFIT1_IFIT1B_CTD_907-1434_curated_nt_ref.pal2nal.mafft.fasta ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 334 sequences with 528 columns, 526 distinct patterns
+512 parsimony-informative, 8 singleton sites, 8 constant sites
+                             Gap/Ambiguity  Composition  p-value
+   1  ENSP00000360869.3              0.00%    passed     46.34%
+   2  ENSGGOP00000023886.1           0.00%    passed     43.14%
+   3  ENSPTRP00000090449.1           0.00%    passed     54.13%
+   4  ENSPPAP00000007028.1           0.00%    passed     50.75%
+   5  ENSPPYP00000002857.2           0.00%    passed     29.43%
+   6  ENSNLEP00000014941.2           0.00%    passed     36.21%
+   7  XP_031993107.1                 0.00%    passed     29.43%
+   8  XP_055130242.1                 0.00%    passed     31.76%
+   9  XP_033071851.1                 0.00%    passed     24.69%
+  10  ENSRBIP00000036643.1           0.00%    passed     24.69%
+  11  ENSRROP00000026384.1           0.00%    passed     24.69%
+  12  XP_011803255.1                 0.00%    passed     26.33%
+  13  XP_023082033.1                 0.00%    passed     25.47%
+  14  XP_025252233.1                 0.00%    passed     13.99%
+  15  ENSMMUP00000023077.4           0.00%    passed     16.11%
+  16  ENSCSAP00000003061.1           0.00%    passed     17.23%
+  17  ENSSBOP00000035588.1           0.00%    passed     64.52%
+  18  ENSCCAP00000024815.1           0.00%    passed     62.88%
+  19  XP_032101475.1                 0.00%    passed     59.90%
+  20  ENSANAP00000042188.1           0.00%    passed     59.77%
+  21  ENSCJAP00000010534.2           0.00%    passed     58.46%
+  22  ENSPCOP00000000157.1           0.00%    passed     12.38%
+  23  XP_045424012.1                 0.00%    passed     60.95%
+  24  ENSPSMP00000003006.1           0.00%    passed     53.71%
+  25  ENSMICP00000018136.1           3.98%    passed     24.23%
+  26  XP_053438543.1                 0.00%    passed     47.35%
+  27  ENSOGAP00000022039.1           0.00%    passed     75.50%
+  28  XP_008591441.1                 0.00%    passed     29.02%
+  29  XP_039077947.1                 0.00%    passed     75.90%
+  30  XP_043452098.1                 1.70%    passed     72.51%
+  31  XP_045293170.1                 1.70%    passed     87.85%
+  32  XP_047680566.1                 1.70%    passed     83.72%
+  33  XP_014934544.2                 1.70%    passed     88.29%
+  34  VFV44036.1                     1.70%    passed     90.89%
+  35  XP_030191462.1                 1.70%    passed     90.80%
+  36  XP_040310226.1                 1.70%    passed     89.89%
+  37  XP_049502033.1                 1.70%    passed     87.50%
+  38  XP_046944674.1                 1.70%    passed     87.39%
+  39  ENSPPRP00000027432.1           1.70%    passed     94.67%
+  40  ENSFCTP00005007848.1           1.70%    passed     89.21%
+  41  ENSAMEP00000021157.2           1.14%    passed     60.84%
+  42  ENSUAMP00000029864.1           0.00%    passed     75.99%
+  43  XP_025706555.1                 0.00%    passed     85.16%
+  44  XP_027960376.1                 0.00%    passed     81.16%
+  45  XP_035580226.1                 0.00%    passed     76.49%
+  46  XP_004413055.1                 0.00%    passed     90.96%
+  47  XP_021551881.1                 0.00%    passed     86.81%
+  48  XP_006743927.1                 0.00%    passed     90.97%
+  49  XP_032286302.1                 0.00%    passed     87.89%
+  50  XP_035935267.1                 0.00%    passed     83.11%
+  51  ENSMPUP00000020062.1           0.57%    passed     64.69%
+  52  XP_032169861.1                 0.00%    passed     71.21%
+  53  XP_044095382.1                 0.00%    passed     76.39%
+  54  ENSNVIP00000031711.1           5.11%    passed     75.95%
+  55  XP_047558074.1                 0.00%    passed     93.41%
+  56  XP_022355883.1                 0.00%    passed     90.63%
+  57  XP_045883801.1                 0.00%    passed     80.67%
+  58  ENSCAFP00845002693.1           0.00%    passed     41.89%
+  59  ENSCAFP00020032394.1           0.00%    passed     41.89%
+  60  ENSVVUP00000014846.1           0.00%    passed     51.17%
+  61  XP_041604816.1                 0.00%    passed     51.39%
+  62  XP_055164865.1                 0.00%    passed     41.89%
+  63  XP_017506034.2                 5.11%    passed     45.77%
+  64  XP_036784708.2                 5.11%    passed     40.41%
+  65  XP_008540045.1                 2.27%    passed     50.64%
+  66  ENSECAP00000029887.2           2.27%    passed     44.72%
+  67  ENSEASP00005015833.2          14.77%    passed     36.58%
+  68  ENSAMEP00000023132.1           2.27%    passed     57.39%
+  69  XP_021551880.1                 2.27%    passed     45.91%
+  70  XP_032286206.1                 2.27%    passed     51.76%
+  71  XP_006743928.1                 2.27%    passed     48.71%
+  72  XP_027960375.1                 2.27%    passed     87.53%
+  73  XP_035580225.1                 2.27%    passed     87.53%
+  74  XP_032169862.1                 2.27%    failed      2.07%
+  75  XP_044095383.1                 2.27%    failed      1.56%
+  76  ENSNVIP00000031707.1           2.27%    failed      1.56%
+  77  XP_047558075.1                 2.27%    failed      0.59%
+  78  ENSMPUP00000006427.1           2.27%    failed      2.29%
+  79  XP_045883121.1                 2.27%    passed     13.20%
+  80  XP_030191460.1                 2.27%    passed     39.79%
+  81  XP_046944646.1                 2.27%    passed     35.24%
+  82  XP_040310225.1                 2.27%    passed     52.17%
+  83  XP_014934542.1                 2.27%    passed     50.41%
+  84  XP_043452097.1                 2.27%    passed     47.14%
+  85  XP_047680564.1                 2.27%    passed     50.49%
+  86  XP_045293174.1                 2.27%    passed     33.72%
+  87  XP_049502032.1                 2.27%    passed     38.66%
+  88  ENSPTIP00000002685.1           2.27%    passed     30.69%
+  89  ENSPPRP00000027407.1           2.27%    passed     27.58%
+  90  ENSPLOP00000017877.1           2.27%    passed     35.24%
+  91  ENSEASP00005015837.2           7.95%    passed     26.35%
+  92  ENSECAP00000046324.2           7.95%    passed     21.81%
+  93  ENSEASP00005048641.1           0.00%    passed     40.33%
+  94  ENSECAP00000084456.1           0.00%    passed     52.96%
+  95  XP_039727699.1                 2.84%    failed      4.02%
+  96  XP_006926026.1                 2.27%    failed      3.64%
+  97  XP_015983440.2                 0.57%    passed      5.61%
+  98  XP_036078165.1                 0.57%    passed      5.15%
+  99  ENSRFEP00010028427.1           0.00%    passed     27.93%
+ 100  XP_008155160.3                 0.57%    passed     40.51%
+ 101  ENSMLUP00000015176.2           5.11%    passed     37.19%
+ 102  XP_036192559.1                 1.14%    passed     62.64%
+ 103  XP_036294403.1                 0.00%    passed     83.96%
+ 104  XP_008151205.3                 0.00%    passed     51.61%
+ 105  XP_005876009.1                 5.11%    passed     18.76%
+ 106  XP_036121847.1                 5.11%    passed     16.93%
+ 107  XP_016076344.1                 0.00%    passed      6.87%
+ 108  XP_053779129.1                 6.25%    passed     26.15%
+ 109  XP_028368508.1                 0.00%    passed     46.65%
+ 110  XP_045710580.1                 0.00%    passed     67.67%
+ 111  XP_037012564.2                 0.00%    passed     70.88%
+ 112  XP_054428790.1                 4.55%    passed      8.91%
+ 113  XP_045053735.2                 0.00%    passed     28.95%
+ 114  XP_024419230.1                 0.00%    passed     12.20%
+ 115  XP_035882864.1                 0.00%    passed     43.06%
+ 116  XP_028369594.1                 0.00%    passed     25.60%
+ 117  XP_045709674.1                 3.98%    passed     65.78%
+ 118  XP_036903201.1                 0.00%    passed     39.59%
+ 119  XP_036903199.1                 0.00%    passed     34.10%
+ 120  XP_045710200.1                 0.00%    passed     21.08%
+ 121  XP_054428382.1                 0.00%    passed     91.73%
+ 122  XP_054428788.1                 0.00%    passed     27.75%
+ 123  ENSTSYP00000028422.1           0.00%    passed     91.38%
+ 124  ENSCHOP00000004126.1           0.00%    passed     83.32%
+ 125  XP_037660367.1                 0.00%    passed     89.30%
+ 126  ENSCHOP00000004121.1           2.84%    passed     99.98%
+ 127  ENSDNOP00000016083.2           3.41%    passed     35.83%
+ 128  XP_049711888.1                 0.00%    passed     70.25%
+ 129  XP_049711891.1                 2.27%    passed     48.74%
+ 130  ENSLAFP00000006887.3           2.27%    passed     54.74%
+ 131  XP_004369972.2                 2.27%    passed     37.69%
+ 132  XP_007942248.1                 3.98%    passed     10.15%
+ 133  ENSMICP00000025168.1           2.27%    passed     64.45%
+ 134  ENSRROP00000017228.1           2.27%    passed     69.56%
+ 135  XP_011803256.1                 2.27%    passed     78.37%
+ 136  XP_050661714.1                 2.27%    passed     85.54%
+ 137  ENSMLEP00000020268.1           2.27%    passed     77.14%
+ 138  ENSCATP00000044509.1           2.27%    passed     71.34%
+ 139  XP_025252234.1                 2.27%    passed     73.11%
+ 140  ENSPANP00000001460.3           2.27%    passed     77.21%
+ 141  ENSCSAP00000017982.1           2.27%    passed     73.11%
+ 142  ENSP00000360874.3              2.27%    passed     75.66%
+ 143  ENSGGOP00000022960.2           2.27%    passed     62.68%
+ 144  ENSPPAP00000002660.1           2.27%    passed     56.16%
+ 145  ENSPPYP00000002856.2           2.27%    passed     48.12%
+ 146  ENSNLEP00000022522.2           2.27%    passed     71.87%
+ 147  XP_055130246.1                 2.27%    passed     85.44%
+ 148  ENSANAP00000042344.1          15.34%    passed     80.74%
+ 149  ENSSBOP00000015955.1          11.36%    passed     94.69%
+ 150  XP_006147678.1                 2.27%    passed     39.91%
+ 151  XP_019488919.1                 0.00%    passed     67.24%
+ 152  XP_007179204.1                 0.00%    passed     69.44%
+ 153  ENSBMSP00010030655.1           0.00%    passed     75.56%
+ 154  KAB0402760.1                   0.00%    passed     79.23%
+ 155  XP_007458210.1                 0.00%    passed     44.50%
+ 156  XP_026967788.1                 0.00%    passed     71.93%
+ 157  XP_012392032.1                 0.00%    passed     59.14%
+ 158  XP_030720892.1                 0.00%    passed     68.32%
+ 159  ENSTTRP00000014611.1           1.70%    passed     67.61%
+ 160  XP_024600578.1                10.80%    passed      5.78%
+ 161  ENSPSNP00000028810.1           1.14%    passed      8.06%
+ 162  ENSDLEP00000018985.1           6.82%    passed     46.33%
+ 163  ENSPCTP00005028682.1           0.00%    passed     33.00%
+ 164  XP_057593214.1                 0.00%    passed     58.39%
+ 165  XP_020750130.1                 0.00%    passed     23.41%
+ 166  CAI9177852.1                   0.00%    passed     30.58%
+ 167  KAB0348364.1                   0.00%    passed     38.22%
+ 168  KAB0383829.1                   0.00%    passed     37.99%
+ 169  ENSMMSP00000016001.1           1.70%    passed     20.50%
+ 170  XP_055281102.1                 1.70%    passed     20.94%
+ 171  ENSBBBP00000019190.1           1.14%    passed     45.97%
+ 172  ENSBIXP00005041064.1           1.14%    passed     44.21%
+ 173  ENSBGRP00000028325.1           6.25%    passed     53.49%
+ 174  ENSBTAP00000010366.7           0.57%    passed     41.54%
+ 175  XP_055415813.1                 0.57%    passed     27.35%
+ 176  XP_006058513.3                 0.57%    passed     26.57%
+ 177  ENSCHIP00000024514.1           0.57%    passed     15.15%
+ 178  XP_052517170.1                 0.57%    passed     33.05%
+ 179  ENSOARP00020069151.1           0.57%    passed     23.49%
+ 180  KAI4550985.1                   0.57%    passed     21.44%
+ 181  XP_040110652.1                 0.57%    passed     23.58%
+ 182  ENSSSCP00000029307.2           0.00%    passed     30.40%
+ 183  XP_047617078.1                 5.11%    passed     16.34%
+ 184  ENSCWAP00000011121.1           0.00%    passed     39.59%
+ 185  XP_006188062.1                 0.00%    passed     54.65%
+ 186  ENSCDRP00005009420.1           0.00%    passed     58.78%
+ 187  ENSTBEP00000003063.1           0.00%    passed     72.32%
+ 188  XP_006147680.1                 0.00%    passed     67.72%
+ 189  ENSVVUP00000014936.1          13.07%    passed     98.72%
+ 190  XP_041604439.1                 2.27%    passed     95.93%
+ 191  XP_047410041.1                 0.00%    passed     23.46%
+ 192  ENSSVLP00005003457.1           0.00%    passed     25.33%
+ 193  ENSSTOP00000022669.2           2.27%    passed     29.79%
+ 194  XP_046306434.1                 2.27%    passed     27.07%
+ 195  XP_027795762.1                 2.27%    passed     25.36%
+ 196  XP_047409160.1                 2.27%    passed     88.14%
+ 197  ENSSVLP00005003557.1           2.27%    passed     88.71%
+ 198  ENSSVLP00005003525.1           2.27%    passed     88.71%
+ 199  XP_047410018.1                11.36%    passed     97.50%
+ 200  XP_046306224.1                 2.27%    passed     65.95%
+ 201  ENSSTOP00000017234.2           2.27%    passed     77.01%
+ 202  ENSSTOP00000023109.2           2.27%    passed     68.38%
+ 203  XP_020033346.1                 2.27%    passed     72.70%
+ 204  ENSHGLP00000015395.2           2.27%    passed     47.37%
+ 205  XP_010603319.2                 2.27%    passed     91.85%
+ 206  ENSHGLP00000016788.2           4.55%    passed     69.48%
+ 207  XP_010630432.1                 4.55%    passed     32.82%
+ 208  ENSCLAP00000012147.1           4.55%    passed     44.94%
+ 209  ENSCPOP00000027590.1           4.55%    passed     83.59%
+ 210  XP_004632163.2                 4.55%    passed     46.97%
+ 211  ENSDORP00000027131.1           0.00%    passed     49.75%
+ 212  XP_042545552.1                11.36%    passed      8.05%
+ 213  XP_048194697.1                 0.00%    passed      8.77%
+ 214  ENSDORP00000011767.2           2.27%    passed     43.92%
+ 215  XP_042545271.1                 2.27%    passed     49.94%
+ 216  XP_004701409.2                 0.57%    passed     92.67%
+ 217  XP_036024095.1                 2.27%    passed     37.70%
+ 218  ENSPEMP00000015405.2           2.27%    passed     25.98%
+ 219  OBS76150.1                     2.27%    passed     64.85%
+ 220  ENSCGRP00015056230.1           2.27%    passed     41.39%
+ 221  ENSCGRP00015027454.2           2.27%    passed     41.39%
+ 222  XP_057635269.1                 2.27%    passed     89.96%
+ 223  XP_050014151.1                 2.27%    passed     51.44%
+ 224  XP_041517640.1                 2.27%    passed     57.50%
+ 225  XP_038171150.1                 2.27%    passed     74.56%
+ 226  XP_051002317.1                 2.27%    passed     84.97%
+ 227  XP_021519983.1                 2.27%    passed     97.37%
+ 228  XP_032747709.1                 2.27%    passed     94.34%
+ 229  ENSRNOP00000101434.1           2.27%    passed     94.07%
+ 230  MGP_CAROLIEiJ_P0048611.None    3.41%    passed     98.10%
+ 231  ENSMSPP00010022969.1           3.41%    passed     70.04%
+ 232  MGP_PahariEiJ_P0021579.None    3.41%    passed     95.39%
+ 233  ENSMSIP00000006318.1           5.68%    passed     79.97%
+ 234  ENSMSPP00010023014.1           5.68%    passed     78.69%
+ 235  ENSMUSP00000093816.3           5.68%    passed     78.69%
+ 236  XP_052042774.1                 2.27%    passed     93.17%
+ 237  XP_034353872.1                 2.27%    passed     90.66%
+ 238  XP_034353895.1                 2.27%    passed     91.62%
+ 239  XP_052042834.1                 2.27%    passed     58.38%
+ 240  ENSNGAP00000010886.1           2.27%    passed     72.08%
+ 241  ENSJJAP00000025026.1           3.98%    passed     98.44%
+ 242  XP_055470122.1                 3.41%    passed     17.57%
+ 243  XP_052042762.1                 3.41%    passed     76.73%
+ 244  XP_031246000.1                 3.41%    passed     34.67%
+ 245  XP_034353859.1                 3.41%    passed     12.64%
+ 246  XP_028629324.1                 3.41%    passed     24.99%
+ 247  MGP_CAROLIEiJ_P0048616.None    3.41%    passed     12.25%
+ 248  ENSMSPP00010023042.1           3.41%    passed     36.24%
+ 249  ENSMUSP00000099888.4           3.41%    passed     36.24%
+ 250  ENSMSIP00000006339.1           3.41%    passed     44.29%
+ 251  MGP_PahariEiJ_P0021582.None    3.41%    passed      7.82%
+ 252  XP_032747712.1                 3.41%    failed      3.25%
+ 253  ENSRNOP00000025770.3           3.41%    passed     12.13%
+ 254  ENSCGRP00015027348.1           3.41%    passed     15.05%
+ 255  ENSCGRP00015027340.2           3.41%    passed     19.09%
+ 256  ENSCGRP00015027383.2           3.41%    passed     12.75%
+ 257  XP_051055869.1                 3.41%    passed     30.81%
+ 258  CAH6963301.1                   3.41%    passed     47.22%
+ 259  XP_052618863.1                 3.41%    failed      4.33%
+ 260  XP_052569790.1                 3.41%    failed      4.84%
+ 261  XP_036047773.1                 3.41%    passed      6.21%
+ 262  ENSPEMP00000000495.2           3.41%    passed      8.57%
+ 263  XP_028714940.1                 3.41%    passed     10.67%
+ 264  XP_041517656.1                 3.41%    passed     22.61%
+ 265  XP_057635148.1                 3.41%    passed     11.28%
+ 266  XP_041517895.1                 3.41%    passed     53.49%
+ 267  XP_057634878.1                 3.41%    passed      5.09%
+ 268  XP_057635453.1                 4.55%    failed      0.82%
+ 269  ENSMOCP00000005153.1           3.41%    failed      3.66%
+ 270  ENSMOCP00000025049.1           3.41%    failed      4.83%
+ 271  XP_050014102.1                 3.41%    passed     34.30%
+ 272  XP_038197458.1                 6.25%    passed      6.85%
+ 273  XP_041910401.1                 3.41%    passed      8.15%
+ 274  XP_048294843.1                 3.41%    passed     21.21%
+ 275  XP_041517917.1                 3.41%    passed      5.74%
+ 276  XP_057635212.1                 3.41%    passed     24.24%
+ 277  XP_050015651.1                 3.41%    passed     26.39%
+ 278  XP_048294838.1                 5.68%    passed      7.73%
+ 279  XP_057633574.1                 5.68%    passed      7.37%
+ 280  XP_041517264.1                 5.68%    passed      6.09%
+ 281  XP_041910402.1                 3.41%    failed      3.15%
+ 282  XP_050014077.1                 3.41%    passed     19.93%
+ 283  XP_041517263.1                12.50%    passed     11.94%
+ 284  XP_036034810.1                 6.25%    passed     21.60%
+ 285  XP_036034799.1                 6.25%    passed      8.02%
+ 286  ENSPEMP00000030201.1           6.25%    passed     10.38%
+ 287  ENSPEMP00000032418.1           6.25%    passed     35.13%
+ 288  XP_028714936.1                 6.25%    passed     33.74%
+ 289  XP_028714938.1                 6.25%    passed     10.83%
+ 290  ENSPEMP00000036345.1           6.25%    passed     20.99%
+ 291  XP_028714935.1                 7.39%    passed     27.39%
+ 292  XP_028714929.1                 6.25%    passed     38.23%
+ 293  ENSPEMP00000030890.1           6.25%    passed     18.62%
+ 294  ENSCLAP00000013429.1           0.00%    passed     92.60%
+ 295  XP_023571963.1                 8.52%    passed     77.86%
+ 296  XP_004632164.1                 8.52%    passed     94.77%
+ 297  XP_023571994.1                 0.57%    passed     60.16%
+ 298  XP_023571985.1                 0.57%    passed     31.51%
+ 299  XP_006880465.1                 2.27%    passed     45.31%
+ 300  XP_040844640.1                 0.00%    passed     71.35%
+ 301  XP_040854153.1                 0.00%    passed     69.86%
+ 302  XP_040831669.1                 0.57%    passed     66.42%
+ 303  XP_040854154.1                 0.57%    passed     73.01%
+ 304  ENSOPRP00000014415.1          13.07%    passed     45.73%
+ 305  ENSOPRP00000000053.1           2.27%    passed     70.15%
+ 306  XP_040831672.1                 2.27%    passed     43.49%
+ 307  XP_040854156.1                 2.27%    passed     81.45%
+ 308  XP_040854152.1                 2.27%    passed     75.88%
+ 309  ENSOCUP00000038790.1           0.00%    passed     29.42%
+ 310  ENSOCUP00000029374.1          11.93%    passed     60.30%
+ 311  XP_006831504.1                 2.27%    failed      0.38%
+ 312  XP_055976721.1                 0.00%    passed     78.85%
+ 313  XP_055976969.1                 0.00%    passed     66.20%
+ 314  XP_055977005.1                 0.00%    passed     76.47%
+ 315  XP_055976747.1                 0.00%    passed     65.96%
+ 316  XP_055976806.1                 0.00%    passed     58.72%
+ 317  XP_049620529.1                 1.14%    passed     74.98%
+ 318  XP_037352920.1                 1.14%    passed     37.02%
+ 319  XP_004681145.1                 0.00%    passed     34.16%
+ 320  XP_028368509.2                 6.25%    passed     53.48%
+ 321  XP_045710354.1                 6.25%    passed     57.89%
+ 322  XP_036592433.1                 2.27%    passed     38.79%
+ 323  ENSPCIP00000054772.1           2.27%    passed     27.63%
+ 324  ENSVURP00010024490.1           2.27%    passed     37.60%
+ 325  ENSSHAP00000001538.2           0.57%    passed      5.58%
+ 326  XP_051837572.1                 0.57%    passed      6.95%
+ 327  XP_043836306.1                 7.95%    passed     86.56%
+ 328  ENSMODP00000059455.1           3.41%    passed     35.98%
+ 329  XP_044539918.1                 2.84%    passed     93.29%
+ 330  XP_044516133.1                 2.84%    passed     93.29%
+ 331  XP_043841957.1                11.36%    passed     49.87%
+ 332  ENSPCIP00000011365.2          11.36%    passed     48.99%
+ 333  ENSVURP00010024484.1          24.43%    passed     91.38%
+ 334  ENSMLUP00000019705.1          15.91%    passed     30.46%
+****  TOTAL                          2.52%  15 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: ENSRROP00000026384.1 is identical to ENSRBIP00000036643.1 but kept for subsequent analysis
+NOTE: ENSCAFP00020032394.1 is identical to ENSCAFP00845002693.1 but kept for subsequent analysis
+NOTE: XP_035580225.1 is identical to XP_027960375.1 but kept for subsequent analysis
+NOTE: ENSNVIP00000031707.1 is identical to XP_044095383.1 but kept for subsequent analysis
+NOTE: ENSSVLP00005003525.1 is identical to ENSSVLP00005003557.1 but kept for subsequent analysis
+NOTE: ENSCGRP00015027454.2 is identical to ENSCGRP00015056230.1 but kept for subsequent analysis
+NOTE: ENSMUSP00000093816.3 is identical to ENSMSPP00010023014.1 but kept for subsequent analysis
+NOTE: ENSMUSP00000099888.4 is identical to ENSMSPP00010023042.1 but kept for subsequent analysis
+NOTE: XP_044516133.1 is identical to XP_044539918.1 but kept for subsequent analysis
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.054 seconds
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -44144.684
+Optimal log-likelihood: -44144.662
+Rate parameters:  A-C: 1.36311  A-G: 3.12463  A-T: 0.98546  C-G: 1.51297  C-T: 4.05120  G-T: 1.00000
+Base frequencies:  A: 0.346  C: 0.188  G: 0.231  T: 0.235
+Proportion of invariable sites: 0.014
+Gamma shape alpha: 2.054
+Parameters optimization took 1 rounds (0.116 sec)
+Time for fast ML tree search: 0.805 seconds
+
+NOTE: ModelFinder requires 59 MB RAM!
+ModelFinder will test up to 286 DNA models (sample size: 528) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+  1  GTR+F         45211.073    673 91768.146    998972.146   94641.248
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+  2  GTR+F+I       45096.809    674 91541.617    1001441.617  94418.988
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+  3  GTR+F+G4      44160.721    674 89669.441    999569.441   92546.812
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+  4  GTR+F+I+G4    44144.670    675 89639.340    1002239.340  92520.980
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+  5  GTR+F+R2      44368.866    675 90087.733    1002687.733  92969.373
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+  6  GTR+F+R3      44144.524    677 89643.048    1007655.048  92533.226
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+  7  GTR+F+R4      44108.332    679 89574.663    1013014.663  92473.380
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+  8  GTR+F+R5      44093.294    681 89548.587    1018432.587  92455.842
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+  9  GTR+F+R6      44091.818    683 89549.635    1023893.635  92465.428
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 21  SYM+R5        44194.115    678 89744.229    1010468.229  92638.676
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 22  SYM+R6        44193.478    680 89746.957    1015906.957  92649.942
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 34  TVM+F+R5      44118.855    680 89597.710    1015757.710  92500.695
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 35  TVM+F+R6      44118.243    682 89600.486    1021212.486  92512.010
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 47  TVMe+R5       44202.161    677 89758.323    1007770.323  92648.501
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 48  TVMe+R6       44201.507    679 89761.014    1013201.014  92659.730
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 60  TIM3+F+R5     44095.865    679 89549.730    1012989.730  92448.446
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 61  TIM3+F+R6     44094.347    681 89550.694    1018434.694  92457.949
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 73  TIM3e+R5      44211.937    676 89775.873    1005079.873  92661.782
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 74  TIM3e+R6      44211.694    678 89779.389    1010503.389  92673.836
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 86  TIM2+F+R5     44142.249    679 89642.498    1013082.498  92541.214
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 87  TIM2+F+R6     44138.175    681 89638.350    1018522.350  92545.605
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 99  TIM2e+R5      44204.980    676 89761.960    1005065.960  92647.869
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+100  TIM2e+R6      44204.471    678 89764.942    1010488.942  92659.389
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+112  TIM+F+R5      44143.758    679 89645.516    1013085.516  92544.232
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+113  TIM+F+R6      44139.768    681 89641.536    1018525.536  92548.791
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+125  TIMe+R5       44221.685    676 89795.370    1005099.370  92681.279
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+126  TIMe+R6       44221.404    678 89798.808    1010522.808  92693.256
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+138  TPM3u+F+R5    44121.647    678 89599.293    1010323.293  92493.741
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+139  TPM3u+F+R6    44121.007    680 89602.014    1015762.014  92505.000
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+151  TPM3+F+R5     44121.647    678 89599.293    1010323.293  92493.741
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+152  TPM3+F+R6     44121.007    680 89602.014    1015762.014  92505.000
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+164  TPM2u+F+R5    44166.556    678 89689.113    1010413.113  92583.560
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+165  TPM2u+F+R6    44165.920    680 89691.839    1015851.839  92594.825
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+177  TPM2+F+R5     44166.556    678 89689.113    1010413.113  92583.560
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+178  TPM2+F+R6     44165.920    680 89691.839    1015851.839  92594.825
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+190  K3Pu+F+R5     44168.351    678 89692.701    1010416.701  92587.149
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+191  K3Pu+F+R6     44167.719    680 89695.438    1015855.438  92598.423
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+203  K3P+R5        44229.100    675 89808.201    1002408.201  92689.841
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+204  K3P+R6        44228.667    677 89811.335    1007823.335  92701.513
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+216  TN+F+R5       44144.009    678 89644.018    1010368.018  92538.465
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+217  TN+F+R6       44139.990    680 89639.980    1015799.980  92542.965
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+229  TNe+R5        44221.984    675 89793.967    1002393.967  92675.607
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+230  TNe+R6        44221.702    677 89797.403    1007809.403  92687.581
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+242  HKY+F+R5      44168.593    677 89691.186    1007703.186  92581.364
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+243  HKY+F+R6      44167.961    679 89693.921    1013133.921  92592.637
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+255  K2P+R5        44229.401    674 89806.801    999706.801   92684.172
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+256  K2P+R6        44228.962    676 89809.925    1005113.925  92695.834
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+268  F81+F+R5      45300.466    676 91952.933    1007256.933  94838.842
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+269  F81+F+R6      45295.846    678 91947.693    1012671.693  94842.140
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+281  JC+R5         45404.366    673 92154.732    999358.732   95027.834
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+282  JC+R6         45404.043    675 92158.085    1004758.085  95039.725
+Akaike Information Criterion:           GTR+F+R5
+Corrected Akaike Information Criterion: GTR+F
+Bayesian Information Criterion:         TIM3+F+R5
+Best-fit model: TIM3+F+R5 chosen according to BIC
+
+All model information printed to angry_phylogenies/processing/IFIT1_mammalia_CTD_iqtree_ufboot_alrt_nt_ref/334_IFIT1_IFIT1B_CTD_907-1434_curated_nt_ref.pal2nal.mafft.model.gz
+CPU time for ModelFinder: 1160.285 seconds (0h:19m:20s)
+Wall-clock time for ModelFinder: 146.808 seconds (0h:2m:26s)
+Generating 1000 samples for ultrafast bootstrap (seed: 408244)...
+
+NOTE: 30 MB RAM (0 GB) is required!
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -44095.865
+Optimal log-likelihood: -44095.857
+Rate parameters:  A-C: 1.45086  A-G: 3.18123  A-T: 1.00000  C-G: 1.45086  C-T: 4.09492  G-T: 1.00000
+Base frequencies:  A: 0.346  C: 0.188  G: 0.231  T: 0.235
+Site proportion and rates:  (0.110,0.128) (0.168,0.444) (0.422,0.912) (0.268,1.622) (0.032,2.868)
+Parameters optimization took 1 rounds (0.411 sec)
+Computing ML distances based on estimated model parameters...
+Computing ML distances took 0.317147 sec (of wall-clock time) 2.520304 sec(of CPU time)
+Computing RapidNJ tree took 0.030249 sec (of wall-clock time) 0.265257 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -44361.737
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 5.816 second
+Computing log-likelihood of 98 initial trees ... 5.187 seconds
+Current best score: -44092.034
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -44051.394
+Iteration 10 / LogL: -44060.705 / Time: 0h:0m:25s
+Iteration 20 / LogL: -44073.523 / Time: 0h:0m:39s
+Finish initializing candidate tree set (20)
+Current best tree score: -44051.394 / CPU time: 38.073
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -44057.934 / Time: 0h:0m:55s (0h:2m:16s left)
+Iteration 40 / LogL: -44088.901 / Time: 0h:1m:12s (0h:1m:53s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 48: -44051.220
+Iteration 50 / LogL: -44052.995 / Time: 0h:1m:29s (0h:2m:58s left)
+Log-likelihood cutoff on original alignment: -44129.200
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 59: -44047.349
+Iteration 60 / LogL: -44052.470 / Time: 0h:1m:45s (0h:2m:57s left)
+Iteration 70 / LogL: -44069.969 / Time: 0h:2m:0s (0h:2m:35s left)
+Iteration 80 / LogL: -44077.932 / Time: 0h:2m:14s (0h:2m:14s left)
+Iteration 90 / LogL: -44054.189 / Time: 0h:2m:29s (0h:1m:55s left)
+Iteration 100 / LogL: -44054.365 / Time: 0h:2m:44s (0h:1m:38s left)
+Log-likelihood cutoff on original alignment: -44129.200
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.997
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 104: -44047.250
+Iteration 110 / LogL: -44061.378 / Time: 0h:3m:1s (0h:2m:36s left)
+Iteration 120 / LogL: -44051.551 / Time: 0h:3m:15s (0h:2m:18s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 122: -44047.185
+Iteration 130 / LogL: -44050.453 / Time: 0h:3m:31s (0h:2m:30s left)
+Iteration 140 / LogL: -44051.241 / Time: 0h:3m:45s (0h:2m:13s left)
+Iteration 150 / LogL: -44047.267 / Time: 0h:3m:59s (0h:1m:55s left)
+Log-likelihood cutoff on original alignment: -44129.200
+Iteration 160 / LogL: -44059.000 / Time: 0h:4m:15s (0h:1m:39s left)
+Iteration 170 / LogL: -44047.378 / Time: 0h:4m:30s (0h:1m:23s left)
+Iteration 180 / LogL: -44052.639 / Time: 0h:4m:46s (0h:1m:7s left)
+Iteration 190 / LogL: -44047.433 / Time: 0h:5m:1s (0h:0m:51s left)
+Iteration 200 / LogL: -44060.168 / Time: 0h:5m:16s (0h:0m:35s left)
+Log-likelihood cutoff on original alignment: -44129.200
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+Iteration 210 / LogL: -44048.138 / Time: 0h:5m:34s (0h:2m:24s left)
+Iteration 220 / LogL: -44049.140 / Time: 0h:5m:51s (0h:2m:8s left)
+TREE SEARCH COMPLETED AFTER 223 ITERATIONS / Time: 0h:5m:55s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -44047.185
+Optimal log-likelihood: -44047.184
+Rate parameters:  A-C: 1.45470  A-G: 3.19191  A-T: 1.00000  C-G: 1.45470  C-T: 4.10973  G-T: 1.00000
+Base frequencies:  A: 0.346  C: 0.188  G: 0.231  T: 0.235
+Site proportion and rates:  (0.111,0.129) (0.176,0.454) (0.417,0.920) (0.263,1.632) (0.033,2.848)
+Parameters optimization took 1 rounds (0.283 sec)
+BEST SCORE FOUND : -44047.184
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+0.682 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file angry_phylogenies/processing/IFIT1_mammalia_CTD_iqtree_ufboot_alrt_nt_ref/334_IFIT1_IFIT1B_CTD_907-1434_curated_nt_ref.pal2nal.mafft.splits.nex
+Total tree length: 20.462
+
+Total number of iterations: 223
+CPU time used for tree search: 2747.823 sec (0h:45m:47s)
+Wall-clock time used for tree search: 354.526 sec (0h:5m:54s)
+Total CPU time used: 2767.274 sec (0h:46m:7s)
+Total wall-clock time used: 357.661 sec (0h:5m:57s)
+
+Computing bootstrap consensus tree...
+Reading input file angry_phylogenies/processing/IFIT1_mammalia_CTD_iqtree_ufboot_alrt_nt_ref/334_IFIT1_IFIT1B_CTD_907-1434_curated_nt_ref.pal2nal.mafft.splits.nex...
+334 taxa and 1173 splits.
+Consensus tree written to angry_phylogenies/processing/IFIT1_mammalia_CTD_iqtree_ufboot_alrt_nt_ref/334_IFIT1_IFIT1B_CTD_907-1434_curated_nt_ref.pal2nal.mafft.contree
+Reading input trees file angry_phylogenies/processing/IFIT1_mammalia_CTD_iqtree_ufboot_alrt_nt_ref/334_IFIT1_IFIT1B_CTD_907-1434_curated_nt_ref.pal2nal.mafft.contree
+Log-likelihood of consensus tree: -44047.076
+
+Analysis results written to: 
+  IQ-TREE report:                angry_phylogenies/processing/IFIT1_mammalia_CTD_iqtree_ufboot_alrt_nt_ref/334_IFIT1_IFIT1B_CTD_907-1434_curated_nt_ref.pal2nal.mafft.iqtree
+  Maximum-likelihood tree:       angry_phylogenies/processing/IFIT1_mammalia_CTD_iqtree_ufboot_alrt_nt_ref/334_IFIT1_IFIT1B_CTD_907-1434_curated_nt_ref.pal2nal.mafft.treefile
+  Likelihood distances:          angry_phylogenies/processing/IFIT1_mammalia_CTD_iqtree_ufboot_alrt_nt_ref/334_IFIT1_IFIT1B_CTD_907-1434_curated_nt_ref.pal2nal.mafft.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          angry_phylogenies/processing/IFIT1_mammalia_CTD_iqtree_ufboot_alrt_nt_ref/334_IFIT1_IFIT1B_CTD_907-1434_curated_nt_ref.pal2nal.mafft.splits.nex
+  Consensus tree:                angry_phylogenies/processing/IFIT1_mammalia_CTD_iqtree_ufboot_alrt_nt_ref/334_IFIT1_IFIT1B_CTD_907-1434_curated_nt_ref.pal2nal.mafft.contree
+  Screen log file:               angry_phylogenies/processing/IFIT1_mammalia_CTD_iqtree_ufboot_alrt_nt_ref/334_IFIT1_IFIT1B_CTD_907-1434_curated_nt_ref.pal2nal.mafft.log
+
+Date and Time: Fri Apr 10 03:28:21 2026

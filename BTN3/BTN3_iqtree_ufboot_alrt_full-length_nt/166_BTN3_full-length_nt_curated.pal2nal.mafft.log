@@ -1,0 +1,374 @@
+IQ-TREE multicore version 2.1.3 COVID-edition for Linux 64-bit built Apr 21 2021
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    alpha2.cvr.gla.ac.uk (AVX512, FMA3, 4031 GB RAM)
+Command: iqtree2 -nt 8 -s angry_phylogenies/BTN3_iqtree_ufboot_alrt_full-length_nt/166_BTN3_full-length_nt_curated.pal2nal.mafft.fasta -m MFP -B 1000 -alrt 1000 --prefix angry_phylogenies/BTN3_iqtree_ufboot_alrt_full-length_nt/166_BTN3_full-length_nt_curated.pal2nal.mafft
+Seed:    905460 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Apr  6 22:45:50 2026
+Kernel:  AVX+FMA - 8 threads (224 CPU cores detected)
+
+Reading alignment file angry_phylogenies/BTN3_iqtree_ufboot_alrt_full-length_nt/166_BTN3_full-length_nt_curated.pal2nal.mafft.fasta ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 166 sequences with 1752 columns, 1712 distinct patterns
+1528 parsimony-informative, 128 singleton sites, 96 constant sites
+                      Gap/Ambiguity  Composition  p-value
+   1  ENSP00000244519.2       0.00%    passed     47.83%
+   2  ENSPTRP00000030422.3    0.00%    passed     26.96%
+   3  ENSGGOP00000012441.3    0.17%    passed     45.23%
+   4  ENSNLEP00000003903.1    0.17%    passed     42.84%
+   5  XP_055120133.1          1.88%    passed     44.50%
+   6  XP_031996481.1          1.88%    passed     47.05%
+   7  XP_054346544.1          1.71%    passed     48.02%
+   8  ENSPPYP00000018260.2    1.71%    passed     45.15%
+   9  XP_050644858.1          1.71%    passed     16.57%
+  10  ENSMMUP00000028932.4    1.71%    passed     20.34%
+  11  XP_025239062.1          1.71%    passed      6.43%
+  12  XP_011818264.1          1.71%    passed     10.15%
+  13  ENSMNEP00000006604.1    5.48%    passed     18.95%
+  14  ENSRROP00000013069.1    5.48%    passed     12.20%
+  15  ENSRBIP00000010064.1    5.48%    passed     11.44%
+  16  ENSMFAP00000006091.2    1.71%    passed      6.36%
+  17  ENSCATP00000021754.1    1.71%    failed      2.99%
+  18  ENSMLEP00000031431.1   12.67%    failed      2.79%
+  19  ENSPANP00000060312.1    5.14%    failed      3.37%
+  20  ENSPPAP00000007520.1   31.85%    passed     25.33%
+  21  ENSPPAP00000002380.1    2.57%    passed     59.61%
+  22  ENSPTRP00000086814.1    2.57%    passed     29.27%
+  23  ENSPPYP00000038018.1    4.97%    failed      4.14%
+  24  ENSP00000366937.2      42.81%    passed     91.75%
+  25  ENSNLEP00000003859.2   45.03%    passed     97.38%
+  26  XP_011818272.1         42.81%    passed     51.58%
+  27  ENSRBIP00000037790.1   42.81%    passed     47.76%
+  28  ENSRROP00000000831.1   42.81%    passed     35.16%
+  29  XP_033075408.1         42.81%    passed     49.72%
+  30  ENSCSAP00000004171.1   42.81%    passed     53.40%
+  31  ENSMNEP00000013768.1   42.81%    passed     32.01%
+  32  XP_025239086.1         50.00%    passed      5.28%
+  33  ENSCATP00000045241.1   42.81%    passed     26.89%
+  34  ENSMLEP00000034352.1   43.15%    passed     44.00%
+  35  XP_023065457.1         42.81%    passed     28.24%
+  36  ENSMFAP00000041585.2   37.67%    failed      1.76%
+  37  ENSPANP00000033352.2   40.75%    passed     33.24%
+  38  XP_050644888.1         42.29%    passed     26.28%
+  39  ENSCJAP00000020539.5    0.17%    passed     91.23%
+  40  ENSCCAP00000039170.1    1.71%    passed     87.72%
+  41  ENSSBOP00000034026.1    2.05%    passed     89.00%
+  42  ENSANAP00000003292.1    5.48%    passed     95.51%
+  43  XP_026305097.1         38.53%    passed     15.63%
+  44  ENSNLEP00000026091.1    9.42%    passed      7.68%
+  45  ENSP00000289361.6      12.16%    passed     22.00%
+  46  ENSPPAP00000039719.1   12.16%    passed     30.11%
+  47  ENSGGOP00000051780.1   12.16%    passed     22.40%
+  48  ENSPTRP00000070812.1    4.28%    passed     40.06%
+  49  XP_025239067.1          7.19%    passed     14.92%
+  50  ENSPANP00000013829.2    7.19%    passed     13.38%
+  51  ENSRROP00000033998.1   10.27%    passed      5.11%
+  52  ENSRBIP00000011989.1   10.27%    passed      7.10%
+  53  ENSMNEP00000042098.1   12.67%    passed     10.10%
+  54  ENSMLEP00000026481.1   11.99%    passed     14.01%
+  55  ENSCATP00000000813.1   37.16%    passed     48.43%
+  56  ENSANAP00000012438.1   52.23%    passed     34.31%
+  57  ENSMLEP00000014771.1    6.51%    passed      9.46%
+  58  ENSCATP00000038966.1   41.78%    passed     22.74%
+  59  ENSOGAP00000002812.2    0.51%    failed      3.29%
+  60  ENSOGAP00000005368.2   12.16%    passed      6.10%
+  61  XP_053457500.1          1.20%    passed      8.96%
+  62  XP_045407899.1          1.54%    passed     88.46%
+  63  ENSPCOP00000000831.1   11.99%    passed     74.38%
+  64  ENSPCOP00000019246.1   42.98%    passed     61.52%
+  65  XP_045407915.1          2.74%    passed     94.68%
+  66  ENSMICP00000015880.3    7.19%    passed     94.07%
+  67  ENSTSYP00000028191.1    4.28%    failed      0.72%
+  68  ENSTSYP00000003741.2   12.16%    failed      0.47%
+  69  ENSANAP00000018088.1   53.08%    passed     23.92%
+  70  ENSRBIP00000017835.1   10.45%    failed      4.02%
+  71  ENSRROP00000037073.1   10.62%    failed      3.41%
+  72  ENSMNEP00000045216.1   15.24%    passed      5.81%
+  73  ENSMLEP00000025284.1   53.08%    failed      1.40%
+  74  ENSMMSP00000013414.1    0.34%    passed     58.91%
+  75  XP_055262917.1          1.71%    passed     69.96%
+  76  ENSCHYP00000011811.1    0.17%    passed     57.39%
+  77  CAI9168757.1            1.71%    passed     93.54%
+  78  KAB0354960.1            1.71%    passed     76.67%
+  79  KAB0360947.1            1.71%    passed     74.86%
+  80  XP_007179096.1          1.88%    passed     82.69%
+  81  ENSBMSP00010014569.1    1.88%    passed     73.38%
+  82  XP_007471309.1          1.88%    passed     39.06%
+  83  ENSPCTP00005007007.1   11.99%    passed     88.98%
+  84  XP_030737059.1          1.88%    passed     31.58%
+  85  XP_026984346.1          1.88%    passed     47.59%
+  86  XP_049549629.1          1.88%    passed     31.44%
+  87  ENSTTRP00000011959.1   42.81%    passed     19.21%
+  88  ENSMMNP00015016839.1    1.88%    passed     39.58%
+  89  ENSDLEP00000026786.1    3.94%    passed     29.95%
+  90  ENSPSNP00000006870.1   40.58%    passed      8.78%
+  91  KAJ8790437.1           20.03%    passed     30.12%
+  92  ENSCDRP00005007123.1    4.62%    passed     94.18%
+  93  XP_014412632.2          5.82%    passed     94.87%
+  94  AXF92411.1              4.62%    passed     82.50%
+  95  XP_010972477.2          3.60%    passed     81.61%
+  96  XP_037698125.1          1.88%    passed     28.30%
+  97  XP_037698128.1          2.74%    passed     37.01%
+  98  XP_047414318.1          2.23%    failed      0.20%
+  99  ENSSVLP00005020353.1   12.50%    passed      7.23%
+ 100  XP_046308362.1          3.77%    passed      7.96%
+ 101  ENSSTOP00000001494.3    3.77%    failed      0.60%
+ 102  XP_027804093.1         28.77%    failed      1.88%
+ 103  ENSMMMP00000002359.1    6.16%    failed      3.75%
+ 104  ENSUPAP00010007241.1   14.16%    passed     15.83%
+ 105  XP_014644270.1          4.28%    passed      6.16%
+ 106  KAF5925129.1            2.57%    passed      5.62%
+ 107  XP_014652896.1         15.75%    passed     16.15%
+ 108  XP_046496304.1         14.21%    failed      1.88%
+ 109  ENSEASP00005011975.2   46.58%    failed      1.88%
+ 110  ENSEASP00005035246.1   45.38%    passed     13.05%
+ 111  XP_046496951.1         45.38%    passed     19.25%
+ 112  XP_014652901.1         15.75%    failed      2.62%
+ 113  XP_046496847.1         15.75%    failed      1.85%
+ 114  ENSEASP00005056962.1   41.95%    passed     17.09%
+ 115  XP_014652900.1         16.95%    failed      0.34%
+ 116  XP_036128219.1          3.08%    passed     44.66%
+ 117  XP_019486773.1          3.77%    failed      1.47%
+ 118  ENSMLUP00000017925.1    4.79%    passed     11.19%
+ 119  ENSMLUP00000010183.2    5.14%    passed     15.16%
+ 120  XP_008159205.3          5.31%    passed     15.17%
+ 121  XP_036299521.1          2.40%    passed     86.41%
+ 122  ENSMLUP00000018593.1   17.81%    passed     36.28%
+ 123  ENSMLUP00000021410.1   21.40%    passed     71.75%
+ 124  EPQ20337.1             15.75%    passed     10.24%
+ 125  ENSEASP00005006709.2   12.33%    failed      0.03%
+ 126  XP_016079140.1          7.88%    passed     58.09%
+ 127  ENSEASP00005006755.2   15.07%    failed      1.57%
+ 128  ENSECAP00000032976.2   31.16%    passed      5.55%
+ 129  XP_035871668.1          1.20%    failed      0.00%
+ 130  XP_045672849.1          0.68%    failed      0.00%
+ 131  XP_045672850.1          1.88%    failed      0.05%
+ 132  XP_045703294.1          1.54%    failed      0.00%
+ 133  XP_028359245.2          1.88%    failed      0.00%
+ 134  XP_035871670.1         32.53%    failed      0.00%
+ 135  XP_035871585.1          2.40%    failed      0.00%
+ 136  XP_035871105.1          3.25%    failed      0.06%
+ 137  XP_035871762.1          1.54%    failed      0.00%
+ 138  XP_028359243.2          1.03%    failed      0.00%
+ 139  XP_035871664.1          3.94%    failed      0.00%
+ 140  XP_045703286.1          1.88%    failed      0.01%
+ 141  XP_028359252.2          1.20%    failed      0.00%
+ 142  XP_035871660.1          2.57%    failed      0.00%
+ 143  XP_045705309.1          3.77%    failed      0.00%
+ 144  XP_045705310.1          4.11%    failed      0.01%
+ 145  XP_045059689.2          1.03%    failed      2.61%
+ 146  XP_028359253.2         10.10%    failed      0.02%
+ 147  XP_045703283.1          4.28%    failed      0.01%
+ 148  XP_045703301.1         10.27%    failed      0.01%
+ 149  XP_053511945.1          1.37%    failed      0.30%
+ 150  XP_053511836.1          8.05%    passed     16.41%
+ 151  XP_036895806.1          9.25%    passed     48.02%
+ 152  XP_036886191.1          9.42%    passed     39.23%
+ 153  XP_036913246.1         10.62%    passed      9.66%
+ 154  XP_045672856.1         20.89%    failed      0.33%
+ 155  XP_054420922.1          4.62%    failed      0.00%
+ 156  XP_054420803.1         12.33%    failed      0.00%
+ 157  XP_054420795.1         18.66%    failed      0.00%
+ 158  XP_053511885.1         17.47%    passed      9.74%
+ 159  XP_053511898.1         19.52%    failed      0.61%
+ 160  XP_035871676.1         18.15%    failed      0.00%
+ 161  ENSEASP00005010286.2   10.27%    failed      0.45%
+ 162  ENSEASP00005010226.2   12.84%    passed     58.96%
+ 163  ENSP00000349143.4      13.70%    passed     75.11%
+ 164  ENSVVUP00000000241.1   10.79%    passed     30.97%
+ 165  ENSCPOP00000001236.3   12.67%    passed     72.95%
+ 166  ENSMODP00000010705.4   13.70%    failed      0.00%
+WARNING: 3 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                  13.45%  52 sequences failed composition chi2 test (p-value<5%; df=3)
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.036 seconds
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -67464.193
+Optimal log-likelihood: -67463.898
+Rate parameters:  A-C: 1.37267  A-G: 2.94660  A-T: 1.35092  C-G: 1.10797  C-T: 3.32109  G-T: 1.00000
+Base frequencies:  A: 0.242  C: 0.250  G: 0.289  T: 0.218
+Proportion of invariable sites: 0.033
+Gamma shape alpha: 1.616
+Parameters optimization took 1 rounds (0.102 sec)
+Time for fast ML tree search: 0.908 seconds
+
+NOTE: ModelFinder requires 98 MB RAM!
+ModelFinder will test up to 286 DNA models (sample size: 1752) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  GTR+F         69549.542    337 139773.084   139934.196   141615.973
+  2  GTR+F+I       69085.134    338 138846.268   139008.451   140694.626
+  3  GTR+F+G4      67483.597    338 135643.193   135805.376   137491.551
+  4  GTR+F+I+G4    67463.847    339 135605.695   135768.953   137459.521
+  5  GTR+F+R2      67802.667    339 136283.334   136446.592   138137.160
+  6  GTR+F+R3      67472.841    341 135627.682   135793.103   137492.445
+  7  GTR+F+R4      67429.812    343 135545.624   135713.226   137421.324
+  8  GTR+F+R5      67424.001    345 135538.001   135707.802   137424.638
+ 20  SYM+R4        67417.027    340 135514.054   135678.392   137373.349
+ 21  SYM+R5        67407.335    342 135498.670   135665.179   137368.901
+ 33  TVM+F+R4      67436.997    342 135557.994   135724.504   137428.225
+ 34  TVM+F+R5      67428.556    344 135545.112   135713.811   137426.281
+ 46  TVMe+R4       67419.517    339 135517.033   135680.291   137370.859
+ 47  TVMe+R5       67410.340    341 135502.679   135668.100   137367.442
+ 59  TIM3+F+R4     67463.028    341 135608.057   135773.478   137472.820
+ 60  TIM3+F+R5     67453.574    343 135593.148   135760.750   137468.848
+ 72  TIM3e+R4      67423.573    338 135523.145   135685.328   137371.503
+ 73  TIM3e+R5      67413.671    340 135507.342   135671.680   137366.637
+ 85  TIM2+F+R4     67433.055    341 135548.111   135713.532   137412.874
+ 86  TIM2+F+R5     67424.271    343 135534.542   135702.144   137410.242
+ 98  TIM2e+R4      67438.000    338 135551.999   135714.182   137400.357
+ 99  TIM2e+R5      67427.852    340 135535.703   135700.040   137394.998
+111  TIM+F+R4      67465.449    341 135612.899   135778.320   137477.662
+112  TIM+F+R5      67455.735    343 135597.469   135765.072   137473.169
+124  TIMe+R4       67442.467    338 135560.935   135723.117   137409.292
+125  TIMe+R5       67432.380    340 135544.761   135709.098   137404.055
+137  TPM3u+F+R4    67469.914    340 135619.827   135784.165   137479.122
+138  TPM3u+F+R5    67460.582    342 135605.164   135771.673   137475.395
+150  TPM3+F+R4     67469.914    340 135619.827   135784.165   137479.122
+151  TPM3+F+R5     67460.583    342 135605.166   135771.675   137475.397
+163  TPM2u+F+R4    67440.237    340 135560.473   135724.810   137419.768
+164  TPM2u+F+R5    67431.449    342 135546.899   135713.408   137417.130
+176  TPM2+F+R4     67440.237    340 135560.473   135724.810   137419.768
+177  TPM2+F+R5     67431.449    342 135546.897   135713.407   137417.129
+189  K3Pu+F+R4     67472.172    340 135624.343   135788.681   137483.638
+190  K3Pu+F+R5     67462.611    342 135609.222   135775.732   137479.454
+202  K3P+R4        67445.950    337 135565.900   135727.011   137408.789
+203  K3P+R5        67436.182    339 135550.365   135713.622   137404.191
+215  TN+F+R4       67465.498    340 135610.996   135775.333   137470.291
+216  TN+F+R5       67455.784    342 135595.567   135762.077   137465.799
+228  TNe+R4        67443.547    337 135561.095   135722.206   137403.984
+229  TNe+R5        67433.471    339 135544.943   135708.201   137398.769
+241  HKY+F+R4      67472.228    339 135622.456   135785.714   137476.282
+242  HKY+F+R5      67462.667    341 135607.335   135772.756   137472.098
+254  K2P+R4        67447.021    336 135566.042   135726.087   137403.462
+255  K2P+R5        67437.264    338 135550.529   135712.711   137398.886
+267  F81+F+R4      68788.999    338 138253.998   138416.180   140102.355
+268  F81+F+R5      68780.113    340 138240.227   138404.564   140099.521
+280  JC+R4         68762.932    335 138195.864   138354.847   140027.816
+281  JC+R5         68753.580    337 138181.160   138342.272   140024.049
+Akaike Information Criterion:           SYM+R5
+Corrected Akaike Information Criterion: SYM+R5
+Bayesian Information Criterion:         TIM3e+R5
+Best-fit model: TIM3e+R5 chosen according to BIC
+
+All model information printed to angry_phylogenies/BTN3_iqtree_ufboot_alrt_full-length_nt/166_BTN3_full-length_nt_curated.pal2nal.mafft.model.gz
+CPU time for ModelFinder: 581.940 seconds (0h:9m:41s)
+Wall-clock time for ModelFinder: 73.583 seconds (0h:1m:13s)
+Generating 1000 samples for ultrafast bootstrap (seed: 905460)...
+
+NOTE: 52 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -67413.671
+Optimal log-likelihood: -67413.630
+Rate parameters:  A-C: 1.21244  A-G: 3.00340  A-T: 1.00000  C-G: 1.21244  C-T: 2.77088  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Site proportion and rates:  (0.157,0.127) (0.271,0.500) (0.357,1.016) (0.184,1.995) (0.032,3.656)
+Parameters optimization took 1 rounds (0.522 sec)
+Computing ML distances based on estimated model parameters...
+Computing ML distances took 0.095288 sec (of wall-clock time) 0.751913 sec(of CPU time)
+Computing RapidNJ tree took 0.014255 sec (of wall-clock time) 0.138681 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -68306.765
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 4.248 second
+Computing log-likelihood of 98 initial trees ... 4.513 seconds
+Current best score: -67413.630
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -67411.254
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -67368.726
+Iteration 10 / LogL: -67373.398 / Time: 0h:0m:18s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 14: -67367.768
+Iteration 20 / LogL: -67368.898 / Time: 0h:0m:27s
+Finish initializing candidate tree set (7)
+Current best tree score: -67367.768 / CPU time: 26.193
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 22: -67365.365
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 27: -67363.483
+Iteration 30 / LogL: -67372.648 / Time: 0h:0m:38s (0h:2m:7s left)
+Iteration 40 / LogL: -67366.910 / Time: 0h:0m:46s (0h:1m:44s left)
+Iteration 50 / LogL: -67376.068 / Time: 0h:0m:55s (0h:1m:27s left)
+Log-likelihood cutoff on original alignment: -67430.981
+Iteration 60 / LogL: -67363.577 / Time: 0h:1m:4s (0h:1m:12s left)
+Iteration 70 / LogL: -67373.867 / Time: 0h:1m:12s (0h:0m:59s left)
+Iteration 80 / LogL: -67378.491 / Time: 0h:1m:19s (0h:0m:47s left)
+Iteration 90 / LogL: -67364.292 / Time: 0h:1m:26s (0h:0m:36s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 92: -67363.339
+Iteration 100 / LogL: -67365.918 / Time: 0h:1m:35s (0h:1m:28s left)
+Log-likelihood cutoff on original alignment: -67430.981
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.997
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 110: -67363.127
+Iteration 110 / LogL: -67363.127 / Time: 0h:1m:42s (0h:1m:34s left)
+Iteration 120 / LogL: -67370.991 / Time: 0h:1m:48s (0h:1m:22s left)
+Iteration 130 / LogL: -67371.651 / Time: 0h:1m:54s (0h:1m:11s left)
+Iteration 140 / LogL: -67365.713 / Time: 0h:2m:0s (0h:1m:0s left)
+Iteration 150 / LogL: -67367.018 / Time: 0h:2m:5s (0h:0m:50s left)
+Log-likelihood cutoff on original alignment: -67430.981
+Iteration 160 / LogL: -67367.215 / Time: 0h:2m:12s (0h:0m:41s left)
+Iteration 170 / LogL: -67385.300 / Time: 0h:2m:21s (0h:0m:33s left)
+Iteration 180 / LogL: -67374.849 / Time: 0h:2m:29s (0h:0m:25s left)
+Iteration 190 / LogL: -67366.027 / Time: 0h:2m:37s (0h:0m:16s left)
+Iteration 200 / LogL: -67365.669 / Time: 0h:2m:45s (0h:0m:8s left)
+Log-likelihood cutoff on original alignment: -67430.622
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 1.000
+Iteration 210 / LogL: -67364.389 / Time: 0h:2m:53s (0h:1m:14s left)
+TREE SEARCH COMPLETED AFTER 211 ITERATIONS / Time: 0h:2m:54s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -67363.127
+Optimal log-likelihood: -67363.122
+Rate parameters:  A-C: 1.21388  A-G: 2.98316  A-T: 1.00000  C-G: 1.21388  C-T: 2.76661  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Site proportion and rates:  (0.158,0.126) (0.280,0.508) (0.352,1.032) (0.178,2.001) (0.033,3.576)
+Parameters optimization took 1 rounds (0.215 sec)
+BEST SCORE FOUND : -67363.122
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+0.680 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file angry_phylogenies/BTN3_iqtree_ufboot_alrt_full-length_nt/166_BTN3_full-length_nt_curated.pal2nal.mafft.splits.nex
+Total tree length: 10.109
+
+Total number of iterations: 211
+CPU time used for tree search: 1339.153 sec (0h:22m:19s)
+Wall-clock time used for tree search: 173.752 sec (0h:2m:53s)
+Total CPU time used: 1356.499 sec (0h:22m:36s)
+Total wall-clock time used: 176.121 sec (0h:2m:56s)
+
+Computing bootstrap consensus tree...
+Reading input file angry_phylogenies/BTN3_iqtree_ufboot_alrt_full-length_nt/166_BTN3_full-length_nt_curated.pal2nal.mafft.splits.nex...
+166 taxa and 543 splits.
+Consensus tree written to angry_phylogenies/BTN3_iqtree_ufboot_alrt_full-length_nt/166_BTN3_full-length_nt_curated.pal2nal.mafft.contree
+Reading input trees file angry_phylogenies/BTN3_iqtree_ufboot_alrt_full-length_nt/166_BTN3_full-length_nt_curated.pal2nal.mafft.contree
+Log-likelihood of consensus tree: -67363.124
+
+Analysis results written to: 
+  IQ-TREE report:                angry_phylogenies/BTN3_iqtree_ufboot_alrt_full-length_nt/166_BTN3_full-length_nt_curated.pal2nal.mafft.iqtree
+  Maximum-likelihood tree:       angry_phylogenies/BTN3_iqtree_ufboot_alrt_full-length_nt/166_BTN3_full-length_nt_curated.pal2nal.mafft.treefile
+  Likelihood distances:          angry_phylogenies/BTN3_iqtree_ufboot_alrt_full-length_nt/166_BTN3_full-length_nt_curated.pal2nal.mafft.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          angry_phylogenies/BTN3_iqtree_ufboot_alrt_full-length_nt/166_BTN3_full-length_nt_curated.pal2nal.mafft.splits.nex
+  Consensus tree:                angry_phylogenies/BTN3_iqtree_ufboot_alrt_full-length_nt/166_BTN3_full-length_nt_curated.pal2nal.mafft.contree
+  Screen log file:               angry_phylogenies/BTN3_iqtree_ufboot_alrt_full-length_nt/166_BTN3_full-length_nt_curated.pal2nal.mafft.log
+
+Date and Time: Mon Apr  6 22:50:01 2026
