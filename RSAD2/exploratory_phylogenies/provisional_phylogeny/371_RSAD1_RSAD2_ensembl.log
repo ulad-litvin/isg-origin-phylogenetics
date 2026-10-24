@@ -1,0 +1,687 @@
+IQ-TREE multicore version 2.1.3 COVID-edition for Linux 64-bit built Apr 21 2021
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    alpha2.cvr.gla.ac.uk (AVX512, FMA3, 4031 GB RAM)
+Command: iqtree2 -nt 8 -s ensembl_tables/RSAD1_RSAD2/provisional_phylogeny/371_RSAD1_RSAD2_ensembl.trimal.mafft.fasta -B 1000 -pre ensembl_tables/RSAD1_RSAD2/provisional_phylogeny/371_RSAD1_RSAD2_ensembl
+Seed:    377152 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Sep 22 16:11:19 2025
+Kernel:  AVX+FMA - 8 threads (224 CPU cores detected)
+
+Reading alignment file ensembl_tables/RSAD1_RSAD2/provisional_phylogeny/371_RSAD1_RSAD2_ensembl.trimal.mafft.fasta ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 371 sequences with 568 columns, 567 distinct patterns
+510 parsimony-informative, 38 singleton sites, 20 constant sites
+                             Gap/Ambiguity  Composition  p-value
+   1  ENSCHYP00000022905.1          36.09%    passed     32.11%
+   2  ENSBBBP00000003198.1          36.09%    passed     21.62%
+   3  ENSBIXP00005038492.1          36.09%    passed     22.74%
+   4  ENSMMSP00000005085.1          36.09%    passed     15.11%
+   5  ENSCHIP00000024819.1          36.27%    passed     13.47%
+   6  ENSPPRP00000025476.1          36.09%    passed     55.98%
+   7  ENSPTIP00000023010.1          56.87%    failed      0.43%
+   8  ENSFCTP00005000167.1          36.09%    passed     49.05%
+   9  ENSCAFP00845030858.1          36.44%    passed     22.26%
+  10  ENSVVUP00000011586.1          36.44%    passed     23.76%
+  11  ENSMPUP00000013049.1          35.92%    passed     21.05%
+  12  ENSNVIP00000020080.1          35.92%    passed     13.22%
+  13  ENSAMEP00000014047.1          36.09%    passed     40.00%
+  14  ENSUMAP00000004870.1          38.73%    passed     26.46%
+  15  ENSUAMP00000031651.1          36.09%    passed     29.23%
+  16  ENSCDRP00005022059.1          40.32%    passed     19.74%
+  17  ENSMICP00000030911.1          34.86%    passed     19.10%
+  18  ENSPCOP00000003285.1          36.44%    passed     10.68%
+  19  ENSSSCP00000052007.2          36.27%    passed     45.41%
+  20  ENSCWAP00000012787.1          36.44%    passed     37.21%
+  21  ENSOGAP00000017589.1          36.27%    passed     27.50%
+  22  ENSCSAP00000003326.1          36.62%    failed      4.07%
+  23  ENSCATP00000011923.1          36.62%    passed      6.55%
+  24  ENSMNEP00000034585.1          36.62%    failed      4.68%
+  25  ENSPANP00000012843.1          36.62%    failed      3.72%
+  26  ENSMFAP00000052099.1          38.56%    passed      5.32%
+  27  ENSRBIP00000027863.1          36.62%    failed      4.62%
+  28  ENSNLEP00000018720.1          36.44%    failed      2.75%
+  29  ENSGGOP00000010453.2          36.44%    passed      6.10%
+  30  ENSPTRP00000019995.4          36.44%    failed      3.37%
+  31  ENSPPAP00000033245.1          36.44%    failed      4.15%
+  32  ENSPPYP00000014148.3          36.44%    failed      1.29%
+  33  ENSCJAP00000070477.1          36.44%    failed      2.44%
+  34  ENSCCAP00000028838.1          36.44%    failed      0.40%
+  35  ENSSBOP00000015080.1          36.44%    failed      1.09%
+  36  ENSANAP00000029024.1          36.44%    failed      0.89%
+  37  ENSLAFP00000014333.3          36.62%    failed      1.25%
+  38  ENSEASP00005032544.2          36.44%    passed     35.56%
+  39  ENSECAP00000040709.1          36.44%    passed     30.23%
+  40  ENSTSYP00000009222.2          36.27%    failed      4.60%
+  41  ENSDNOP00000029469.1          36.27%    failed      1.05%
+  42  ENSTTRP00000006885.1          46.30%    passed     58.15%
+  43  ENSBMSP00010026744.1          36.62%    passed     18.11%
+  44  ENSPSNP00000031142.1          36.62%    passed     12.78%
+  45  ENSPCTP00005015523.1          36.62%    passed     46.11%
+  46  ENSRFEP00010014952.1          36.27%    passed      7.05%
+  47  ENSCLAP00000002988.1          36.97%    failed      0.60%
+  48  ENSODEP00000000606.1          36.97%    failed      3.16%
+  49  ENSHGLP00000000489.2          36.97%    passed     12.25%
+  50  ENSCPOP00000007290.2          36.97%    failed      0.22%
+  51  ENSMLUP00000002581.2          56.34%    passed      5.34%
+  52  ENSMLUP00000018097.1          63.20%    failed      3.40%
+  53  ENSUPAP00010015364.1          36.44%    passed     30.63%
+  54  ENSSTOP00000005496.3          36.44%    passed     34.37%
+  55  ENSMMMP00000026042.1          36.44%    passed     26.06%
+  56  ENSSVLP00005026422.1          36.62%    passed     20.90%
+  57  ENSPEMP00000006801.1          36.62%    passed     34.44%
+  58  ENSCGRP00015008523.1          36.62%    passed     14.35%
+  59  ENSMSIP00000030651.1          36.27%    passed     31.21%
+  60  ENSMSPP00010005305.1          36.27%    passed     28.83%
+  61  ENSMUSP00000020970.8          36.27%    passed     34.14%
+  62  MGP_CAROLIEiJ_P0032021.None   36.27%    passed     31.95%
+  63  MGP_PahariEiJ_P0082137.None   36.27%    passed     32.31%
+  64  ENSRNOP00000010092.7          36.27%    passed     43.24%
+  65  ENSNGAP00000021308.1          36.62%    passed     30.44%
+  66  ENSMAUP00000006847.1          39.96%    passed     39.45%
+  67  ENSJJAP00000011183.1          36.44%    passed     13.89%
+  68  ENSABRP00000010207.1          35.56%    passed     30.39%
+  69  ENSPMJP00000013918.1          37.15%    passed     16.19%
+  70  ENSSCAP00000016722.1          37.68%    passed     23.37%
+  71  ENSTGUP00000013379.2          38.03%    passed     26.67%
+  72  ENSFALP00000006778.2          43.13%    passed     10.36%
+  73  ENSGALP00010004927.1          37.68%    passed     31.67%
+  74  ENSCJPP00005009843.1          37.32%    passed     22.82%
+  75  ENSMGAP00000023646.1          37.32%    passed     15.54%
+  76  ENSSHBP00005007020.1          36.09%    passed     20.99%
+  77  ENSACCP00020006976.1          36.27%    passed     54.55%
+  78  ENSSCUP00000005938.1          56.51%    failed      0.24%
+  79  ENSGFOP00000012248.1          40.14%    failed      3.13%
+  80  ENSCPBP00000019602.1          36.09%    passed     21.76%
+  81  ENSTMTP00000002096.1          38.20%    passed     24.30%
+  82  ENSCABP00000008392.1          37.32%    passed     24.22%
+  83  ENSGEVP00005012410.1          37.32%    passed     20.63%
+  84  ENSPSIP00000007318.1          38.91%    passed     12.29%
+  85  ENSCPRP00005011822.1          40.49%    passed     22.43%
+  86  ENSOPRP00000014834.1          36.44%    passed     29.78%
+  87  ENSOCUP00000010461.3          33.98%    passed     29.07%
+  88  ENSPCIP00000019570.2          38.56%    failed      0.17%
+  89  ENSMODP00000043164.1          52.99%    failed      0.00%
+  90  ENSVURP00010013354.1          36.27%    failed      0.05%
+  91  ENSSHAP00000025222.1          36.27%    failed      0.01%
+  92  ENSSPUP00000013976.1          37.32%    failed      4.16%
+  93  ENSDORP00000019002.1          36.62%    passed      7.58%
+  94  ENSPMRP00000017526.1          40.14%    passed     24.99%
+  95  ENSSMRP00000008043.1          39.44%    failed      1.38%
+  96  ENSNNAP00000016666.1          40.67%    failed      1.61%
+  97  ENSPTXP00000015863.1          39.26%    failed      3.59%
+  98  ENSLLTP00000023406.1          39.79%    failed      2.79%
+  99  ENSNSUP00000028783.1          42.78%    passed      6.63%
+ 100  ENSACAP00000037988.1          37.85%    passed     61.91%
+ 101  ENSOANP00000036666.1          36.27%    failed      0.05%
+ 102  ENSETEP00000010723.1          46.30%    passed     41.02%
+ 103  ENSPREP00000031618.1          38.38%    failed      0.06%
+ 104  ENSPFOP00000012001.1          37.68%    failed      0.02%
+ 105  ENSPLAP00000008921.1          38.38%    failed      0.08%
+ 106  ENSXCOP00000005137.1          56.51%    failed      0.20%
+ 107  ENSXMAP00000008041.1          38.38%    failed      0.19%
+ 108  ENSCVAP00000028440.1          38.73%    failed      4.57%
+ 109  ENSFHEP00000011208.1          37.68%    passed     14.05%
+ 110  ENSKMAP00000010302.1          38.20%    passed      7.88%
+ 111  ENSAPEP00000029030.1          36.27%    failed      0.10%
+ 112  ENSAPOP00000010285.1          35.92%    failed      0.23%
+ 113  ENSSLUP00000030957.1          39.79%    failed      1.60%
+ 114  ENSLCRP00005032214.1          37.68%    failed      0.01%
+ 115  ENSDLAP00005070234.1          36.97%    failed      0.53%
+ 116  ENSLCAP00010049845.1          37.68%    failed      0.10%
+ 117  ENSHBUP00000022481.1          38.03%    failed      0.01%
+ 118  ENSPNYP00000027567.1          38.03%    failed      0.02%
+ 119  ENSMZEP00005007598.1          38.03%    failed      0.01%
+ 120  ENSNBRP00000014081.1          37.68%    failed      0.00%
+ 121  ENSONIP00000004603.2          37.68%    failed      0.01%
+ 122  ENSACLP00000082885.1          36.27%    failed      0.01%
+ 123  ENSACIP00000030518.1          37.68%    failed      0.13%
+ 124  ENSSDUP00000024962.1          38.20%    failed      0.08%
+ 125  ENSSLDP00000005482.1          38.20%    failed      0.26%
+ 126  ENSSDUP00000008221.1          38.73%    failed      4.19%
+ 127  ENSSLDP00000014798.1          41.90%    passed     20.83%
+ 128  ENSATEP00000020446.2          37.32%    failed      0.12%
+ 129  ENSSAUP00010065604.1          37.50%    passed     13.52%
+ 130  ENSCLMP00005042229.1          38.03%    passed     18.64%
+ 131  ENSCGOP00000053339.1          38.03%    failed      0.44%
+ 132  ENSMMDP00005016391.1          36.97%    passed      7.85%
+ 133  ENSOMEP00000007622.1          38.03%    failed      0.51%
+ 134  ENSOJAP00000039359.1          37.85%    failed      0.90%
+ 135  ENSORLP00000031822.1          38.03%    failed      0.58%
+ 136  ENSOSIP00000041738.1          43.66%    failed      0.73%
+ 137  ENSNFUP00015021239.1          38.56%    passed      9.96%
+ 138  ENSLBEP00000018363.1          37.15%    failed      0.11%
+ 139  ENSHCOP00000013102.1          38.73%    failed      3.86%
+ 140  ENSTRUP00000006354.1          39.61%    failed      3.92%
+ 141  ENSTNIP00000020444.1          38.38%    failed      2.34%
+ 142  ENSGACP00000040058.1          37.15%    passed      5.67%
+ 143  ENSBSLP00000056570.1          40.67%    passed     16.93%
+ 144  ENSMAMP00000012329.1          39.61%    failed      0.81%
+ 145  ENSOTSP00005052741.1          37.50%    failed      1.25%
+ 146  ENSOKIP00005067293.1          37.50%    failed      1.54%
+ 147  ENSOMYP00000070279.2          37.50%    failed      1.82%
+ 148  ENSSSAP00000176266.1          38.20%    failed      0.53%
+ 149  ENSSTUP00000115382.1          38.20%    failed      0.41%
+ 150  ENSOKIP00005012387.1          37.32%    failed      0.11%
+ 151  ENSOTSP00005047349.2          39.79%    failed      0.96%
+ 152  ENSOMYP00000053785.2          37.32%    failed      0.35%
+ 153  ENSSTUP00000074411.1          40.67%    failed      0.82%
+ 154  ENSSSAP00000142529.1          37.50%    failed      0.58%
+ 155  ENSELUP00000034545.2          39.79%    failed      2.30%
+ 156  ENSOTSP00005047348.2          61.44%    failed      3.46%
+ 157  ENSCHAP00020026859.1          37.85%    failed      0.03%
+ 158  ENSCARP00000101683.1          39.79%    failed      0.46%
+ 159  ENSCARP00000081906.1          39.79%    failed      0.72%
+ 160  ENSCCRP00000122702.1          36.44%    failed      2.74%
+ 161  ENSCCRP00000003451.2          37.15%    failed      3.04%
+ 162  ENSCARP00000079253.1          36.27%    failed      3.91%
+ 163  ENSDARP00000015681.7          37.15%    passed     16.34%
+ 164  ENSIPUP00015078194.1          38.91%    failed      3.35%
+ 165  ENSPNAP00000073957.1          38.56%    passed     24.21%
+ 166  ENSAMXP00000017774.2          38.20%    passed     83.23%
+ 167  ENSDCDP00010009653.1          41.20%    passed     43.31%
+ 168  ENSAOCP00000065097.1          35.04%    passed     14.62%
+ 169  ENSLOCP00000020777.1          37.50%    failed      0.02%
+ 170  ENSXETP00000055855.2          36.44%    failed      0.01%
+ 171  ENSLLEP00000035090.1          37.32%    failed      0.00%
+ 172  ENSCMIP00000018018.1          39.61%    failed      0.02%
+ 173  ENSSFOP00015016412.2          38.03%    passed      6.58%
+ 174  ENSGMOP00000011011.2          39.44%    failed      1.36%
+ 175  ENSLACP00000010135.1          37.50%    failed      0.18%
+ 176  ENSPKIP00000002685.1          38.03%    failed      0.61%
+ 177  ENSEEEP00000037009.2          39.44%    failed      0.67%
+ 178  ENSECRP00000015273.1          38.73%    failed      0.18%
+ 179  ENSOMYP00000053656.2          54.23%    failed      0.22%
+ 180  ENSHHUP00000019971.1          53.35%    failed      4.83%
+ 181  ENSSPAP00000025340.1          33.98%    passed      9.40%
+ 182  ENSOARP00020077005.1          39.61%    passed     18.97%
+ 183  ENSOKIP00005012444.1          51.06%    passed      5.12%
+ 184  ENSHHUP00000066376.1          55.63%    failed      0.17%
+ 185  ENSHHUP00000025872.1          36.44%    failed      1.06%
+ 186  ENSAPLP00000005610.2          40.14%    passed     37.18%
+ 187  ENSMOCP00000024160.1          68.49%    passed     90.65%
+ 188  ENSOMYP00000133269.1          12.85%    failed      0.00%
+ 189  ENSSSAP00000033023.2          19.01%    passed     15.56%
+ 190  ENSSTUP00000058658.1          19.01%    passed     16.02%
+ 191  ENSOKIP00005105014.1          21.30%    passed      6.67%
+ 192  ENSOKIP00005055551.1          29.75%    passed     11.16%
+ 193  ENSOTSP00005124228.1          45.42%    passed     22.96%
+ 194  ENSOTSP00005145573.1          29.93%    failed      3.93%
+ 195  ENSHHUP00000012854.1          55.99%    passed     11.41%
+ 196  ENSELUP00000033529.2          20.60%    passed     64.58%
+ 197  ENSSSAP00000090727.2          33.98%    failed      4.56%
+ 198  ENSMMDP00005001266.1          17.61%    passed     15.25%
+ 199  ENSMZEP00005016619.1          24.12%    passed     51.66%
+ 200  ENSMZEP00005028829.1          22.18%    passed     44.63%
+ 201  ENSHBUP00000003486.1          22.18%    passed     43.09%
+ 202  ENSACLP00000034085.2          22.18%    passed     46.77%
+ 203  ENSPNYP00000011956.1          28.52%    passed     24.47%
+ 204  ENSNBRP00000027485.1          22.36%    passed     35.55%
+ 205  ENSONIP00000002515.2          22.36%    passed     55.39%
+ 206  ENSACIP00000006515.1          23.06%    passed     71.80%
+ 207  ENSSPAP00000014439.1          22.71%    passed     36.81%
+ 208  ENSAPOP00000003375.1          19.89%    passed     32.41%
+ 209  ENSAPEP00000007918.1          19.72%    passed     36.38%
+ 210  ENSAOCP00000016078.2          19.72%    passed     38.20%
+ 211  ENSSDUP00000019823.1          20.25%    passed     49.34%
+ 212  ENSSLDP00000005051.1          20.25%    passed     57.51%
+ 213  ENSLCAP00010056591.1          19.89%    passed     33.88%
+ 214  ENSSLUP00000022287.1          18.13%    passed     65.19%
+ 215  ENSDLAP00005003141.2          19.89%    passed     16.21%
+ 216  ENSCGOP00000054658.1          20.07%    passed     37.93%
+ 217  ENSLCRP00005028183.1          20.25%    passed     12.06%
+ 218  ENSSMAP00000002515.2          18.66%    passed     27.02%
+ 219  ENSATEP00000034872.1          20.60%    passed      7.65%
+ 220  ENSLBEP00000027981.1          19.89%    failed      1.88%
+ 221  ENSMAMP00000030754.1          19.19%    failed      2.66%
+ 222  ENSSAUP00010068208.1          20.95%    failed      0.97%
+ 223  ENSPLAP00000019984.1          24.65%    passed     64.93%
+ 224  ENSPFOP00000027132.1          22.89%    passed     63.83%
+ 225  ENSPREP00000005868.1          22.54%    passed     70.18%
+ 226  ENSXMAP00000012956.2          22.71%    passed     72.48%
+ 227  ENSXCOP00000014373.1          22.18%    passed     62.59%
+ 228  ENSFHEP00000012952.1          22.71%    passed     84.57%
+ 229  ENSCVAP00000007140.1          22.89%    passed     84.30%
+ 230  ENSCLMP00005030199.1          20.60%    passed     10.53%
+ 231  ENSGACP00000014032.2          19.54%    passed      6.40%
+ 232  ENSNFUP00015023593.1          23.59%    passed     38.57%
+ 233  ENSKMAP00000017131.1          20.07%    passed     43.43%
+ 234  ENSCSEP00000013763.1          27.46%    passed     58.68%
+ 235  ENSOMEP00000025678.1          22.54%    passed     82.14%
+ 236  ENSOSIP00000011924.1          23.42%    passed     72.33%
+ 237  ENSORLP00000009007.2          23.59%    passed     64.29%
+ 238  ENSTRUP00000029217.3          21.13%    passed     11.56%
+ 239  ENSTNIP00000013342.1          22.18%    passed     28.19%
+ 240  ENSCHAP00020005833.1          19.89%    passed     29.86%
+ 241  ENSCCRP00000135619.1          21.65%    passed     95.79%
+ 242  ENSCARP00000016483.1          22.01%    passed     80.06%
+ 243  ENSDARP00000101526.2          22.36%    passed     42.65%
+ 244  ENSGMOP00000022342.1          21.48%    passed     47.65%
+ 245  ENSHCOP00000006508.1          20.60%    passed     23.81%
+ 246  ENSSFOP00015026707.2          21.65%    passed     28.00%
+ 247  ENSPKIP00000041034.1          21.65%    passed     53.99%
+ 248  ENSPNAP00000009528.2          24.47%    passed     48.66%
+ 249  ENSAMXP00000032454.1          17.96%    passed     37.10%
+ 250  ENSEEEP00000028763.2          24.12%    passed     87.69%
+ 251  ENSIPUP00015078903.1          22.54%    failed      1.59%
+ 252  ENSIPUP00015073426.1          22.36%    failed      1.38%
+ 253  ENSDCDP00010022383.1          22.54%    passed     59.45%
+ 254  ENSLOCP00000017218.1          22.01%    failed      4.87%
+ 255  ENSGEVP00005014581.1          35.04%    passed     17.70%
+ 256  ENSCABP00000015988.1          35.04%    passed     19.77%
+ 257  ENSTMTP00000022416.1          35.04%    passed     19.53%
+ 258  ENSCPBP00000041053.1          23.24%    passed     36.20%
+ 259  ENSPSIP00000008545.1          33.98%    passed     63.08%
+ 260  ENSCPRP00005003318.1          33.63%    failed      3.20%
+ 261  ENSSPUP00000013409.1          20.42%    passed      5.64%
+ 262  ENSPTXP00000004783.1          25.00%    passed     60.31%
+ 263  ENSNSUP00000018104.1          25.00%    passed     40.31%
+ 264  ENSNNAP00000011606.1          35.21%    passed     53.95%
+ 265  ENSLLTP00000011120.1          33.45%    passed     50.80%
+ 266  ENSPMRP00000021104.1          27.82%    passed     94.92%
+ 267  ENSSMRP00000030304.1          23.94%    passed     80.73%
+ 268  ENSACAP00000025863.1          19.01%    passed     50.15%
+ 269  ENSOANP00000037181.1          18.66%    failed      0.00%
+ 270  ENSNLEP00000023980.1          22.18%    failed      0.02%
+ 271  ENSNLEP00000037415.1          23.06%    failed      0.01%
+ 272  ENSMNEP00000014793.1          22.18%    failed      0.01%
+ 273  ENSMLEP00000026407.1          22.18%    failed      0.02%
+ 274  ENSCATP00000040254.1          22.18%    failed      0.02%
+ 275  ENSPANP00000020265.1          22.18%    failed      0.03%
+ 276  ENSRBIP00000042279.1          22.18%    failed      0.01%
+ 277  ENSCSAP00000001734.1          22.18%    failed      0.02%
+ 278  ENSPPAP00000032009.1          22.18%    failed      0.01%
+ 279  ENSPTRP00000015966.2          22.18%    failed      0.01%
+ 280  ENSGGOP00000006384.2          22.18%    failed      0.01%
+ 281  ENSPPYP00000009304.3          22.18%    failed      0.01%
+ 282  ENSCCAP00000023449.1          21.83%    failed      0.00%
+ 283  ENSSBOP00000008553.1          34.51%    failed      0.10%
+ 284  ENSCJAP00000034901.4          22.18%    failed      0.01%
+ 285  ENSANAP00000005318.1          26.23%    failed      0.20%
+ 286  ENSNLEP00000027691.1          22.18%    failed      0.01%
+ 287  ENSMMUP00000022675.4          23.77%    failed      0.01%
+ 288  ENSMFAP00000021779.2          23.77%    failed      0.01%
+ 289  ENSPCOP00000015846.1          22.18%    failed      0.10%
+ 290  ENSPSMP00000022409.1          22.18%    failed      0.00%
+ 291  ENSMICP00000018420.1          22.18%    failed      0.00%
+ 292  ENSOGAP00000004830.2          22.18%    failed      0.38%
+ 293  ENSUPAP00010006903.1          22.36%    failed      0.47%
+ 294  ENSSTOP00000010530.3          22.18%    failed      0.23%
+ 295  ENSSVLP00005001341.1          22.18%    failed      0.69%
+ 296  ENSLAFP00000005895.3          22.18%    failed      0.03%
+ 297  ENSPPRP00000024527.1          23.94%    failed      0.06%
+ 298  ENSPLOP00000025624.1          22.18%    failed      0.09%
+ 299  ENSUMAP00000020163.1          25.18%    failed      0.17%
+ 300  ENSNVIP00000009608.1          21.83%    failed      0.02%
+ 301  ENSMPUP00000015368.1          34.51%    failed      0.04%
+ 302  ENSUAMP00000012942.1          22.18%    failed      0.01%
+ 303  ENSAMEP00000012402.2          22.18%    failed      0.06%
+ 304  ENSCAFP00845018122.1          22.36%    failed      0.00%
+ 305  ENSCAFP00020030197.1          22.71%    failed      0.01%
+ 306  ENSVVUP00000006232.1          26.06%    failed      2.55%
+ 307  ENSCWAP00000029361.1          22.18%    failed      0.10%
+ 308  ENSSSCP00000018616.2          22.18%    failed      0.01%
+ 309  ENSBIXP00005002960.1          22.18%    failed      0.16%
+ 310  ENSBMUP00000029414.1          23.94%    failed      0.04%
+ 311  ENSBTAP00000028387.6          22.18%    failed      0.12%
+ 312  ENSBBBP00000012662.1          22.18%    failed      0.16%
+ 313  ENSCHIP00000029583.1          22.18%    failed      0.07%
+ 314  ENSOARP00020075129.1          27.99%    failed      0.25%
+ 315  ENSCHYP00000004559.1          22.18%    failed      0.12%
+ 316  ENSMMSP00000033161.1          22.18%    failed      0.04%
+ 317  ENSMMNP00015030245.1          22.18%    failed      0.10%
+ 318  ENSDLEP00000007130.1          25.00%    failed      0.26%
+ 319  ENSPSNP00000031390.1          22.18%    failed      0.11%
+ 320  ENSBMSP00010031199.1          22.18%    failed      0.04%
+ 321  ENSPCTP00005031730.1          22.18%    failed      0.28%
+ 322  ENSTTRP00000000198.1          22.71%    failed      0.04%
+ 323  ENSCDRP00005032371.1          22.18%    failed      0.06%
+ 324  ENSRFEP00010031848.1          20.77%    failed      0.03%
+ 325  ENSMLUP00000001004.2          22.89%    failed      0.01%
+ 326  ENSMMMP00000025580.1          24.65%    failed      1.11%
+ 327  ENSDNOP00000011302.1          22.36%    failed      0.03%
+ 328  ENSNGAP00000022321.1          22.18%    failed      1.91%
+ 329  ENSMUSP00000037361.4          22.18%    failed      0.26%
+ 330  ENSMSIP00000016960.1          22.18%    failed      0.16%
+ 331  ENSMSPP00010030301.1          22.18%    failed      0.21%
+ 332  MGP_CAROLIEiJ_P0029290.None   22.18%    failed      0.34%
+ 333  MGP_PahariEiJ_P0036000.None   22.18%    failed      0.11%
+ 334  ENSMOCP00000025976.1          22.18%    failed      0.95%
+ 335  ENSPEMP00000024746.1          22.18%    failed      0.02%
+ 336  ENSCGRP00015032077.2          21.83%    failed      1.96%
+ 337  ENSMAUP00000006495.1          22.18%    failed      0.55%
+ 338  ENSRNOP00000091425.2          22.36%    failed      1.36%
+ 339  ENSHGLP00000018244.2          22.54%    failed      0.00%
+ 340  ENSCPOP00000027415.1          22.36%    failed      0.00%
+ 341  ENSCLAP00000017335.1          22.18%    failed      0.00%
+ 342  ENSODEP00000000620.1          23.94%    failed      0.00%
+ 343  ENSODEP00000022580.1          22.01%    failed      0.00%
+ 344  ENSJJAP00000005998.1          22.71%    failed      0.09%
+ 345  ENSECAP00000020728.3          18.84%    failed      0.02%
+ 346  ENSEASP00005027305.2          17.43%    failed      0.01%
+ 347  ENSDORP00000000133.2          20.77%    failed      0.68%
+ 348  ENSOCUP00000002339.4          20.77%    failed      0.00%
+ 349  ENSPVAP00000015657.1          35.04%    failed      1.94%
+ 350  ENSBGRP00000010608.1          26.23%    failed      0.15%
+ 351  ENSSHAP00000043571.1          21.30%    passed     26.41%
+ 352  ENSMODP00000026136.3          19.01%    passed     19.22%
+ 353  ENSVURP00010027983.1          22.01%    passed     30.91%
+ 354  ENSPCIP00000041323.2          26.58%    passed     40.29%
+ 355  ENSXETP00000022002.4          22.89%    passed     44.53%
+ 356  ENSLLEP00000044006.1          32.57%    passed     13.96%
+ 357  ENSLACP00000016603.2          21.83%    passed     91.89%
+ 358  ENSCMIP00000000771.1          40.49%    failed      3.36%
+ 359  ENSECRP00000034051.1          23.06%    passed     99.02%
+ 360  ENSSCAP00000000045.1          21.48%    failed      0.01%
+ 361  ENSTGUP00000009261.2          14.79%    failed      0.00%
+ 362  ENSFALP00000031493.1          19.01%    failed      0.00%
+ 363  ENSPMJP00000024681.1          13.73%    failed      0.00%
+ 364  ENSAPLP00000029731.1           7.39%    failed      0.00%
+ 365  ENSGALP00010044372.1          21.30%    failed      0.00%
+ 366  ENSPMRP00000021117.1          31.87%    passed     52.40%
+ 367  ENSPMAP00000009531.1          30.28%    failed      0.05%
+ 368  ENSSTUP00000043843.1          31.16%    failed      2.00%
+ 369  ENSLBEP00000032900.1          39.61%    failed      0.06%
+ 370  ENSSHBP00005001141.1          31.51%    failed      0.00%
+ 371  ENSACCP00020003978.1          22.54%    failed      0.00%
+WARNING: 13 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                         31.27%  201 sequences failed composition chi2 test (p-value<5%; df=19)
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.214 seconds
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -71289.115
+Optimal log-likelihood: -71288.929
+Proportion of invariable sites: 0.013
+Gamma shape alpha: 0.760
+Parameters optimization took 1 rounds (0.404 sec)
+Time for fast ML tree search: 5.113 seconds
+
+NOTE: ModelFinder requires 339 MB RAM!
+ModelFinder will test up to 702 protein models (sample size: 568) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            76702.058    739 154882.117   1248602.117  158090.945
+  2  LG+I          76483.847    740 154447.694   1251127.694  157660.864
+  3  LG+G4         71292.960    740 144065.920   1240745.920  147279.090
+  4  LG+I+G4       71288.906    741 144059.812   1243703.812  147277.324
+  5  LG+R2         72625.558    741 146733.115   1246377.115  149950.627
+  6  LG+R3         71549.542    743 144585.083   1250169.083  147811.279
+  7  LG+R4         71289.091    745 144068.181   1255608.181  147303.062
+  8  LG+R5         71171.971    747 143837.942   1261349.942  147081.506
+  9  LG+R6         71131.127    749 143760.255   1267260.255  147012.504
+ 10  LG+R7         71116.654    751 143735.309   1273239.309  146996.242
+ 11  LG+R8         71112.818    753 143731.637   1279255.637  147001.254
+ 23  LG+F+R7       70588.941    770 142717.882   1330057.882  146061.316
+ 24  LG+F+R8       70584.977    772 142713.955   1336225.955  146066.072
+ 36  WAG+R7        70746.043    751 142994.086   1272498.086  146255.020
+ 37  WAG+R8        70740.364    753 142986.728   1278510.728  146256.345
+ 49  WAG+F+R7      70311.521    770 142163.042   1329503.042  145506.476
+ 50  WAG+F+R8      70305.264    772 142154.528   1335666.528  145506.645
+ 62  JTT+R7        70011.383    751 141524.766   1271028.766  144785.699
+ 63  JTT+R8        70004.786    753 141515.572   1277039.572  144785.190
+ 75  JTT+F+R7      69613.001    770 140766.002   1328106.002  144109.436
+ 76  JTT+F+R8      69606.507    772 140757.013   1334269.013  144109.131
+ 88  Q.pfam+R7     70855.655    751 143213.310   1272717.310  146474.243
+ 89  Q.pfam+R8     70851.385    753 143208.769   1278732.769  146478.387
+101  Q.pfam+F+R7   70424.859    770 142389.718   1329729.718  145733.151
+102  Q.pfam+F+R8   70421.109    772 142386.218   1335898.218  145738.336
+114  Q.bird+R7     70132.272    751 141766.543   1271270.543  145027.477
+115  Q.bird+R8     70118.944    753 141743.889   1277267.889  145013.506
+127  Q.bird+F+R7   69971.291    770 141482.581   1328822.581  144826.015
+128  Q.bird+F+R8   69959.870    772 141463.740   1334975.740  144815.858
+140  Q.mammal+R7   69857.342    751 141216.685   1270720.685  144477.618
+141  Q.mammal+R8   69847.234    753 141200.468   1276724.468  144470.085
+153  Q.mammal+F+R7 69696.123    770 140932.246   1328272.246  144275.680
+154  Q.mammal+F+R8 69686.296    772 140916.592   1334428.592  144268.709
+166  Q.insect+R7   71134.653    751 143771.306   1273275.306  147032.240
+167  Q.insect+R8   71127.433    753 143760.865   1279284.865  147030.483
+179  Q.insect+F+R7 70324.919    770 142189.838   1329529.838  145533.271
+180  Q.insect+F+R8 70318.483    772 142180.965   1335692.965  145533.083
+192  Q.plant+R7    70356.244    751 142214.487   1271718.487  145475.420
+193  Q.plant+R8    70347.687    753 142201.373   1277725.373  145470.991
+205  Q.plant+F+R7  69846.706    770 141233.412   1328573.412  144576.846
+206  Q.plant+F+R8  69839.582    772 141223.163   1334735.163  144575.281
+218  Q.yeast+R7    71786.996    751 145075.992   1274579.992  148336.925
+219  Q.yeast+R8    71780.045    753 145066.090   1280590.090  148335.708
+231  Q.yeast+F+R7  70616.914    770 142773.828   1330113.828  146117.261
+232  Q.yeast+F+R8  70611.659    772 142767.317   1336279.317  146119.435
+244  JTTDCMut+R7   70056.764    751 141615.529   1271119.529  144876.462
+245  JTTDCMut+R8   70049.825    753 141605.649   1277129.649  144875.266
+257  JTTDCMut+F+R7 69652.992    770 140845.984   1328185.984  144189.417
+258  JTTDCMut+F+R8 69646.324    772 140836.648   1334348.648  144188.765
+270  DCMut+R7      71869.843    751 145241.685   1274745.685  148502.619
+271  DCMut+R8      71865.479    753 145236.958   1280760.958  148506.575
+283  DCMut+F+R7    71312.771    770 144165.541   1331505.541  147508.975
+284  DCMut+F+R8    71302.335    772 144148.670   1337660.670  147500.788
+296  VT+R7         70814.343    751 143130.686   1272634.686  146391.619
+297  VT+R8         70809.134    753 143124.269   1278648.269  146393.886
+309  VT+F+R7       70370.550    770 142281.099   1329621.099  145624.533
+310  VT+F+R8       70365.077    772 142274.155   1335786.155  145626.273
+322  PMB+R7        71672.684    751 144847.367   1274351.367  148108.300
+323  PMB+R8        71669.521    753 144845.042   1280369.042  148114.660
+335  PMB+F+R7      71433.219    770 144406.438   1331746.438  147749.871
+336  PMB+F+R8      71429.553    772 144403.106   1337915.106  147755.223
+348  Blosum62+R7   71989.234    751 145480.468   1274984.468  148741.401
+349  Blosum62+R8   71986.081    753 145478.162   1281002.162  148747.779
+361  Blosum62+F+R7 71609.045    770 144758.089   1332098.089  148101.523
+362  Blosum62+F+R8 71605.510    772 144755.021   1338267.021  148107.138
+374  Dayhoff+R7    71867.099    751 145236.199   1274740.199  148497.132
+375  Dayhoff+R8    71862.723    753 145231.446   1280755.446  148501.063
+387  Dayhoff+F+R7  71310.739    770 144161.478   1331501.478  147504.911
+388  Dayhoff+F+R8  71300.212    772 144144.424   1337656.424  147496.542
+400  mtREV+R7      75469.397    751 152440.794   1281944.794  155701.727
+401  mtREV+R8      75442.042    753 152390.085   1287914.085  155659.702
+413  mtREV+F+R7    71680.188    770 144900.376   1332240.376  148243.810
+414  mtREV+F+R8    71664.759    772 144873.519   1338385.519  148225.636
+426  mtART+R7      78734.294    751 158970.587   1288474.587  162231.521
+427  mtART+R8      78693.100    753 158892.200   1294416.200  162161.817
+439  mtART+F+R7    74796.856    770 151133.712   1338473.712  154477.145
+440  mtART+F+R8    74762.495    772 151068.990   1344580.990  154421.108
+452  mtZOA+R7      75186.166    751 151874.332   1281378.332  155135.265
+453  mtZOA+R8      75162.189    753 151830.378   1287354.378  155099.996
+465  mtZOA+F+R7    72464.037    770 146468.075   1333808.075  149811.508
+466  mtZOA+F+R8    72440.230    772 146424.460   1339936.460  149776.578
+478  mtMet+R7      74885.633    751 151273.266   1280777.266  154534.199
+479  mtMet+R8      74862.999    753 151231.998   1286755.998  154501.615
+491  mtMet+F+R7    70919.006    770 143378.013   1330718.013  146721.446
+492  mtMet+F+R8    70905.955    772 143355.910   1336867.910  146708.028
+504  mtVer+R7      75037.284    751 151576.568   1281080.568  154837.502
+505  mtVer+R8      75013.312    753 151532.624   1287056.624  154802.241
+517  mtVer+F+R7    71433.532    770 144407.064   1331747.064  147750.498
+518  mtVer+F+R8    71415.133    772 144374.267   1337886.267  147726.384
+530  mtInv+R7      75620.011    751 152742.021   1282246.021  156002.955
+531  mtInv+R8      75597.503    753 152701.005   1288225.005  155970.623
+543  mtInv+F+R7    70948.499    770 143436.997   1330776.997  146780.431
+544  mtInv+F+R8    70940.032    772 143424.064   1336936.064  146776.182
+556  mtMAM+R7      77381.414    751 156264.828   1285768.828  159525.761
+557  mtMAM+R8      77339.284    753 156184.568   1291708.568  159454.186
+569  mtMAM+F+R7    73204.699    770 147949.398   1335289.398  151292.831
+570  mtMAM+F+R8    73174.829    772 147893.659   1341405.659  151245.777
+582  HIVb+R7       71376.460    751 144254.919   1273758.919  147515.852
+583  HIVb+R8       71367.110    753 144240.220   1279764.220  147509.838
+595  HIVb+F+R7     70790.466    770 143120.932   1330460.932  146464.366
+596  HIVb+F+R8     70777.651    772 143099.302   1336611.302  146451.420
+608  HIVw+R7       73897.642    751 149297.285   1278801.285  152558.218
+609  HIVw+R8       73886.542    753 149279.083   1284803.083  152548.701
+621  HIVw+F+R7     72257.075    770 146054.150   1333394.150  149397.584
+622  HIVw+F+R8     72243.954    772 146031.908   1339543.908  149384.026
+634  FLU+R7        71980.880    751 145463.760   1274967.760  148724.693
+635  FLU+R8        71969.697    753 145445.393   1280969.393  148715.010
+647  FLU+F+R7      70814.196    770 143168.391   1330508.391  146511.825
+648  FLU+F+R8      70801.160    772 143146.320   1336658.320  146498.438
+660  rtREV+R7      72021.226    751 145544.453   1275048.453  148805.386
+661  rtREV+R8      72015.369    753 145536.738   1281060.738  148806.356
+673  rtREV+F+R7    71286.034    770 144112.068   1331452.068  147455.501
+674  rtREV+F+R8    71281.443    772 144106.885   1337618.885  147459.003
+686  cpREV+R7      71183.632    751 143869.264   1273373.264  147130.197
+687  cpREV+R8      71178.187    753 143862.374   1279386.374  147131.991
+699  cpREV+F+R7    70761.626    770 143063.252   1330403.252  146406.685
+700  cpREV+F+R8    70754.654    772 143053.308   1336565.308  146405.426
+Akaike Information Criterion:           JTT+F+R8
+Corrected Akaike Information Criterion: LG+G4
+Bayesian Information Criterion:         JTT+F+R8
+Best-fit model: JTT+F+R8 chosen according to BIC
+
+All model information printed to ensembl_tables/RSAD1_RSAD2/provisional_phylogeny/371_RSAD1_RSAD2_ensembl.model.gz
+CPU time for ModelFinder: 11979.045 seconds (3h:19m:39s)
+Wall-clock time for ModelFinder: 1512.614 seconds (0h:25m:12s)
+Generating 1000 samples for ultrafast bootstrap (seed: 377152)...
+
+NOTE: 271 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -69606.507
+Optimal log-likelihood: -69606.487
+Site proportion and rates:  (0.195,0.068) (0.131,0.218) (0.142,0.402) (0.113,0.604) (0.125,0.919) (0.074,1.405) (0.121,2.202) (0.101,3.460)
+Parameters optimization took 1 rounds (2.752 sec)
+Computing ML distances based on estimated model parameters...
+Computing ML distances took 5.071634 sec (of wall-clock time) 35.763512 sec(of CPU time)
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing RapidNJ tree took 0.019444 sec (of wall-clock time) 0.174132 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -75310.614
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 20.142 second
+Computing log-likelihood of 98 initial trees ... 16.272 seconds
+Current best score: -69606.487
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -69555.688
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -69493.260
+Iteration 10 / LogL: -69517.323 / Time: 0h:2m:25s
+Iteration 20 / LogL: -69578.501 / Time: 0h:4m:5s
+Finish initializing candidate tree set (20)
+Current best tree score: -69493.260 / CPU time: 232.678
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 21: -69492.254
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 27: -69477.388
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 29: -69474.219
+Iteration 30 / LogL: -69506.910 / Time: 0h:5m:49s (0h:19m:52s left)
+Iteration 40 / LogL: -69496.195 / Time: 0h:7m:0s (0h:15m:59s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 45: -69473.984
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 50: -69472.504
+Iteration 50 / LogL: -69472.504 / Time: 0h:8m:8s (0h:16m:36s left)
+Log-likelihood cutoff on original alignment: -69569.129
+Iteration 60 / LogL: -69481.800 / Time: 0h:9m:3s (0h:13m:49s left)
+Iteration 70 / LogL: -69479.885 / Time: 0h:9m:54s (0h:11m:28s left)
+Iteration 80 / LogL: -69478.486 / Time: 0h:10m:46s (0h:9m:32s left)
+Iteration 90 / LogL: -69479.084 / Time: 0h:11m:36s (0h:7m:49s left)
+Iteration 100 / LogL: -69474.610 / Time: 0h:12m:27s (0h:6m:17s left)
+Log-likelihood cutoff on original alignment: -69569.129
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.998
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 109: -69472.241
+Iteration 110 / LogL: -69478.439 / Time: 0h:13m:28s (0h:12m:13s left)
+Iteration 120 / LogL: -69504.312 / Time: 0h:14m:17s (0h:10m:40s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 124: -69471.187
+Iteration 130 / LogL: -69474.205 / Time: 0h:15m:9s (0h:11m:2s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 132: -69468.843
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 135: -69467.133
+Iteration 140 / LogL: -69487.395 / Time: 0h:16m:7s (0h:11m:1s left)
+Iteration 150 / LogL: -69477.886 / Time: 0h:16m:56s (0h:9m:40s left)
+Log-likelihood cutoff on original alignment: -69569.129
+Iteration 160 / LogL: -69473.974 / Time: 0h:17m:46s (0h:8m:22s left)
+Iteration 170 / LogL: -69481.657 / Time: 0h:18m:49s (0h:7m:14s left)
+Iteration 180 / LogL: -69473.080 / Time: 0h:19m:36s (0h:6m:1s left)
+Iteration 190 / LogL: -69473.893 / Time: 0h:20m:28s (0h:4m:52s left)
+Iteration 200 / LogL: -69481.469 / Time: 0h:21m:18s (0h:3m:44s left)
+Log-likelihood cutoff on original alignment: -69564.024
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.993
+Iteration 210 / LogL: -69470.195 / Time: 0h:22m:11s (0h:9m:33s left)
+Iteration 220 / LogL: -69468.586 / Time: 0h:23m:0s (0h:8m:24s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 226: -69465.983
+Iteration 230 / LogL: -69471.276 / Time: 0h:23m:59s (0h:10m:3s left)
+Iteration 240 / LogL: -69471.980 / Time: 0h:24m:48s (0h:8m:55s left)
+Iteration 250 / LogL: -69466.287 / Time: 0h:25m:39s (0h:7m:49s left)
+Log-likelihood cutoff on original alignment: -69564.024
+Iteration 260 / LogL: -69487.658 / Time: 0h:26m:29s (0h:6m:45s left)
+Iteration 270 / LogL: -69472.782 / Time: 0h:27m:21s (0h:5m:41s left)
+Iteration 280 / LogL: -69475.398 / Time: 0h:28m:13s (0h:4m:39s left)
+Iteration 290 / LogL: -69472.131 / Time: 0h:29m:3s (0h:3m:37s left)
+Iteration 300 / LogL: -69536.218 / Time: 0h:29m:52s (0h:2m:35s left)
+Log-likelihood cutoff on original alignment: -69564.024
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.995
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 303: -69465.130
+Iteration 310 / LogL: -69492.300 / Time: 0h:30m:48s (0h:9m:16s left)
+Iteration 320 / LogL: -69513.264 / Time: 0h:31m:37s (0h:8m:13s left)
+Iteration 330 / LogL: -69470.854 / Time: 0h:32m:27s (0h:7m:12s left)
+Iteration 340 / LogL: -69470.518 / Time: 0h:33m:17s (0h:6m:11s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 350: -69463.240
+Iteration 350 / LogL: -69463.240 / Time: 0h:34m:11s (0h:9m:47s left)
+Log-likelihood cutoff on original alignment: -69564.024
+Iteration 360 / LogL: -69483.385 / Time: 0h:35m:6s (0h:8m:48s left)
+Iteration 370 / LogL: -69468.024 / Time: 0h:35m:57s (0h:7m:47s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 377: -69461.779
+Iteration 380 / LogL: -69512.115 / Time: 0h:36m:48s (0h:9m:25s left)
+Iteration 390 / LogL: -69494.179 / Time: 0h:37m:37s (0h:8m:24s left)
+Iteration 400 / LogL: -69474.731 / Time: 0h:38m:27s (0h:7m:25s left)
+Log-likelihood cutoff on original alignment: -69564.024
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.997
+Iteration 410 / LogL: -69472.285 / Time: 0h:39m:15s (0h:8m:38s left)
+Iteration 420 / LogL: -69490.155 / Time: 0h:40m:7s (0h:7m:39s left)
+Iteration 430 / LogL: -69467.998 / Time: 0h:40m:55s (0h:6m:40s left)
+Iteration 440 / LogL: -69462.874 / Time: 0h:41m:43s (0h:5m:42s left)
+Iteration 450 / LogL: -69489.162 / Time: 0h:42m:30s (0h:4m:44s left)
+Log-likelihood cutoff on original alignment: -69564.024
+Iteration 460 / LogL: -69464.765 / Time: 0h:43m:21s (0h:3m:46s left)
+Iteration 470 / LogL: -69527.097 / Time: 0h:44m:8s (0h:2m:49s left)
+TREE SEARCH COMPLETED AFTER 478 ITERATIONS / Time: 0h:44m:46s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -69461.779
+Optimal log-likelihood: -69461.778
+Site proportion and rates:  (0.198,0.069) (0.134,0.222) (0.173,0.427) (0.123,0.706) (0.097,1.037) (0.064,1.542) (0.116,2.256) (0.095,3.521)
+Parameters optimization took 1 rounds (0.841 sec)
+BEST SCORE FOUND : -69461.778
+Creating bootstrap support values...
+Split supports printed to NEXUS file ensembl_tables/RSAD1_RSAD2/provisional_phylogeny/371_RSAD1_RSAD2_ensembl.splits.nex
+Total tree length: 63.497
+
+Total number of iterations: 478
+CPU time used for tree search: 21040.582 sec (5h:50m:40s)
+Wall-clock time used for tree search: 2674.209 sec (0h:44m:34s)
+Total CPU time used: 21143.887 sec (5h:52m:23s)
+Total wall-clock time used: 2688.640 sec (0h:44m:48s)
+
+Computing bootstrap consensus tree...
+Reading input file ensembl_tables/RSAD1_RSAD2/provisional_phylogeny/371_RSAD1_RSAD2_ensembl.splits.nex...
+371 taxa and 1672 splits.
+Consensus tree written to ensembl_tables/RSAD1_RSAD2/provisional_phylogeny/371_RSAD1_RSAD2_ensembl.contree
+Reading input trees file ensembl_tables/RSAD1_RSAD2/provisional_phylogeny/371_RSAD1_RSAD2_ensembl.contree
+Log-likelihood of consensus tree: -69465.483
+
+Analysis results written to: 
+  IQ-TREE report:                ensembl_tables/RSAD1_RSAD2/provisional_phylogeny/371_RSAD1_RSAD2_ensembl.iqtree
+  Maximum-likelihood tree:       ensembl_tables/RSAD1_RSAD2/provisional_phylogeny/371_RSAD1_RSAD2_ensembl.treefile
+  Likelihood distances:          ensembl_tables/RSAD1_RSAD2/provisional_phylogeny/371_RSAD1_RSAD2_ensembl.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          ensembl_tables/RSAD1_RSAD2/provisional_phylogeny/371_RSAD1_RSAD2_ensembl.splits.nex
+  Consensus tree:                ensembl_tables/RSAD1_RSAD2/provisional_phylogeny/371_RSAD1_RSAD2_ensembl.contree
+  Screen log file:               ensembl_tables/RSAD1_RSAD2/provisional_phylogeny/371_RSAD1_RSAD2_ensembl.log
+
+Date and Time: Mon Sep 22 17:21:23 2025
