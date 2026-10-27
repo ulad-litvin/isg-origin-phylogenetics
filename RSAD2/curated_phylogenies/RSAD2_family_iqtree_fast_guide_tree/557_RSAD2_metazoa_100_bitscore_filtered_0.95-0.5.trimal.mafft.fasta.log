@@ -1,0 +1,630 @@
+IQ-TREE multicore version 2.1.3 COVID-edition for Linux 64-bit built Apr 21 2021
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    alpha2.cvr.gla.ac.uk (AVX512, FMA3, 4031 GB RAM)
+Command: iqtree2 -nt 8 -s final_metazoa_phylogenies/RSAD2/fast_tree/557_RSAD2_metazoa_100_bitscore_filtered_0.95-0.5.trimal.mafft.fasta -m LG+G -fast
+Seed:    146434 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Apr 23 13:55:02 2026
+Kernel:  AVX+FMA - 8 threads (224 CPU cores detected)
+
+Reading alignment file final_metazoa_phylogenies/RSAD2/fast_tree/557_RSAD2_metazoa_100_bitscore_filtered_0.95-0.5.trimal.mafft.fasta ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 557 sequences with 409 columns, 409 distinct patterns
+375 parsimony-informative, 30 singleton sites, 4 constant sites
+                             Gap/Ambiguity  Composition  p-value
+   1  CAH1107862.1                  22.98%    passed     18.57%
+   2  CAH1112729.1                  22.98%    passed     36.89%
+   3  CAG9830440.1                  24.45%    passed     18.40%
+   4  XP_050500540.1                24.45%    passed     60.84%
+   5  KAJ8917812.1                  54.52%    passed     50.06%
+   6  XP_023021734.1                23.72%    passed     62.58%
+   7  KAF2901911.1                  40.10%    passed     96.30%
+   8  KAG5893283.1                   4.65%    passed     16.63%
+   9  CAG9819031.1                  23.23%    passed     46.34%
+  10  KAJ3642427.1                  27.38%    passed     59.91%
+  11  KAH0809736.1                   3.91%    passed     37.30%
+  12  XP_972940.1                   26.41%    passed     98.01%
+  13  XP_044264515.1                26.41%    passed     95.45%
+  14  CAG9862017.1                  24.21%    passed     81.76%
+  15  XP_018573478.1                20.29%    passed      5.83%
+  16  XP_057653879.1                20.78%    failed      1.09%
+  17  KAI4461095.1                  19.07%    passed     37.38%
+  18  XP_045475706.1                22.25%    passed     34.56%
+  19  XP_044755844.1                22.25%    passed     30.30%
+  20  XP_050304509.1                22.49%    passed     73.96%
+  21  XP_025833779.1                70.66%    passed     88.65%
+  22  CAD7460562.1                  24.94%    passed     99.27%
+  23  CAD7608289.1                  21.76%    passed     99.65%
+  24  CAD7425948.1                  21.76%    passed     99.96%
+  25  CAD7421995.1                  77.26%    passed     27.13%
+  26  XP_021932825.1                40.10%    passed     88.74%
+  27  GFG32241.1                    40.10%    passed     91.13%
+  28  PSN36004.1                    42.54%    passed     97.15%
+  29  KAJ9576892.1                  22.49%    passed     98.45%
+  30  XP_046677735.1                21.27%    passed     55.34%
+  31  KAJ8978486.1                  22.25%    failed      0.48%
+  32  XP_022918330.1                35.21%    passed     86.61%
+  33  XP_017774609.1                21.03%    passed     87.82%
+  34  XP_045579242.1                25.43%    passed     92.43%
+  35  ENSSSAP00000142529.1          13.20%    passed     98.59%
+  36  ACI67141.1                    23.96%    passed     95.44%
+  37  XP_041710283.1                16.87%    passed     99.21%
+  38  XP_046222446.1                11.98%    passed     84.25%
+  39  XP_029530907.1                53.79%    passed     95.09%
+  40  ENSOTSP00005047348.2          46.45%    passed     93.41%
+  41  XP_052351636.1                52.57%    passed     91.94%
+  42  XP_035613766.1                13.94%    passed     90.03%
+  43  ENSPNAP00000073957.1          12.47%    passed     99.32%
+  44  XP_017549840.1                12.47%    passed     99.32%
+  45  XP_036449584.1                12.47%    passed     88.28%
+  46  KAI4889549.1                  12.47%    passed     97.88%
+  47  ENSAMXP00000017774.2          11.49%    passed     98.59%
+  48  XP_048048193.1                11.98%    passed     99.95%
+  49  XP_056101595.1                15.16%    passed     99.69%
+  50  XP_039523815.1                15.65%    passed     99.88%
+  51  XP_050988515.1                12.47%    passed     85.48%
+  52  XP_016424278.1                12.22%    passed     95.41%
+  53  KAF4102394.1                  12.22%    passed     80.18%
+  54  QYC64595.1                    11.98%    passed     89.02%
+  55  XP_026085383.1                12.47%    passed     93.79%
+  56  ENSCCRP00000122702.1          12.22%    passed     98.08%
+  57  XP_056333018.1                12.22%    passed     97.48%
+  58  TRY86237.1                    35.21%    passed     99.99%
+  59  XP_043118881.1                15.16%    passed     99.74%
+  60  XP_052001666.1                12.47%    passed     99.87%
+  61  XP_051579444.1                12.47%    passed     94.66%
+  62  XP_055027669.1                13.45%    passed     98.01%
+  63  XP_056624468.1                13.45%    passed     80.14%
+  64  XP_057200054.1                13.45%    passed     90.38%
+  65  XP_030642436.1                11.74%    passed     72.21%
+  66  TSN67114.1                    25.43%    passed     79.48%
+  67  XP_058254342.1                14.18%    passed     99.43%
+  68  KAF4083969.1                  14.18%    passed     99.93%
+  69  MCJ8736962.1                  12.96%    passed     98.25%
+  70  XP_027027754.2                14.91%    passed     98.82%
+  71  XP_053365134.1                14.43%    passed     85.34%
+  72  XP_046711772.1                15.40%    passed     99.84%
+  73  KAJ7989172.1                  12.22%    passed     93.80%
+  74  NP_001290633.1                13.69%    passed     97.13%
+  75  KAG9336167.1                  25.67%    passed     99.66%
+  76  KAI1895789.1                  12.22%    passed     99.92%
+  77  KAJ8398199.1                  12.71%    passed     98.72%
+  78  KAJ8353134.1                  13.45%    passed     98.32%
+  79  KAJ8288629.1                  14.67%    passed     99.68%
+  80  XP_036398484.1                11.98%    passed     98.82%
+  81  KAG7465832.1                  12.22%    passed     99.77%
+  82  KAG5857295.1                  13.45%    passed     99.92%
+  83  ENSCHAP00020026859.1          13.20%    passed     88.10%
+  84  KAG5266010.1                  13.45%    passed     98.21%
+  85  ENSDCDP00010009653.1          18.34%    passed     99.85%
+  86  XP_041105577.1                14.43%    passed     99.14%
+  87  XP_033859570.1                14.67%    passed     94.29%
+  88  XP_046870229.1                13.94%    passed     98.82%
+  89  XP_054470585.1                13.20%    passed     98.21%
+  90  XP_031703816.1                13.45%    passed     99.27%
+  91  QDI02255.1                    14.67%    passed     96.26%
+  92  KAF1374816.1                  14.91%    passed     96.67%
+  93  XP_032356280.1                14.67%    passed     99.07%
+  94  GLD67742.1                    14.43%    passed     99.67%
+  95  ACH87133.1                    13.45%    passed     99.93%
+  96  XP_042357105.1                13.69%    passed     99.98%
+  97  CAG5866486.1                  15.16%    passed     99.75%
+  98  XP_041828501.1                14.18%    passed     98.29%
+  99  ADJ57695.1                    13.45%    passed     89.86%
+ 100  XP_027130985.1                13.20%    passed     78.72%
+ 101  BAM36390.1                    13.45%    passed     85.19%
+ 102  XP_038585652.1                13.45%    passed     96.82%
+ 103  ABO48449.1                    13.45%    passed     96.58%
+ 104  ABO48448.1                    13.45%    passed     98.30%
+ 105  ABO48457.1                    13.45%    passed     94.87%
+ 106  XP_041809496.1                13.45%    passed     97.87%
+ 107  XP_035529319.1                12.96%    passed     98.92%
+ 108  XP_046269307.1                14.43%    passed     91.63%
+ 109  ENSSAUP00010065604.1          13.94%    passed     99.68%
+ 110  XP_041668896.1                13.45%    passed     99.75%
+ 111  ENSLBEP00000018363.1          13.20%    passed     97.68%
+ 112  XP_034531513.1                13.45%    passed     93.20%
+ 113  XP_047466158.1                12.96%    passed     97.39%
+ 114  QLQ34401.1                    13.20%    passed     88.58%
+ 115  ENSAPEP00000029030.1          12.96%    passed     98.48%
+ 116  ENSAPOP00000010285.1          12.71%    passed     87.93%
+ 117  QTY39056.1                    14.18%    passed     99.92%
+ 118  XP_030574475.1                13.45%    passed     92.49%
+ 119  XP_042243723.1                13.94%    passed     97.72%
+ 120  XP_034078249.1                13.45%    passed     98.75%
+ 121  XP_056283127.1                13.69%    passed     99.94%
+ 122  TNN80209.1                    14.18%    passed     99.21%
+ 123  ENSCLMP00005042229.1          13.94%    passed    100.00%
+ 124  XP_040916985.1                14.18%    passed     99.59%
+ 125  XP_039993693.1                14.43%    passed     99.27%
+ 126  KAG7224205.1                  14.91%    passed     99.95%
+ 127  XP_022606187.1                14.43%    passed     90.93%
+ 128  XP_056250352.1                14.43%    passed     99.26%
+ 129  XP_053191845.1                13.94%    passed     99.17%
+ 130  ENSCGOP00000053339.1          14.91%    passed     98.80%
+ 131  ENSATEP00000020446.2          13.45%    passed     97.70%
+ 132  ENSFHEP00000011208.1          13.45%    passed     99.94%
+ 133  XP_047201327.1                13.20%    passed     81.26%
+ 134  XP_043998346.1                14.43%    passed     95.86%
+ 135  ENSPFOP00000012001.1          14.18%    passed     95.33%
+ 136  XP_015230135.1                13.45%    passed     99.99%
+ 137  ENSKMAP00000010302.1          14.43%    passed    100.00%
+ 138  XP_037551462.1                16.38%    passed     99.97%
+ 139  XP_037341962.1                15.16%    passed     99.99%
+ 140  ENSGACP00000040058.1          13.20%    passed     99.55%
+ 141  XP_056237361.1                15.16%    passed     99.73%
+ 142  XP_029349331.1                14.91%    passed     97.33%
+ 143  XP_020446533.1                13.69%    passed     86.76%
+ 144  XP_029981761.1                13.69%    passed     99.69%
+ 145  ENSMMDP00005016391.1          12.22%    passed     96.17%
+ 146  ENSOJAP00000039359.1          13.69%    passed     99.90%
+ 147  ENSORLP00000031822.1          13.94%    passed     99.35%
+ 148  XP_028251141.1                14.43%    passed     92.56%
+ 149  KAF3701161.1                  13.94%    passed     99.42%
+ 150  ENSMAMP00000012329.1          17.36%    passed     97.39%
+ 151  ENSNFUP00015021239.1          14.67%    passed     99.70%
+ 152  XP_054909200.1                18.58%    passed     99.49%
+ 153  XP_057947097.1                15.65%    passed    100.00%
+ 154  XP_054652741.1                15.16%    passed     99.87%
+ 155  XP_049597232.1                14.67%    passed     92.60%
+ 156  XP_037096602.1                14.67%    passed     94.86%
+ 157  XP_051941248.1                14.91%    passed     97.99%
+ 158  XP_057716201.1                14.91%    passed     99.38%
+ 159  XP_053701681.1                13.20%    passed     99.90%
+ 160  XP_028994163.1                15.16%    passed     99.93%
+ 161  XP_056152034.1                11.98%    passed     98.15%
+ 162  XP_039604790.1                34.72%    passed     92.75%
+ 163  ENSECRP00000015273.1          14.67%    passed     99.52%
+ 164  MBN3310308.1                  14.67%    passed     99.65%
+ 165  ENSLOCP00000020777.1          14.43%    passed     96.91%
+ 166  KAJ3580992.1                  19.80%    passed     97.84%
+ 167  XP_056446274.1                16.87%    passed     99.43%
+ 168  KAG7259900.1                  17.60%    passed     93.72%
+ 169  TNM95377.1                    15.89%    passed    100.00%
+ 170  CAG10497.1                    14.91%    passed     99.99%
+ 171  ENSSFOP00015016412.2          12.71%    passed     99.34%
+ 172  UOV22668.1                    14.18%    passed     99.47%
+ 173  ENSPKIP00000002685.1          15.16%    passed     97.71%
+ 174  XP_048830767.1                12.47%    passed     99.87%
+ 175  CAD5111934.1                  39.12%    passed     94.99%
+ 176  KAH0621994.1                  40.10%    passed     81.49%
+ 177  ENSACAP00000037988.1          15.65%    passed     88.94%
+ 178  XP_020633000.1                17.11%    passed     98.68%
+ 179  KAF7247795.1                  18.34%    passed     97.94%
+ 180  XP_053141823.1                15.89%    passed     78.50%
+ 181  XP_015682939.1                16.87%    passed     92.21%
+ 182  ENSPTXP00000015863.1          16.63%    passed     94.48%
+ 183  XP_058034052.1                16.87%    passed     81.24%
+ 184  ENSNNAP00000016666.1          19.32%    passed     93.62%
+ 185  XP_025021557.1                23.23%    passed     95.93%
+ 186  ENSNSUP00000028783.1          22.98%    passed     83.30%
+ 187  XP_034965781.1                17.11%    passed     98.61%
+ 188  XP_048361908.1                15.65%    passed     93.13%
+ 189  XP_054838027.1                17.85%    passed     97.74%
+ 190  XP_015284495.1                17.60%    passed     76.59%
+ 191  XP_056712534.1                18.83%    passed     90.68%
+ 192  XP_019348212.1                17.85%    passed     99.29%
+ 193  NXS04813.1                    37.90%    passed     99.75%
+ 194  NXU60598.1                    13.69%    passed     99.99%
+ 195  NXB68679.1                    13.45%    passed     98.71%
+ 196  NXC00176.1                    13.94%    passed     97.64%
+ 197  XP_056343117.1                13.94%    passed     98.44%
+ 198  NXO40634.1                    14.67%    passed     99.81%
+ 199  NXB77924.1                    13.45%    passed     97.82%
+ 200  XP_031960373.1                13.94%    passed     98.44%
+ 201  NXY05949.1                    13.45%    passed     99.37%
+ 202  NXI04161.1                    13.45%    passed     98.95%
+ 203  NWV76360.1                    13.94%    passed     99.76%
+ 204  NXU09280.1                    13.94%    passed     99.82%
+ 205  NXA74177.1                    14.67%    passed     98.19%
+ 206  NWI02021.1                    14.91%    passed     98.81%
+ 207  NXC94127.1                    14.18%    passed     99.70%
+ 208  NXU99802.1                    13.45%    passed     99.99%
+ 209  XP_041277945.1                14.43%    passed     99.84%
+ 210  KAF2982166.1                  13.20%    passed     99.54%
+ 211  XP_005521939.1                13.45%    passed     97.80%
+ 212  NWS91484.1                    13.45%    passed     98.24%
+ 213  NXU05019.1                    13.45%    passed     98.12%
+ 214  KAF4790487.1                  14.18%    passed     99.04%
+ 215  NWZ44583.1                    14.43%    passed     99.89%
+ 216  XP_032540316.1                13.20%    passed     99.86%
+ 217  NXU85869.1                    13.20%    passed     99.94%
+ 218  NWI61507.1                    13.69%    passed    100.00%
+ 219  NWI89760.1                    15.89%    passed    100.00%
+ 220  NXY24751.1                    13.45%    passed     95.00%
+ 221  NWV70508.1                    13.69%    passed     99.28%
+ 222  NWV28118.1                    14.18%    passed     98.72%
+ 223  NWW82771.1                    11.74%    passed     94.44%
+ 224  NWV15125.1                    13.94%    passed     97.90%
+ 225  NXL73023.1                    15.40%    passed     97.58%
+ 226  NXH41055.1                    16.38%    passed     99.57%
+ 227  NXS07547.1                    13.45%    passed     99.98%
+ 228  XP_051471480.1                12.96%    passed     99.37%
+ 229  NWW96862.1                    17.11%    passed     99.41%
+ 230  XP_013155186.2                10.76%    passed     94.95%
+ 231  NXJ99485.1                    11.98%    passed     92.80%
+ 232  XP_052666018.1                10.76%    passed     87.80%
+ 233  XP_049674508.1                11.98%    passed     90.49%
+ 234  XP_050750783.1                11.25%    passed     90.54%
+ 235  NWX14079.1                    24.94%    passed     99.72%
+ 236  NXG61536.1                    12.96%    passed     99.59%
+ 237  NXJ84097.1                    12.96%    passed     98.48%
+ 238  NXI46972.1                    12.47%    passed     88.78%
+ 239  NXH20544.1                    12.47%    passed     91.72%
+ 240  NXG69339.1                    19.32%    passed     99.89%
+ 241  NXD86174.1                    12.47%    passed     98.98%
+ 242  NWI67408.1                    11.98%    passed     94.44%
+ 243  NXY85850.1                    12.47%    passed     98.50%
+ 244  NXL32411.1                    11.74%    passed     98.44%
+ 245  XP_032865737.2                13.69%    passed     85.11%
+ 246  NWZ21983.1                    11.49%    passed     88.94%
+ 247  NXI63602.1                    16.63%    passed     91.00%
+ 248  NXN45887.1                    12.71%    passed     93.64%
+ 249  NXN28603.1                    12.47%    passed     99.25%
+ 250  XP_014812245.1                12.47%    passed     91.55%
+ 251  NWU48723.1                    11.98%    passed     98.23%
+ 252  NXT48512.1                    11.74%    passed     89.13%
+ 253  NXA29361.1                    11.98%    passed     92.73%
+ 254  NXL10441.1                    11.49%    passed     96.04%
+ 255  NWU71090.1                    10.27%    passed     87.02%
+ 256  NXQ85212.1                    13.94%    passed     91.68%
+ 257  NWX48035.1                    11.49%    passed     90.97%
+ 258  NXX20555.1                    12.96%    passed     92.15%
+ 259  NWS73072.1                    12.47%    passed     92.02%
+ 260  NXE15256.1                    12.71%    passed     86.81%
+ 261  XP_054678492.1                11.98%    passed     99.06%
+ 262  NXO53203.1                    13.45%    passed     96.70%
+ 263  NXP44285.1                    14.18%    passed     98.39%
+ 264  NXV81446.1                    11.25%    passed     94.50%
+ 265  NXL60032.1                    10.76%    passed     90.81%
+ 266  NXW49018.1                    11.49%    passed     90.84%
+ 267  NWU97244.1                    22.74%    passed     99.95%
+ 268  NXN92480.1                    14.67%    passed    100.00%
+ 269  XP_057287752.1                11.49%    passed     94.53%
+ 270  NXK77877.1                    11.49%    passed     99.17%
+ 271  XP_025952932.1                11.74%    passed     79.81%
+ 272  XP_025923035.1                11.49%    passed     94.12%
+ 273  NXE75609.1                    13.69%    passed     87.78%
+ 274  XP_009819628.1                36.19%    passed     93.56%
+ 275  NWR76881.1                    12.71%    passed     92.36%
+ 276  XP_053918781.1                12.96%    passed     98.98%
+ 277  ENSACCP00020006976.1          12.47%    passed     78.20%
+ 278  ENSCJPP00005009843.1          12.96%    passed     99.81%
+ 279  OXB65716.1                    12.96%    passed     98.46%
+ 280  NXC38952.1                    12.96%    passed     92.65%
+ 281  NXS59378.1                    11.74%    passed     97.82%
+ 282  NXC14296.1                    12.47%    passed     98.26%
+ 283  NXS94795.1                    17.11%    passed     99.75%
+ 284  NXX87264.1                    12.22%    passed     97.63%
+ 285  NXA53687.1                    21.03%    passed     99.90%
+ 286  NWI19508.1                    12.96%    passed     94.25%
+ 287  NXA38874.1                    12.96%    passed     98.86%
+ 288  NWH66505.1                    28.36%    passed     87.59%
+ 289  NXX47970.1                    12.71%    passed     97.78%
+ 290  NXP74804.1                    40.34%    passed     48.23%
+ 291  NXF91913.1                    12.47%    passed     87.43%
+ 292  XP_009902325.2                12.47%    passed     98.55%
+ 293  XP_054239726.1                12.47%    passed     97.00%
+ 294  NXG49324.1                    13.69%    passed     74.85%
+ 295  XP_008494835.2                11.98%    passed     99.96%
+ 296  ENSGFOP00000012248.1          18.83%    passed     99.83%
+ 297  ENSPSIP00000007318.1          15.40%    passed     99.76%
+ 298  XP_007053248.2                13.20%    passed     99.66%
+ 299  ENSCPBP00000019602.1          13.20%    passed     89.91%
+ 300  OPJ73536.1                    26.41%    passed     99.85%
+ 301  ENSSPUP00000013976.1          13.69%    passed     98.88%
+ 302  ENSSMRP00000008043.1          16.63%    passed     97.02%
+ 303  KAG9465400.1                  40.10%    passed     44.01%
+ 304  XP_056420101.1                15.16%    passed     36.16%
+ 305  KAG8544531.1                  15.40%    passed     74.61%
+ 306  CAJ0947550.1                  15.40%    passed     64.19%
+ 307  XP_040283460.1                28.61%    passed     83.31%
+ 308  XP_040283458.1                15.40%    passed     77.92%
+ 309  XP_018413222.1                15.89%    passed     97.15%
+ 310  CAI9537152.1                  22.00%    passed     97.63%
+ 311  XP_040204583.1                15.89%    passed     94.19%
+ 312  XP_053315718.1                15.40%    passed     57.17%
+ 313  ENSLLEP00000035090.1          12.47%    passed     40.83%
+ 314  CAH2246235.1                  16.38%    passed     58.22%
+ 315  XP_018121407.1                15.16%    passed     98.06%
+ 316  ENSXETP00000055855.2          11.74%    passed     91.49%
+ 317  OCT81205.1                    13.69%    passed     97.91%
+ 318  KAG8445603.1                  15.65%    passed     98.56%
+ 319  XP_053564921.1                15.16%    passed     73.23%
+ 320  ELK29142.1                    42.79%    passed     14.52%
+ 321  XP_015420421.1                21.76%    failed      4.37%
+ 322  XP_014396024.1                 8.56%    failed      0.24%
+ 323  EPQ08443.1                    40.10%    passed     39.73%
+ 324  XP_054584312.1                13.20%    passed     30.88%
+ 325  XP_036286197.2                11.25%    failed      1.62%
+ 326  XP_036119254.1                24.69%    passed     87.81%
+ 327  XP_036119253.1                11.49%    passed     86.05%
+ 328  XP_054425961.1                12.22%    passed     62.20%
+ 329  XP_016054690.1                11.49%    passed     73.82%
+ 330  XP_037007706.1                13.69%    passed     86.58%
+ 331  XP_036904566.1                14.18%    passed     89.76%
+ 332  XP_045045499.2                11.98%    passed     49.06%
+ 333  KAF6106044.1                  10.51%    passed     93.54%
+ 334  XP_028370625.1                10.51%    passed     95.16%
+ 335  XP_045700472.1                10.27%    passed     68.22%
+ 336  XP_040351921.1                24.45%    passed     96.65%
+ 337  XP_032448618.1                11.00%    passed     85.24%
+ 338  VFV38447.1                    17.11%    passed     86.75%
+ 339  XP_041610151.1                11.74%    passed     98.26%
+ 340  XP_055182947.1                24.94%    passed     99.40%
+ 341  XP_035970429.1                11.25%    passed     98.45%
+ 342  KAF3826923.1                  11.25%    passed     99.54%
+ 343  XP_026374076.1                11.25%    passed     99.54%
+ 344  XP_022369248.1                11.00%    passed     97.63%
+ 345  XP_044940850.1                11.00%    passed     93.77%
+ 346  XP_039103227.1                11.25%    passed     99.40%
+ 347  KAF5917279.1                  11.49%    passed     99.83%
+ 348  ENSECAP00000040709.1          11.74%    passed     98.50%
+ 349  XP_019501821.1                11.49%    passed     95.13%
+ 350  ENSRFEP00010014952.1          11.49%    passed     99.99%
+ 351  XP_019613176.1                11.49%    passed     99.91%
+ 352  XP_006910280.1                11.25%    passed     98.87%
+ 353  XP_015976572.2                11.25%    passed     53.80%
+ 354  ENSLAFP00000014333.3          11.98%    passed     99.94%
+ 355  XP_006864038.1                12.22%    passed     99.65%
+ 356  XP_007933316.1                12.22%    passed     99.71%
+ 357  XP_006895798.1                24.45%    passed     98.82%
+ 358  XP_004696068.1                12.22%    passed     99.70%
+ 359  XP_010357526.2                11.74%    passed     96.00%
+ 360  EHH21870.1                    11.98%    passed     93.28%
+ 361  AFO10975.1                    11.74%    passed     97.12%
+ 362  ENSTSYP00000009222.2          11.49%    passed     99.99%
+ 363  ENSPCOP00000003285.1          11.74%    passed     95.99%
+ 364  ENSMICP00000030911.1          10.76%    passed     89.54%
+ 365  XP_008577707.1                11.25%    passed     99.62%
+ 366  XP_053445021.1                11.49%    passed     96.98%
+ 367  ENSOGAP00000017589.1          11.49%    passed     99.04%
+ 368  XP_037669100.1                11.74%    passed     99.12%
+ 369  ENSDNOP00000029469.1          11.49%    passed     99.97%
+ 370  XP_044782225.1                24.45%    passed     99.99%
+ 371  KAG5211195.1                  11.25%    passed     99.78%
+ 372  XP_057598186.1                11.49%    passed     99.90%
+ 373  KAI5938734.1                  15.16%    passed     99.95%
+ 374  XP_047638662.1                11.49%    passed     99.99%
+ 375  ENSCWAP00000012787.1          11.74%    passed     96.58%
+ 376  KAB0391237.1                  11.49%    passed    100.00%
+ 377  ENSPSNP00000031142.1          11.49%    passed    100.00%
+ 378  ENSPCTP00005015523.1          11.49%    passed     99.97%
+ 379  KAB1266923.1                  11.74%    passed     43.27%
+ 380  ENSCDRP00005022059.1          15.65%    passed     76.97%
+ 381  ENSUPAP00010015364.1          11.74%    passed     95.99%
+ 382  ENSSVLP00005026422.1          11.98%    passed     93.67%
+ 383  MBZ3885285.1                  24.21%    passed     97.40%
+ 384  XP_037384458.1                12.71%    passed     87.52%
+ 385  ENSMAUP00000006847.1          16.38%    passed    100.00%
+ 386  XP_040586743.1                11.49%    passed    100.00%
+ 387  XP_036027144.1                11.74%    passed     99.95%
+ 388  XP_051061923.1                11.74%    passed    100.00%
+ 389  XP_051000153.1                12.22%    passed     97.61%
+ 390  XP_021506952.1                12.22%    passed     98.08%
+ 391  MGP_CAROLIEiJ_P0032021.None   11.49%    passed     99.75%
+ 392  XP_031212250.1                11.49%    passed     99.90%
+ 393  XP_049997840.1                11.74%    passed     99.93%
+ 394  ENSNGAP00000021308.1          11.98%    passed     99.12%
+ 395  XP_005366611.1                37.90%    passed     83.15%
+ 396  ENSODEP00000000606.1          12.47%    passed     94.04%
+ 397  ENSCLAP00000002988.1          12.47%    passed     92.90%
+ 398  ENSHGLP00000000489.2          12.47%    passed     87.11%
+ 399  XP_010620963.1                14.18%    passed     62.61%
+ 400  ENSCPOP00000007290.2          12.47%    passed     91.71%
+ 401  ENSJJAP00000011183.1          11.74%    passed     99.76%
+ 402  ENSOCUP00000010461.3          11.25%    passed     99.72%
+ 403  XP_040848709.1                11.74%    passed     99.69%
+ 404  XP_012869135.1                11.25%    passed     87.40%
+ 405  XP_048209417.1                11.00%    passed     50.85%
+ 406  XP_049640491.1                11.98%    passed     99.38%
+ 407  XP_004609432.2                11.74%    passed    100.00%
+ 408  XP_055983331.1                12.47%    passed    100.00%
+ 409  ELW62399.1                    11.49%    passed     94.06%
+ 410  XP_029794214.1                24.69%    passed     98.88%
+ 411  XP_029794213.1                11.49%    passed     99.65%
+ 412  XP_007522315.1                11.49%    passed     94.90%
+ 413  ENSPCIP00000019570.2          16.14%    passed     98.99%
+ 414  XP_043843600.1                12.22%    passed     95.81%
+ 415  ENSVURP00010013354.1          12.22%    passed     99.05%
+ 416  XP_036607013.1                12.22%    passed     95.42%
+ 417  ENSSHAP00000025222.1          12.47%    passed     95.26%
+ 418  XP_038595862.1                12.22%    passed     69.39%
+ 419  ENSOANP00000036666.1          12.22%    passed     65.86%
+ 420  XP_032877533.1                29.58%    passed     90.92%
+ 421  XP_032877532.1                16.38%    passed     97.25%
+ 422  XP_051880712.1                16.63%    passed     97.39%
+ 423  XP_020385707.2                30.07%    passed     96.79%
+ 424  XP_048387601.1                16.87%    passed     99.68%
+ 425  GCC23882.1                    16.63%    passed     98.76%
+ 426  XP_041044541.1                16.63%    passed     91.57%
+ 427  XP_038656226.1                16.87%    passed     98.46%
+ 428  ENSCMIP00000018018.1          16.63%    passed     98.93%
+ 429  ENSLACP00000010135.1          15.40%    passed     99.74%
+ 430  CAB4042280.1                  84.11%    passed     58.87%
+ 431  XP_028393232.1                20.54%    passed     70.18%
+ 432  XP_046847254.1                22.98%    passed     88.75%
+ 433  KAH3720912.1                  45.97%    passed     98.86%
+ 434  XP_052248741.1                13.20%    passed     73.38%
+ 435  KAH3720899.1                  13.20%    passed     56.40%
+ 436  XP_052246590.1                11.98%    passed     52.27%
+ 437  XP_052248745.1                25.43%    passed     99.93%
+ 438  KAH3716431.1                  62.59%    passed     98.53%
+ 439  KAH3794201.1                  66.50%    failed      0.17%
+ 440  XP_052805676.1                15.40%    passed     80.53%
+ 441  XP_009066833.1                26.41%    passed     86.08%
+ 442  XP_050388611.1                14.43%    passed     56.62%
+ 443  QKW90614.1                    17.36%    passed     77.99%
+ 444  XP_038072337.1                17.11%    passed     99.50%
+ 445  XP_038072336.1                16.14%    passed     94.77%
+ 446  XP_022108160.1                17.11%    passed     88.93%
+ 447  XP_033629499.1                18.34%    passed     85.40%
+ 448  XP_033633837.1                15.65%    passed     88.99%
+ 449  CAL36990.1                    21.76%    passed     80.29%
+ 450  XP_029973677.1                15.40%    passed     50.15%
+ 451  XP_011440389.2                16.87%    passed     89.28%
+ 452  XP_048760446.1                18.09%    passed     96.61%
+ 453  XP_022317272.1                16.38%    passed     76.00%
+ 454  XP_033755351.1                12.71%    passed     80.26%
+ 455  XP_019758945.1                15.65%    passed     85.14%
+ 456  CAG9764160.1                  19.32%    passed     44.26%
+ 457  XP_049808889.1                33.01%    passed     95.71%
+ 458  XP_049780032.1                19.80%    passed     96.64%
+ 459  KAG7216511.1                  28.12%    passed     99.95%
+ 460  KAG7241985.1                  79.46%    passed     45.72%
+ 461  ENSACLP00000082885.1          14.43%    passed     82.22%
+ 462  ENSSPAP00000025340.1          13.45%    passed     86.83%
+ 463  RMX34737.1                    18.34%    passed     94.63%
+ 464  XP_027055749.1                12.96%    passed     98.83%
+ 465  CAH3153057.1                  12.71%    passed     99.32%
+ 466  XP_022789939.1                12.71%    passed     96.56%
+ 467  XP_029207542.1                15.89%    passed     89.55%
+ 468  CAH3196963.1                  20.05%    passed     86.37%
+ 469  CAH3047033.1                  19.80%    passed     82.90%
+ 470  XP_020609387.1                14.43%    passed     95.59%
+ 471  ALM30210.1                    15.65%    passed     95.20%
+ 472  XP_019621395.1                15.65%    passed     83.41%
+ 473  KAI8508848.1                  18.09%    passed     63.02%
+ 474  CAH1267275.1                  14.91%    passed     94.23%
+ 475  XP_035680893.1                15.89%    passed     72.67%
+ 476  XP_043926482.1                13.20%    passed     80.39%
+ 477  XP_029451678.1                16.14%    passed     99.09%
+ 478  XP_030051014.1                11.98%    passed     96.73%
+ 479  XP_033793442.1                16.14%    passed     99.11%
+ 480  XP_003387827.2                19.56%    passed     99.83%
+ 481  XP_052132450.1                49.88%    passed     39.14%
+ 482  XP_052131272.1                54.52%    passed     75.82%
+ 483  XP_034236578.1                14.91%    passed     81.04%
+ 484  KAJ1523979.1                  16.87%    passed     91.97%
+ 485  XP_013392087.1                17.60%    passed     88.29%
+ 486  VDH95311.1                    12.96%    passed     89.38%
+ 487  XP_052085338.1                16.63%    passed     97.64%
+ 488  CAC5369516.1                  62.84%    passed     16.67%
+ 489  CAG2202418.1                  50.61%    passed     90.84%
+ 490  XP_054286555.1                21.03%    passed     82.75%
+ 491  KAJ6654074.1                  24.45%    passed     98.30%
+ 492  ENSEEEP00000037009.2          15.65%    passed     94.56%
+ 493  XP_032815191.1                14.43%    passed     13.29%
+ 494  KAF7669685.1                  21.52%    passed     65.49%
+ 495  XP_009665988.1                20.78%    passed     96.65%
+ 496  ENSHHUP00000019971.1          37.90%    passed     96.95%
+ 497  ENSHHUP00000066376.1          39.61%    passed     90.80%
+ 498  PAA55452.1                    14.91%    passed     45.73%
+ 499  XP_048589795.1                23.23%    passed     99.40%
+ 500  CAB4004537.1                  64.55%    passed     64.50%
+ 501  CAH0103197.1                  23.72%    passed     93.53%
+ 502  EFX71493.1                    26.89%    passed     77.71%
+ 503  SVE82954.1                    13.69%    passed     35.24%
+ 504  XP_026804307.1                17.85%    failed      1.72%
+ 505  CAI6351199.1                  19.07%    passed      6.88%
+ 506  XP_008184987.1                17.36%    passed      5.88%
+ 507  XP_016662105.1                20.05%    passed     25.35%
+ 508  XP_015367950.1                17.85%    passed     28.86%
+ 509  XP_022172501.1                17.85%    passed     33.99%
+ 510  KAF0719958.1                  19.07%    failed      0.70%
+ 511  KAE9544307.1                  17.85%    failed      0.07%
+ 512  XP_025192909.1                19.07%    failed      0.02%
+ 513  VVC30286.1                    18.83%    passed     18.97%
+ 514  VVC44368.1                    18.83%    failed      0.24%
+ 515  XP_044001464.1                21.03%    failed      1.66%
+ 516  ENSOKIP00005012444.1          37.41%    passed     84.62%
+ 517  ENSOMYP00000053656.2          39.85%    passed     69.92%
+ 518  ENSHHUP00000025872.1          18.58%    passed      7.23%
+ 519  UJR22688.1                    27.38%    passed     40.95%
+ 520  CAF1142612.1                   5.38%    passed     37.94%
+ 521  CAF0834735.1                  26.16%    passed     80.55%
+ 522  CAF3077283.1                  25.92%    failed      2.40%
+ 523  CAF0928169.1                  53.55%    passed     10.16%
+ 524  CAF1161478.1                  73.59%    passed     89.79%
+ 525  CAF3596200.1                  22.98%    failed      0.60%
+ 526  CAF1099268.1                  23.47%    passed      8.83%
+ 527  CAF1223186.1                  29.10%    passed     73.38%
+ 528  CAF1184620.1                  26.65%    failed      0.00%
+ 529  XP_053374426.1                16.38%    passed     57.78%
+ 530  XP_045170426.2                29.34%    passed     50.93%
+ 531  ENSAPLP00000005610.2          19.32%    passed     78.10%
+ 532  XP_050432677.1                50.86%    passed     86.47%
+ 533  XP_025892849.1                20.29%    passed     64.90%
+ 534  XP_020042898.1                41.56%    passed     99.10%
+ 535  XP_044515505.1                15.16%    passed     87.83%
+ 536  KAI3367679.1                  19.80%    passed     66.93%
+ 537  KAE8289963.1                  21.76%    passed     50.80%
+ 538  KAJ2949574.1                  25.18%    passed     19.90%
+ 539  KAI5651485.1                  41.08%    passed     47.43%
+ 540  XP_044594943.1                23.72%    failed      2.85%
+ 541  CAG5107272.1                  13.69%    passed      7.27%
+ 542  XP_021952089.1                19.80%    passed     14.25%
+ 543  CAG7829396.1                  21.76%    passed     75.20%
+ 544  KAJ6647669.1                  24.94%    passed     30.09%
+ 545  XP_037032413.1                25.43%    passed     31.42%
+ 546  XP_037041169.1                25.18%    passed     26.01%
+ 547  CAF0706666.1                  24.21%    failed      0.33%
+ 548  RNA29384.1                    38.14%    failed      0.53%
+ 549  KAG4076093.1                  54.77%    passed     69.24%
+ 550  CAI8006894.1                  18.34%    passed     82.19%
+ 551  XP_012582827.1                22.74%    failed      2.14%
+ 552  XP_013928693.1                39.36%    passed     35.88%
+ 553  RZB40288.1                    66.75%    passed     87.00%
+ 554  KAJ8314125.1                  61.12%    passed     70.69%
+ 555  PIO12685.1                    61.61%    passed     82.69%
+ 556  XP_016100409.1                66.99%    failed      1.89%
+ 557  XP_023583998.1                54.03%    passed     49.36%
+WARNING: 22 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                         18.53%  20 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: XP_017549840.1 is identical to ENSPNAP00000073957.1 but kept for subsequent analysis
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.440 seconds
+
+NOTE: 148 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.500)
+1. Initial log-likelihood: -99418.878
+2. Current log-likelihood: -96427.334
+3. Current log-likelihood: -96263.683
+4. Current log-likelihood: -96255.471
+5. Current log-likelihood: -96250.104
+Optimal log-likelihood: -96249.957
+Gamma shape alpha: 0.685
+Parameters optimization took 5 rounds (2.980 sec)
+Computing ML distances based on estimated model parameters...
+Computing ML distances took 4.123648 sec (of wall-clock time) 32.110980 sec(of CPU time)
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing RapidNJ tree took 0.055164 sec (of wall-clock time) 0.487112 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -97904.714
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+
+Do NNI search on 2 best initial trees
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 1: -96003.586
+Finish initializing candidate tree set (4)
+Current best tree score: -96003.586 / CPU time: 10.443
+Number of iterations: 2
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:21s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -96003.586
+Optimal log-likelihood: -96003.584
+Gamma shape alpha: 0.685
+Parameters optimization took 1 rounds (0.322 sec)
+BEST SCORE FOUND : -96003.584
+Total tree length: 139.245
+
+Total number of iterations: 2
+CPU time used for tree search: 83.286 sec (0h:1m:23s)
+Wall-clock time used for tree search: 10.451 sec (0h:0m:10s)
+Total CPU time used: 166.895 sec (0h:2m:46s)
+Total wall-clock time used: 21.361 sec (0h:0m:21s)
+
+Analysis results written to: 
+  IQ-TREE report:                final_metazoa_phylogenies/RSAD2/fast_tree/557_RSAD2_metazoa_100_bitscore_filtered_0.95-0.5.trimal.mafft.fasta.iqtree
+  Maximum-likelihood tree:       final_metazoa_phylogenies/RSAD2/fast_tree/557_RSAD2_metazoa_100_bitscore_filtered_0.95-0.5.trimal.mafft.fasta.treefile
+  Likelihood distances:          final_metazoa_phylogenies/RSAD2/fast_tree/557_RSAD2_metazoa_100_bitscore_filtered_0.95-0.5.trimal.mafft.fasta.mldist
+  Screen log file:               final_metazoa_phylogenies/RSAD2/fast_tree/557_RSAD2_metazoa_100_bitscore_filtered_0.95-0.5.trimal.mafft.fasta.log
+
+Date and Time: Thu Apr 23 13:55:23 2026

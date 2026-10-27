@@ -1,0 +1,125 @@
+IQ-TREE multicore version 2.1.3 COVID-edition for Linux 64-bit built Apr 21 2021
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    alpha2.cvr.gla.ac.uk (AVX512, FMA3, 4031 GB RAM)
+Command: iqtree2 -nt 8 -s final_metazoa_phylogenies/TTC39B/final_tree/53_TTC39B-like_mammalia_AA_curated.pal2nal.trimal.fasta -m GTR+G -fast
+Seed:    956865 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Apr 21 14:00:00 2026
+Kernel:  AVX+FMA - 8 threads (224 CPU cores detected)
+
+Reading alignment file final_metazoa_phylogenies/TTC39B/final_tree/53_TTC39B-like_mammalia_AA_curated.pal2nal.trimal.fasta ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 53 sequences with 1830 columns, 1233 distinct patterns
+1131 parsimony-informative, 201 singleton sites, 498 constant sites
+                Gap/Ambiguity  Composition  p-value
+   1  XP_038602592.1    5.74%    failed      0.00%
+   2  XP_049508215.1    3.61%    passed     89.83%
+   3  XP_045303036.1    3.61%    passed     97.44%
+   4  XP_040352501.1    0.82%    passed     84.64%
+   5  XP_026889394.2    3.61%    passed     99.58%
+   6  XP_046924413.1    3.61%    passed     95.49%
+   7  XP_025783215.1    3.61%    passed     87.97%
+   8  XP_039107170.1    3.61%    passed     99.25%
+   9  XP_035922045.1    3.61%    passed     99.34%
+  10  XP_032266221.1    3.61%    passed     99.89%
+  11  XP_045740405.1    3.61%    passed     99.52%
+  12  XP_034856841.1    3.61%    passed     99.48%
+  13  XP_030897129.1    3.61%    passed     99.77%
+  14  XP_021553387.1    3.61%    passed     98.82%
+  15  XP_004410054.1    3.61%    passed     93.22%
+  16  XP_025723879.1    3.61%    passed     91.44%
+  17  XP_022376246.1    3.61%    passed     96.07%
+  18  XP_047600658.1    3.61%    passed     97.17%
+  19  VCW50096.1        3.61%    passed     97.96%
+  20  XP_055183468.1    3.28%    passed     28.56%
+  21  XP_015443088.1    3.44%    failed      3.56%
+  22  XP_016017810.2    3.44%    passed      8.15%
+  23  XP_028370155.1    3.44%    passed     15.78%
+  24  XP_045684548.1    3.44%    passed     32.76%
+  25  XP_054421874.1    3.44%    passed     18.87%
+  26  XP_045045437.1    3.44%    passed     65.90%
+  27  XP_008521741.1    3.44%    passed     70.30%
+  28  XP_014647839.1    3.44%    passed     14.81%
+  29  XP_010966066.1    3.93%    passed     67.78%
+  30  XP_031540852.1    3.93%    passed     63.48%
+  31  KAI4577132.1      3.77%    passed     15.14%
+  32  XP_048209047.1    0.49%    passed     38.90%
+  33  XP_042531418.1    0.49%    passed     66.14%
+  34  XP_020017581.1    0.49%    passed     78.37%
+  35  XP_040848682.1    0.16%    passed     14.81%
+  36  XP_037384096.1    0.82%    passed     49.20%
+  37  XP_053443698.1    3.61%    passed     13.89%
+  38  XP_045405389.1    3.61%    passed     20.20%
+  39  XP_037662553.1    6.23%    passed     63.67%
+  40  XP_041487135.1    0.82%    passed      7.52%
+  41  XP_057638155.1    0.82%    passed     26.39%
+  42  XP_038173747.1    0.82%    passed     20.85%
+  43  XP_050019451.1    0.98%    passed     24.33%
+  44  XP_048272030.1    0.98%    passed     15.97%
+  45  XP_034369939.1    1.31%    passed     27.11%
+  46  XP_052040755.1    0.66%    passed     51.00%
+  47  XP_032763362.1    0.98%    passed     13.18%
+  48  XP_031213192.1    0.98%    passed     28.92%
+  49  XP_051009226.1    0.98%    failed      2.67%
+  50  XP_054330232.1    0.49%    passed     26.64%
+  51  XP_043837076.1    0.49%    passed     11.39%
+  52  XP_051831099.1    6.07%    failed      0.08%
+  53  XP_036605927.1    0.49%    failed      3.67%
+****  TOTAL             2.70%  5 sequences failed composition chi2 test (p-value<5%; df=3)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.009 seconds
+
+NOTE: 8 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.500)
+1. Initial log-likelihood: -25549.658
+2. Current log-likelihood: -24294.546
+3. Current log-likelihood: -24283.512
+Optimal log-likelihood: -24283.406
+Rate parameters:  A-C: 1.70426  A-G: 5.27543  A-T: 0.74132  C-G: 1.98936  C-T: 6.07869  G-T: 1.00000
+Base frequencies:  A: 0.321  C: 0.191  G: 0.204  T: 0.283
+Gamma shape alpha: 0.806
+Parameters optimization took 3 rounds (0.237 sec)
+Computing ML distances based on estimated model parameters...
+Computing ML distances took 0.006020 sec (of wall-clock time) 0.047914 sec(of CPU time)
+Computing RapidNJ tree took 0.002789 sec (of wall-clock time) 0.020662 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -24313.192
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+
+Do NNI search on 2 best initial trees
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 1: -24250.746
+Finish initializing candidate tree set (4)
+Current best tree score: -24250.746 / CPU time: 0.196
+Number of iterations: 2
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:0s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -24250.746
+Optimal log-likelihood: -24250.740
+Rate parameters:  A-C: 1.68915  A-G: 5.28069  A-T: 0.73252  C-G: 1.98547  C-T: 6.08025  G-T: 1.00000
+Base frequencies:  A: 0.321  C: 0.191  G: 0.204  T: 0.283
+Gamma shape alpha: 0.806
+Parameters optimization took 1 rounds (0.029 sec)
+BEST SCORE FOUND : -24250.740
+Total tree length: 3.693
+
+Total number of iterations: 2
+CPU time used for tree search: 1.700 sec (0h:0m:1s)
+Wall-clock time used for tree search: 0.196 sec (0h:0m:0s)
+Total CPU time used: 4.535 sec (0h:0m:4s)
+Total wall-clock time used: 0.549 sec (0h:0m:0s)
+
+Analysis results written to: 
+  IQ-TREE report:                final_metazoa_phylogenies/TTC39B/final_tree/53_TTC39B-like_mammalia_AA_curated.pal2nal.trimal.fasta.iqtree
+  Maximum-likelihood tree:       final_metazoa_phylogenies/TTC39B/final_tree/53_TTC39B-like_mammalia_AA_curated.pal2nal.trimal.fasta.treefile
+  Likelihood distances:          final_metazoa_phylogenies/TTC39B/final_tree/53_TTC39B-like_mammalia_AA_curated.pal2nal.trimal.fasta.mldist
+  Screen log file:               final_metazoa_phylogenies/TTC39B/final_tree/53_TTC39B-like_mammalia_AA_curated.pal2nal.trimal.fasta.log
+
+Date and Time: Tue Apr 21 14:00:01 2026

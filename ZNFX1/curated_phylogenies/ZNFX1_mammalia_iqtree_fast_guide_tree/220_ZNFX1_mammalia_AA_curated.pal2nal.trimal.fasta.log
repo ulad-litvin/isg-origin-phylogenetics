@@ -1,0 +1,293 @@
+IQ-TREE multicore version 2.1.3 COVID-edition for Linux 64-bit built Apr 21 2021
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    alpha2.cvr.gla.ac.uk (AVX512, FMA3, 4031 GB RAM)
+Command: iqtree2 -nt 8 -s final_metazoa_phylogenies/ZNFX1/final_tree/220_ZNFX1_mammalia_AA_curated.pal2nal.trimal.fasta -m GTR+G -fast
+Seed:    422298 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sat Apr 25 13:29:52 2026
+Kernel:  AVX+FMA - 8 threads (224 CPU cores detected)
+
+Reading alignment file final_metazoa_phylogenies/ZNFX1/final_tree/220_ZNFX1_mammalia_AA_curated.pal2nal.trimal.fasta ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 220 sequences with 5778 columns, 3959 distinct patterns
+3473 parsimony-informative, 502 singleton sites, 1803 constant sites
+                             Gap/Ambiguity  Composition  p-value
+   1  ENSP00000379412.1              0.47%    passed     86.36%
+   2  ENSPTRP00000023404.4           0.47%    passed     90.98%
+   3  ENSPPAP00000018156.1           0.47%    passed     92.46%
+   4  ENSGGOP00000008312.3           0.47%    passed     88.74%
+   5  ENSPPYP00000012419.3           0.47%    passed     85.33%
+   6  XP_055121488.1                 0.47%    passed     80.82%
+   7  XP_031999068.1                 0.47%    passed     83.61%
+   8  ENSNLEP00000008493.1           0.52%    passed     74.06%
+   9  XP_037838577.1                 0.47%    passed     74.89%
+  10  XP_050663379.1                 0.47%    passed     70.17%
+  11  ENSMFAP00000002903.1           0.47%    passed     71.28%
+  12  ENSMMUP00000069278.1           0.47%    passed     74.34%
+  13  ENSMLEP00000012144.1           0.47%    passed     75.15%
+  14  ENSCATP00000001270.1           0.47%    passed     70.17%
+  15  ENSPANP00000014641.3           0.47%    passed     70.39%
+  16  ENSRROP00000009280.1           0.47%    passed     73.28%
+  17  XP_023039898.1                 0.47%    passed     59.23%
+  18  XP_033042581.1                 0.47%    passed     92.15%
+  19  ENSRBIP00000034781.1           0.73%    passed     72.64%
+  20  ENSMNEP00000027608.1           1.09%    passed     63.04%
+  21  XP_011784579.1                 1.51%    passed     80.64%
+  22  ENSANAP00000032690.1           0.47%    passed     54.55%
+  23  ENSCJAP00000029683.2           0.52%    passed     46.28%
+  24  ENSSBOP00000015930.1           0.47%    passed     60.34%
+  25  ENSCCAP00000020252.1           0.47%    passed     40.91%
+  26  XP_032111924.1                 0.47%    passed     46.97%
+  27  ENSSVLP00005005373.1           0.10%    passed     79.96%
+  28  XP_047389923.1                 0.10%    passed     59.99%
+  29  XP_046289917.1                 0.10%    passed     28.73%
+  30  XP_027802226.1                 0.10%    passed     27.66%
+  31  ENSMMMP00000008215.1           1.61%    passed     24.46%
+  32  ENSUPAP00010027863.1           0.10%    passed     18.81%
+  33  ENSSTOP00000015469.2          11.99%    passed     22.31%
+  34  ENSCLAP00000009466.1           0.47%    failed      3.70%
+  35  ENSODEP00000008678.1           0.47%    failed      0.59%
+  36  ENSCPOP00000009828.2           0.47%    failed      0.02%
+  37  XP_010616538.1                 0.47%    failed      0.30%
+  38  ENSHGLP00000011243.2           0.16%    failed      0.03%
+  39  ENSNGAP00000025808.1           0.83%    passed     87.67%
+  40  XP_020025519.1                 0.10%    passed     97.73%
+  41  ENSTSYP00000016955.1           0.47%    passed     20.23%
+  42  XP_045385200.1                 0.52%    passed     87.69%
+  43  ENSPSMP00000017505.1           0.78%    passed     94.70%
+  44  ENSPCOP00000000521.1           0.52%    passed     87.02%
+  45  ENSMICP00000044924.1           0.52%    passed     50.46%
+  46  XP_053430065.1                 0.57%    failed      4.46%
+  47  ENSOGAP00000001907.2           0.57%    passed      7.44%
+  48  XP_006141344.1                 0.52%    passed     45.09%
+  49  XP_006206730.1                 0.42%    passed     93.97%
+  50  ENSCDRP00005019733.1           0.47%    passed     95.25%
+  51  EPY88320.1                     2.23%    passed     96.40%
+  52  ENSPSNP00000030112.1           0.42%    passed     80.50%
+  53  XP_024606023.1                 0.42%    passed     80.34%
+  54  ENSDLEP00000002985.1           0.42%    passed     85.16%
+  55  ENSMMNP00015002118.1           0.42%    passed     81.51%
+  56  XP_030694872.1                 0.47%    passed     85.71%
+  57  XP_004282934.1                 0.42%    passed     77.46%
+  58  XP_026942847.1                 0.42%    passed     83.91%
+  59  ENSTTRP00000004035.1           0.42%    passed     89.88%
+  60  XP_007446455.1                 0.42%    passed     94.75%
+  61  NIG60940.1                    54.21%    passed      5.65%
+  62  XP_057384715.1                 0.42%    passed     76.05%
+  63  ENSBMSP00010026493.1           1.51%    passed     84.81%
+  64  ENSPCTP00005008172.1           0.42%    passed     76.48%
+  65  MBV96767.1                    54.41%    passed     59.71%
+  66  XP_057558022.1                 0.47%    passed     35.08%
+  67  ENSUMAP00000033955.1           0.42%    passed     95.22%
+  68  XP_026359487.2                 0.42%    passed     95.12%
+  69  ENSUAMP00000033560.1           0.16%    passed     94.78%
+  70  ENSAMEP00000014346.1           0.42%    passed     98.63%
+  71  ENSNVIP00000010134.1           0.42%    passed     72.57%
+  72  ENSMPUP00000017458.1           6.65%    passed     90.11%
+  73  XP_032206281.1                 0.42%    passed     79.21%
+  74  XP_032734898.1                 0.42%    passed     72.46%
+  75  XP_022349964.1                 0.42%    passed     84.63%
+  76  XP_047601973.1                 0.42%    passed     71.65%
+  77  KAI5770462.1                   0.42%    passed     82.20%
+  78  XP_045837709.1                 0.42%    passed     45.56%
+  79  XP_035976887.1                 0.42%    passed     90.91%
+  80  XP_032243424.1                 0.42%    passed     91.59%
+  81  XP_021541573.1                 0.42%    passed     86.46%
+  82  XP_030882395.1                 0.42%    passed     79.21%
+  83  XP_045741894.1                 0.42%    passed     76.71%
+  84  XP_034881266.1                 0.42%    passed     75.99%
+  85  XP_025709193.1                 0.57%    passed     95.91%
+  86  XP_027980985.1                 0.57%    passed     96.40%
+  87  XP_027479392.1                 0.57%    passed     95.05%
+  88  XP_004412584.1                 0.42%    passed     88.44%
+  89  XP_046924920.1                 0.42%    passed     91.90%
+  90  VFV22183.1                     0.42%    passed     91.98%
+  91  ENSFCTP00005046715.1           0.42%    passed     85.74%
+  92  XP_030165295.1                 0.42%    passed     94.11%
+  93  XP_043409637.1                 0.42%    passed     89.65%
+  94  XP_025788102.1                 0.42%    passed     88.94%
+  95  XP_026902518.1                 0.42%    passed     90.83%
+  96  XP_045300234.1                 0.42%    passed     90.99%
+  97  XP_047708631.1                 0.42%    passed     88.80%
+  98  ENSPTIP00000011074.1           0.47%    passed     97.51%
+  99  XP_049506585.1                 0.47%    passed     96.17%
+ 100  ENSPPRP00000015774.1           0.47%    passed     98.85%
+ 101  ENSPLOP00000003112.1           6.70%    passed     96.04%
+ 102  XP_040315645.1                 0.42%    passed     90.35%
+ 103  XP_039085936.1                 0.42%    passed     75.64%
+ 104  XP_029774683.1                 0.42%    passed     88.30%
+ 105  ENSCAFP00845034143.1           0.42%    passed     36.29%
+ 106  ENSVVUP00000030613.1           0.42%    passed     35.69%
+ 107  XP_055158101.1                 0.42%    passed     37.76%
+ 108  ENSCAFP00020022028.1           0.21%    passed     55.93%
+ 109  XP_008538676.1                 0.47%    passed     81.13%
+ 110  ENSEASP00005034127.2           0.47%    passed     82.42%
+ 111  XP_046534267.1                 0.47%    passed     82.30%
+ 112  ENSECAP00000046411.3           0.47%    passed     79.93%
+ 113  XP_014642833.1                 0.52%    passed     97.40%
+ 114  KAF5917438.1                   1.66%    passed     99.54%
+ 115  XP_036862158.1                 0.47%    passed     85.79%
+ 116  XP_036757918.1                 0.47%    passed     77.53%
+ 117  ENSCWAP00000007514.1           0.42%    passed     97.31%
+ 118  XP_047626854.1                 0.10%    passed     99.10%
+ 119  ENSSSCP00000019450.3           0.47%    passed     97.14%
+ 120  XP_055249233.1                 0.47%    passed     55.77%
+ 121  ENSMMSP00000001142.1           0.47%    passed     54.42%
+ 122  XP_025119094.2                 0.42%    passed     55.55%
+ 123  XP_055401227.1                 0.42%    passed     57.31%
+ 124  ENSBTAP00000026859.3           0.42%    passed     58.52%
+ 125  ENSBIXP00005015691.1           0.42%    passed     61.98%
+ 126  ENSBMUP00000015669.1           0.42%    passed     53.46%
+ 127  ENSBBBP00000001903.1           0.42%    passed     61.98%
+ 128  ENSCHYP00000038952.1           0.42%    passed      5.39%
+ 129  XP_043334647.1                 0.42%    passed      5.97%
+ 130  XP_043738820.1                 0.42%    passed      5.68%
+ 131  XP_020761878.1                 0.42%    passed      6.17%
+ 132  CAI9712714.1                   0.42%    failed      4.46%
+ 133  KAB0383722.1                   0.62%    passed      8.47%
+ 134  KAB0347586.1                   0.67%    passed      8.29%
+ 135  XP_052506977.1                 0.42%    passed     44.86%
+ 136  KAI4575893.1                   0.42%    passed     62.40%
+ 137  ENSOARP00020065027.1           0.42%    passed     59.34%
+ 138  ENSCHIP00000019371.1           0.42%    passed     67.26%
+ 139  XP_040104046.1                 0.42%    passed     28.33%
+ 140  ENSBGRP00000040637.1           1.87%    passed     47.39%
+ 141  ENSRFEP00010022559.1           0.26%    passed     79.24%
+ 142  XP_019611724.1                 0.26%    passed     50.33%
+ 143  XP_019496479.1                 0.52%    passed     60.32%
+ 144  XP_015999208.2                 0.42%    passed     46.34%
+ 145  XP_011364294.1                 0.42%    passed     47.77%
+ 146  XP_008580067.1                 0.57%    passed     43.08%
+ 147  XP_005866260.1                 0.05%    passed      6.81%
+ 148  ENSMLUP00000002912.2           0.42%    passed      5.50%
+ 149  XP_036177236.1                 0.05%    failed      4.94%
+ 150  ELK33990.1                     0.42%    passed      6.87%
+ 151  XP_054580526.1                 0.42%    failed      2.34%
+ 152  XP_036273543.1                 0.42%    failed      0.28%
+ 153  XP_016077183.1                 0.52%    passed     21.23%
+ 154  XP_036100259.1                 0.05%    passed      6.99%
+ 155  XP_024415123.2                 0.52%    passed     56.62%
+ 156  XP_036915763.1                 0.52%    passed      7.95%
+ 157  XP_037020490.2                 0.57%    failed      2.35%
+ 158  XP_045688626.1                 0.52%    passed     46.12%
+ 159  XP_028380382.1                 0.57%    passed     86.22%
+ 160  XP_054429592.1                 0.52%    failed      2.52%
+ 161  ENSCGRP00015025261.1           0.21%    passed     51.82%
+ 162  XP_051041887.1                 0.52%    passed     81.32%
+ 163  ENSMAUP00000017616.1           0.78%    passed     67.82%
+ 164  XP_036039400.1                 0.52%    passed     53.58%
+ 165  XP_028724390.1                 0.21%    passed     31.55%
+ 166  ENSPEMP00000005634.2           0.78%    passed     30.88%
+ 167  XP_052581953.1                 0.16%    passed      7.46%
+ 168  XP_057636367.1                 0.52%    passed     68.55%
+ 169  XP_038185184.1                 0.52%    passed     86.53%
+ 170  XP_041526152.1                 0.57%    passed     83.89%
+ 171  ENSMOCP00000005886.1           0.78%    passed     76.07%
+ 172  XP_050006673.1                 0.16%    passed     77.38%
+ 173  XP_048297073.1                 0.52%    passed     94.76%
+ 174  XP_021493513.1                 0.57%    passed     32.03%
+ 175  XP_055451968.1                 0.57%    passed     46.20%
+ 176  XP_050999782.1                 0.62%    passed     11.14%
+ 177  XP_052040295.1                 0.88%    failed      0.81%
+ 178  XP_028625352.1                 0.93%    failed      2.42%
+ 179  XP_034349772.1                 0.93%    passed     16.09%
+ 180  XP_031228675.1                 0.88%    passed      5.14%
+ 181  MGP_PahariEiJ_P0067277.None    0.93%    passed     13.85%
+ 182  MGP_CAROLIEiJ_P0056295.None    0.88%    failed      2.88%
+ 183  ENSMUSP00000049404.8           0.88%    failed      2.10%
+ 184  ENSMSPP00010029410.1          45.74%    passed     10.74%
+ 185  XP_032760653.1                 0.99%    passed     13.89%
+ 186  ENSRNOP00000068109.2           0.62%    passed     27.03%
+ 187  ENSMSIP00000037625.1           2.60%    failed      0.38%
+ 188  XP_037666999.1                 0.62%    passed     23.77%
+ 189  XP_055964399.1                 0.52%    failed      0.00%
+ 190  ENSSARP00000010523.1           1.71%    failed      0.00%
+ 191  ENSOCUP00000020819.1           0.47%    failed      0.00%
+ 192  XP_004370316.1                 0.10%    passed     93.74%
+ 193  XP_049724866.1                 0.52%    passed     90.72%
+ 194  ENSLAFP00000010194.3           0.88%    passed     86.59%
+ 195  XP_007936518.1                 0.47%    passed     96.69%
+ 196  XP_004698372.1                 3.17%    passed     39.39%
+ 197  XP_006839258.1                 0.26%    passed     24.87%
+ 198  XP_006881685.1                 0.47%    failed      0.00%
+ 199  ENSPCAP00000003263.1           1.77%    failed      1.33%
+ 200  ENSDNOP00000033433.1           0.88%    passed      7.32%
+ 201  XP_004585946.1                 0.83%    failed      0.00%
+ 202  XP_040837269.1                 0.47%    failed      0.01%
+ 203  XP_042558104.1                 0.47%    failed      0.00%
+ 204  ENSDORP00000013296.2           0.78%    failed      0.00%
+ 205  XP_048205560.1                 0.47%    failed      0.00%
+ 206  XP_049637260.1                 0.78%    failed      0.01%
+ 207  XP_037356024.1                 0.73%    passed     23.77%
+ 208  XP_004687522.1                 0.73%    passed     91.80%
+ 209  KAG8519603.1                   1.04%    failed      0.17%
+ 210  XP_007533446.1                50.62%    failed      0.00%
+ 211  ENSJJAP00000018129.1           1.14%    passed     27.51%
+ 212  XP_044519754.1                 0.57%    failed      0.00%
+ 213  ENSMODP00000020364.3           0.78%    failed      0.00%
+ 214  ENSVURP00010000268.1           0.78%    failed      0.00%
+ 215  ENSPCIP00000009860.2           7.22%    failed      0.00%
+ 216  XP_036605099.1                 0.78%    failed      0.00%
+ 217  ENSSHAP00000010203.2           0.73%    failed      0.00%
+ 218  XP_051832511.1                 0.73%    failed      0.00%
+ 219  XP_043844124.1                 0.67%    failed      0.00%
+ 220  ENSOANP00000010217.3           0.83%    failed      0.00%
+WARNING: 3 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                          1.62%  39 sequences failed composition chi2 test (p-value<5%; df=3)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.114 seconds
+
+NOTE: 113 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.500)
+1. Initial log-likelihood: -165450.038
+2. Current log-likelihood: -154695.240
+3. Current log-likelihood: -154637.058
+Optimal log-likelihood: -154636.916
+Rate parameters:  A-C: 1.39119  A-G: 5.61577  A-T: 0.91432  C-G: 1.03159  C-T: 7.17671  G-T: 1.00000
+Base frequencies:  A: 0.266  C: 0.255  G: 0.266  T: 0.212
+Gamma shape alpha: 0.551
+Parameters optimization took 3 rounds (2.418 sec)
+Computing ML distances based on estimated model parameters...
+Computing ML distances took 0.124623 sec (of wall-clock time) 0.980605 sec(of CPU time)
+Computing RapidNJ tree took 0.025338 sec (of wall-clock time) 0.228999 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -154701.399
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+
+Do NNI search on 2 best initial trees
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 1: -154353.096
+Finish initializing candidate tree set (4)
+Current best tree score: -154353.096 / CPU time: 1.380
+Number of iterations: 2
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:4s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -154353.096
+Optimal log-likelihood: -154353.086
+Rate parameters:  A-C: 1.38212  A-G: 5.61853  A-T: 0.90592  C-G: 1.03153  C-T: 7.17790  G-T: 1.00000
+Base frequencies:  A: 0.266  C: 0.255  G: 0.266  T: 0.212
+Gamma shape alpha: 0.553
+Parameters optimization took 1 rounds (0.308 sec)
+BEST SCORE FOUND : -154353.086
+Total tree length: 6.440
+
+Total number of iterations: 2
+CPU time used for tree search: 11.020 sec (0h:0m:11s)
+Wall-clock time used for tree search: 1.381 sec (0h:0m:1s)
+Total CPU time used: 39.595 sec (0h:0m:39s)
+Total wall-clock time used: 4.988 sec (0h:0m:4s)
+
+Analysis results written to: 
+  IQ-TREE report:                final_metazoa_phylogenies/ZNFX1/final_tree/220_ZNFX1_mammalia_AA_curated.pal2nal.trimal.fasta.iqtree
+  Maximum-likelihood tree:       final_metazoa_phylogenies/ZNFX1/final_tree/220_ZNFX1_mammalia_AA_curated.pal2nal.trimal.fasta.treefile
+  Likelihood distances:          final_metazoa_phylogenies/ZNFX1/final_tree/220_ZNFX1_mammalia_AA_curated.pal2nal.trimal.fasta.mldist
+  Screen log file:               final_metazoa_phylogenies/ZNFX1/final_tree/220_ZNFX1_mammalia_AA_curated.pal2nal.trimal.fasta.log
+
+Date and Time: Sat Apr 25 13:29:57 2026

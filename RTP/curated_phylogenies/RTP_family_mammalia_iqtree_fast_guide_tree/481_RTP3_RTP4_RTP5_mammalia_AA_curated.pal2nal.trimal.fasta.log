@@ -1,0 +1,560 @@
+IQ-TREE multicore version 2.1.3 COVID-edition for Linux 64-bit built Apr 21 2021
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    alpha2.cvr.gla.ac.uk (AVX512, FMA3, 4031 GB RAM)
+Command: iqtree2 -nt 8 -s final_metazoa_phylogenies/RTP4/final_tree/481_RTP3_RTP4_RTP5_mammalia_AA_curated.pal2nal.trimal.fasta -m GTR+G -fast
+Seed:    723455 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Apr 23 15:38:41 2026
+Kernel:  AVX+FMA - 8 threads (224 CPU cores detected)
+
+Reading alignment file final_metazoa_phylogenies/RTP4/final_tree/481_RTP3_RTP4_RTP5_mammalia_AA_curated.pal2nal.trimal.fasta ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 481 sequences with 2031 columns, 2028 distinct patterns
+1962 parsimony-informative, 59 singleton sites, 10 constant sites
+                             Gap/Ambiguity  Composition  p-value
+   1  ENSP00000259030.2             63.66%    failed      0.48%
+   2  ENSPPAP00000017038.1          63.66%    failed      0.61%
+   3  ENSGGOP00000001211.2          63.66%    failed      0.18%
+   4  ENSPTRP00000070442.1          68.09%    failed      1.83%
+   5  XP_054338254.1                63.66%    failed      0.07%
+   6  ENSPPYP00000016097.3          63.66%    failed      0.05%
+   7  XP_032028196.1                63.66%    failed      0.19%
+   8  ENSNLEP00000008152.1          63.66%    failed      0.09%
+   9  XP_025232529.1                63.52%    failed      0.15%
+  10  ENSPANP00000008710.1          63.52%    failed      0.16%
+  11  ENSCATP00000036074.1          63.66%    failed      0.06%
+  12  ENSMLEP00000001161.1          63.66%    failed      0.17%
+  13  ENSMNEP00000028343.1          63.66%    failed      0.10%
+  14  ENSMFAP00000036957.1          63.66%    failed      0.06%
+  15  ENSCSAP00000005426.1          63.66%    failed      0.42%
+  16  XP_011816987.1                63.66%    failed      0.08%
+  17  XP_023070493.1                63.66%    failed      0.11%
+  18  ENSRBIP00000027963.1          63.66%    failed      0.21%
+  19  ENSRROP00000008131.1          63.66%    failed      0.12%
+  20  XP_033068918.1                63.66%    failed      0.14%
+  21  ENSANAP00000015957.1          63.81%    passed      8.66%
+  22  ENSCJAP00000026524.4          63.81%    failed      1.71%
+  23  ENSSBOP00000040025.1          63.81%    failed      0.19%
+  24  ENSCCAP00000032082.1          63.81%    failed      0.35%
+  25  XP_032154174.1                63.81%    failed      0.23%
+  26  ENSTSYP00000008733.1          63.52%    failed      0.00%
+  27  ENSPCOP00000011381.1          63.81%    passed      6.31%
+  28  XP_045412825.1                62.48%    failed      0.81%
+  29  ENSPSMP00000026378.1          62.48%    failed      1.52%
+  30  ENSMICP00000050991.1          62.33%    passed     17.60%
+  31  XP_053421188.1                63.52%    failed      2.96%
+  32  ENSOGAP00000001161.2          63.66%    failed      0.31%
+  33  XP_008589452.1                60.41%    failed      4.16%
+  34  ENSTBEP00000004662.1          62.92%    failed      0.01%
+  35  XP_057401816.1                31.46%    passed      7.20%
+  36  ENSPSNP00000013793.1          32.79%    failed      4.49%
+  37  XP_024623736.1                32.79%    failed      3.81%
+  38  ENSMMNP00015002670.1          32.79%    passed      5.58%
+  39  ENSDLEP00000019521.1          35.60%    failed      3.66%
+  40  TEA10326.1                    32.79%    passed      5.57%
+  41  ENSTTRP00000008532.1          66.17%    failed      0.31%
+  42  XP_026964964.1                35.16%    passed      5.76%
+  43  XP_007448497.1                32.79%    failed      1.82%
+  44  ENSPCTP00005016003.1          33.68%    failed      1.81%
+  45  ENSBMSP00010012498.1          65.44%    failed      0.06%
+  46  KAJ8776044.1                  66.47%    failed      1.12%
+  47  XP_057596285.1                32.50%    passed     16.25%
+  48  ENSCDRP00005010365.1          32.05%    failed      0.14%
+  49  XP_010957530.1                32.05%    failed      0.12%
+  50  XP_032338362.1                32.05%    failed      0.13%
+  51  ENSVPAP00000003604.1          65.88%    failed      0.09%
+  52  XP_046513903.1                31.31%    failed      3.11%
+  53  ENSEASP00005020495.1          31.31%    failed      3.11%
+  54  XP_008532696.1                31.17%    failed      2.70%
+  55  ENSECAP00000089823.1          31.31%    failed      2.53%
+  56  KAF5922248.1                  31.46%    failed      2.75%
+  57  XP_004424864.1                31.46%    failed      4.64%
+  58  XP_047644564.1                31.61%    failed      0.76%
+  59  ENSSSCP00000077849.1          31.61%    failed      1.08%
+  60  XP_055426287.1                33.38%    failed      0.92%
+  61  ENSBTAP00000043123.5          33.68%    failed      1.16%
+  62  ENSBIXP00005041840.1          33.68%    failed      1.16%
+  63  ENSBBBP00000012416.1          35.60%    failed      0.83%
+  64  ENSBMUP00000015917.1          33.68%    failed      1.40%
+  65  XP_006069034.3                33.38%    failed      0.92%
+  66  XP_040108928.1                33.83%    failed      0.47%
+  67  ENSCHIP00000024593.1          35.01%    failed      1.46%
+  68  ENSOARP00020099789.1          33.83%    failed      0.87%
+  69  XP_052505826.1                35.60%    failed      0.40%
+  70  ENSMMSP00000009938.1          33.68%    failed      1.92%
+  71  XP_055275762.1                40.32%    failed      0.16%
+  72  XP_020725727.1                33.83%    failed      1.32%
+  73  CAI9175510.1                  33.68%    failed      1.59%
+  74  XP_043329385.1                33.68%    failed      2.45%
+  75  XP_043731294.1                33.68%    failed      1.21%
+  76  KAB0374401.1                  35.60%    failed      0.78%
+  77  ENSBGRP00000002031.1          37.22%    failed      0.00%
+  78  XP_028390434.1                32.79%    failed      1.21%
+  79  XP_035873725.1                46.53%    passed     16.19%
+  80  XP_045707366.1                32.79%    failed      0.50%
+  81  XP_036893361.1                36.78%    failed      3.60%
+  82  XP_036987672.2                30.43%    failed      0.02%
+  83  QOS14227.1                    37.22%    failed      0.54%
+  84  XP_036099038.1                37.37%    failed      0.27%
+  85  XP_008149850.2                35.75%    failed      0.01%
+  86  ENSMLUP00000005640.2          47.42%    failed      0.26%
+  87  XP_005876333.1                38.11%    failed      0.04%
+  88  XP_036208740.1                37.96%    failed      0.10%
+  89  XP_006765917.1                37.96%    failed      0.01%
+  90  XP_036299739.1                58.20%    failed      0.00%
+  91  ENSPVAP00000015321.1          64.11%    failed      0.46%
+  92  XP_039706573.1                36.78%    failed      0.02%
+  93  XP_024898084.1                42.39%    failed      0.01%
+  94  XP_019607699.1                32.50%    failed      0.02%
+  95  ENSRFEP00010014913.1          31.91%    failed      0.00%
+  96  XP_016055621.1                59.38%    passed     14.17%
+  97  XP_054441237.1                35.89%    failed      0.02%
+  98  KAI5940284.1                  46.23%    passed     19.43%
+  99  XP_036731171.2                45.05%    passed     15.36%
+ 100  ENSCWAP00000026348.1          41.51%    failed      0.31%
+ 101  ENSCHYP00000026606.1          61.15%    failed      0.00%
+ 102  ENSUMAP00000005066.1          42.84%    passed      5.36%
+ 103  ENSAMEP00000030711.1          42.84%    failed      2.29%
+ 104  XP_035922623.1                41.36%    failed      0.07%
+ 105  XP_032262819.1                41.36%    failed      0.04%
+ 106  XP_021548312.1                41.36%    failed      0.02%
+ 107  XP_030893016.1                41.36%    failed      0.04%
+ 108  XP_027441453.1                41.36%    failed      0.11%
+ 109  XP_027956769.1                41.36%    failed      0.11%
+ 110  XP_025732639.1                41.36%    failed      0.11%
+ 111  XP_004413488.1                43.28%    failed      2.90%
+ 112  ENSMPUP00000003350.1          64.55%    passed      7.47%
+ 113  ENSNVIP00000026422.1          42.10%    failed      0.11%
+ 114  XP_044111068.1                42.10%    failed      0.09%
+ 115  XP_032193884.1                42.10%    failed      0.07%
+ 116  XP_047588545.1                42.10%    failed      0.05%
+ 117  XP_022364336.1                49.34%    failed      0.66%
+ 118  XP_032731506.1                42.10%    failed      0.29%
+ 119  XP_045859895.1                42.10%    failed      0.23%
+ 120  ENSCAFP00845031271.1          37.52%    failed      0.00%
+ 121  ENSCAFP00020007740.1          37.52%    failed      0.00%
+ 122  XP_055163639.1                37.52%    failed      0.02%
+ 123  XP_041587801.1                37.96%    failed      0.01%
+ 124  ENSVVUP00000018100.1          37.52%    failed      0.01%
+ 125  XP_039090116.1                40.47%    failed      0.02%
+ 126  XP_030185882.1                41.21%    failed      0.12%
+ 127  XP_047732545.1                41.21%    failed      0.16%
+ 128  XP_046955953.1                41.21%    failed      0.14%
+ 129  VFV27921.1                    41.21%    failed      0.08%
+ 130  XP_043450561.1                41.21%    failed      0.16%
+ 131  XP_045358586.1                41.21%    failed      0.61%
+ 132  XP_040337001.1                41.21%    failed      0.22%
+ 133  XP_014919838.1                41.21%    failed      0.34%
+ 134  XP_049485494.1                41.21%    failed      0.16%
+ 135  ENSPLOP00000028795.1          41.21%    failed      0.22%
+ 136  ENSPPRP00000005590.1          45.35%    failed      0.08%
+ 137  ENSPTIP00000000587.1          69.72%    failed      0.08%
+ 138  ENSFCTP00005050992.1          42.98%    failed      0.22%
+ 139  XP_025769352.1                62.19%    passed     90.85%
+ 140  XP_029795514.1                41.21%    failed      0.00%
+ 141  XP_023592613.1                48.30%    passed     53.08%
+ 142  ENSPCAP00000010232.1          64.55%    passed      8.51%
+ 143  XP_049736480.1                46.97%    failed      0.10%
+ 144  ENSLAFP00000020309.1          32.20%    failed      2.35%
+ 145  XP_006871958.1                60.86%    failed      0.02%
+ 146  ENSETEP00000011237.1          62.63%    failed      0.93%
+ 147  KAI4579067.1                  59.97%    failed      0.05%
+ 148  KAI4548239.1                  60.56%    failed      0.01%
+ 149  XP_006884232.1                64.25%    failed      1.40%
+ 150  XP_021491833.1                60.12%    failed      0.00%
+ 151  XP_055481222.1                60.12%    failed      0.00%
+ 152  XP_051006740.1                65.58%    failed      0.01%
+ 153  XP_028639723.1                65.58%    failed      0.01%
+ 154  XP_034371198.1                65.58%    failed      0.01%
+ 155  XP_052014805.1                65.29%    failed      0.01%
+ 156  ENSRNOP00000098331.1          64.99%    failed      0.02%
+ 157  XP_032755927.1                64.99%    failed      0.01%
+ 158  MGP_PahariEiJ_P0028487.None   65.58%    failed      0.02%
+ 159  ENSMUSP00000147521.2          64.55%    failed      0.01%
+ 160  ENSMSIP00000031459.1          64.55%    failed      0.01%
+ 161  ENSMSPP00010057137.1          64.55%    failed      0.02%
+ 162  MGP_CAROLIEiJ_P0041103.None   73.26%    failed      0.02%
+ 163  XP_031219386.1                65.58%    failed      0.00%
+ 164  XP_051047188.1                55.10%    failed      0.00%
+ 165  ENSCGRP00015059343.1          46.97%    failed      0.00%
+ 166  XP_057621383.1                58.35%    failed      0.01%
+ 167  ENSMOCP00000015415.1          64.70%    failed      0.00%
+ 168  XP_041534057.1                62.19%    failed      0.00%
+ 169  XP_050015923.1                55.39%    failed      0.01%
+ 170  XP_048309841.1                61.15%    failed      0.01%
+ 171  XP_038201829.1                75.92%    failed      0.21%
+ 172  ENSMAUP00000006501.1          67.50%    failed      2.88%
+ 173  XP_036059805.1                45.94%    failed      0.00%
+ 174  OBS70090.1                    55.79%    failed      0.01%
+ 175  XP_028731025.1                45.94%    failed      0.00%
+ 176  ENSSVLP00005010701.1          66.32%    failed      0.00%
+ 177  ENSMMMP00000010555.1          66.03%    failed      0.00%
+ 178  XP_027807277.1                66.03%    failed      0.00%
+ 179  XP_047421429.1                84.79%    failed      0.59%
+ 180  XP_010622443.1                67.36%    failed      0.09%
+ 181  XP_010622445.1                67.06%    failed      0.19%
+ 182  XP_037380447.1                56.28%    failed      0.14%
+ 183  KAG8515816.1                  56.57%    failed      0.03%
+ 184  XP_055977898.1                54.80%    failed      0.00%
+ 185  XP_004654580.2                68.24%    failed      0.78%
+ 186  ENSOCUP00000006643.3          60.71%    failed      0.02%
+ 187  XP_040858890.1                57.16%    failed      0.01%
+ 188  XP_008580354.1                49.93%    passed     86.57%
+ 189  ENSPSMP00000005917.1          65.88%    passed     10.07%
+ 190  ENSPCOP00000012821.1          66.03%    passed     32.28%
+ 191  ENSMICP00000044035.1          67.50%    passed     95.86%
+ 192  ENSOGAP00000017825.1          63.07%    failed      1.57%
+ 193  XP_053456590.1                59.08%    passed      5.55%
+ 194  ENSLAFP00000016556.2          66.62%    failed      0.09%
+ 195  XP_049719062.1                49.04%    failed      0.02%
+ 196  XP_012410079.1                71.49%    passed     17.39%
+ 197  XP_007949971.1                73.26%    failed      0.50%
+ 198  XP_032015016.1                66.17%    failed      0.10%
+ 199  ENSGGOP00000013065.2          66.17%    failed      0.30%
+ 200  ENSP00000296142.3             66.17%    failed      0.21%
+ 201  ENSPTRP00000025604.3          65.88%    failed      0.17%
+ 202  ENSPPAP00000039209.1          65.88%    failed      0.20%
+ 203  ENSPPYP00000039835.1          66.17%    failed      0.45%
+ 204  XP_054338925.1                66.17%    failed      0.35%
+ 205  ENSMLEP00000021998.1          66.17%    failed      0.19%
+ 206  ENSMFAP00000016075.2          66.17%    failed      0.08%
+ 207  ENSPANP00000010439.1          66.17%    failed      0.10%
+ 208  XP_025233038.1                66.17%    failed      0.14%
+ 209  ENSCATP00000019264.1          66.17%    failed      0.10%
+ 210  ENSCSAP00000012308.1          66.17%    failed      0.25%
+ 211  XP_023087047.1                66.17%    failed      0.14%
+ 212  XP_011794626.1                66.17%    failed      0.05%
+ 213  XP_033055656.1                66.17%    failed      0.26%
+ 214  ENSRBIP00000040894.1          66.17%    failed      0.23%
+ 215  ENSRROP00000040400.1          66.17%    failed      0.32%
+ 216  ENSSBOP00000038335.1          66.03%    failed      0.45%
+ 217  ENSCCAP00000008001.1          66.17%    failed      0.67%
+ 218  XP_032153897.1                66.17%    failed      0.53%
+ 219  ENSANAP00000017513.1          66.17%    failed      0.12%
+ 220  ENSCJAP00000003861.2          66.17%    failed      0.58%
+ 221  ENSCWAP00000023982.1          63.66%    failed      0.01%
+ 222  XP_047628144.1                60.27%    failed      0.35%
+ 223  ENSSSCP00000061916.1          55.98%    failed      0.01%
+ 224  XP_057562376.1                58.05%    failed      0.11%
+ 225  XP_004284009.1                57.90%    failed      0.58%
+ 226  XP_030701148.1                57.90%    failed      0.66%
+ 227  XP_026952731.1                56.28%    failed      0.12%
+ 228  ENSDLEP00000017045.1          56.57%    failed      0.16%
+ 229  ENSMMNP00015029456.1          57.90%    failed      0.22%
+ 230  XP_024607246.1                56.72%    failed      0.16%
+ 231  XP_007470339.1                57.90%    failed      0.57%
+ 232  ENSTTRP00000016394.1          66.32%    failed      0.89%
+ 233  XP_057411738.1                58.05%    failed      0.32%
+ 234  ENSCHYP00000034557.1          57.61%    failed      1.09%
+ 235  KAB0357190.1                  57.61%    failed      0.74%
+ 236  XP_052493171.1                57.75%    failed      0.34%
+ 237  ENSOARP00020078972.1          57.75%    failed      1.21%
+ 238  XP_040102751.1                57.75%    failed      0.32%
+ 239  ENSBIXP00005019149.1          56.13%    failed      1.05%
+ 240  ENSBTAP00000024988.6          56.13%    failed      1.10%
+ 241  XP_027378404.1                56.87%    failed      1.29%
+ 242  ENSBGRP00000018329.1          56.13%    failed      2.67%
+ 243  XP_055413670.1                56.87%    failed      1.24%
+ 244  XP_055269247.1                57.61%    failed      1.49%
+ 245  ENSCHIP00000002035.1          71.34%    passed      6.77%
+ 246  ENSBMUP00000003247.1          71.34%    failed      2.29%
+ 247  ENSMMSP00000025846.1          63.22%    failed      0.02%
+ 248  XP_047387880.1                46.38%    failed      2.26%
+ 249  XP_046292510.1                46.38%    failed      0.13%
+ 250  ENSMMMP00000007906.1          46.38%    failed      0.19%
+ 251  ENSUPAP00010020144.1          46.97%    failed      1.34%
+ 252  ENSSVLP00005029170.1          64.99%    passed     19.25%
+ 253  XP_036189750.1                56.28%    failed      0.41%
+ 254  XP_006773505.1                56.28%    failed      1.22%
+ 255  ENSMLUP00000014765.2          73.41%    passed      8.26%
+ 256  XP_005867250.1                56.28%    failed      0.48%
+ 257  XP_008156118.2                55.98%    failed      0.05%
+ 258  XP_036286123.1                55.98%    failed      2.93%
+ 259  XP_036122200.1                54.06%    passed     36.35%
+ 260  XP_016058262.1                52.73%    passed      5.96%
+ 261  XP_054450788.1                55.83%    passed     16.02%
+ 262  ENSRFEP00010025140.1          65.44%    failed      0.00%
+ 263  ENSUAMP00000000916.1          63.81%    failed      3.10%
+ 264  ENSAMEP00000025465.1          56.28%    passed      7.37%
+ 265  XP_026356458.3                55.54%    passed     13.85%
+ 266  ENSUMAP00000005844.1          55.54%    passed     12.27%
+ 267  XP_032268023.1                55.83%    passed     19.59%
+ 268  KAF3829204.1                  57.31%    passed     35.20%
+ 269  XP_045718535.1                56.43%    passed     32.14%
+ 270  XP_021542660.1                56.43%    passed     34.13%
+ 271  XP_027441561.2                55.69%    failed      3.45%
+ 272  XP_027942781.1                64.25%    failed      3.69%
+ 273  XP_004399354.1                55.69%    failed      2.27%
+ 274  ENSPPRP00000002113.1          68.39%    passed      7.26%
+ 275  ENSPTIP00000015464.1          68.39%    passed      8.51%
+ 276  XP_047705441.1                56.43%    passed     74.67%
+ 277  XP_043443169.1                56.43%    passed     76.55%
+ 278  XP_040301066.1                56.43%    passed     64.70%
+ 279  XP_025771696.1                60.27%    passed     79.84%
+ 280  XP_014921161.2                56.43%    passed     56.44%
+ 281  XP_049496297.1                56.43%    passed     57.52%
+ 282  XP_045348603.1                56.43%    passed     75.82%
+ 283  ENSFCTP00005060007.1          58.94%    passed     94.71%
+ 284  XP_039084166.1                56.13%    passed     31.95%
+ 285  XP_029773727.1                70.16%    passed     30.79%
+ 286  ENSMPUP00000015078.1          73.56%    passed      5.57%
+ 287  XP_032173612.1                55.39%    failed      3.99%
+ 288  XP_044111226.1                55.39%    failed      4.83%
+ 289  XP_047551627.1                55.39%    passed      5.33%
+ 290  XP_022354233.1                56.13%    passed      8.18%
+ 291  XP_032723745.1                55.83%    failed      4.33%
+ 292  XP_045845820.1                55.69%    failed      4.71%
+ 293  ENSNVIP00000027816.1          63.81%    failed      3.33%
+ 294  ENSCAFP00845016575.1          56.13%    failed      0.54%
+ 295  ENSCAFP00020017329.1          56.13%    failed      0.81%
+ 296  XP_055200746.1                56.13%    failed      0.68%
+ 297  ENSVVUP00000006587.1          56.13%    failed      1.96%
+ 298  XP_041616333.1                56.13%    failed      2.29%
+ 299  ENSPLOP00000003381.1          67.80%    failed      0.01%
+ 300  ENSPCTP00005014534.1          61.00%    failed      0.01%
+ 301  ENSBMSP00010027123.1          61.60%    failed      0.12%
+ 302  XP_037705233.1                48.30%    failed      0.00%
+ 303  XP_036770161.2                61.60%    passed     76.89%
+ 304  XP_046519308.1                56.72%    passed     95.47%
+ 305  ENSEASP00005038063.1          56.72%    passed     93.80%
+ 306  ENSECAP00000043874.1          56.72%    passed     87.68%
+ 307  XP_004420026.1                57.46%    passed      5.17%
+ 308  ELV10050.1                    43.13%    failed      0.00%
+ 309  ENSTBEP00000008369.1          72.82%    passed      5.03%
+ 310  ENSHGLP00000043887.1          46.68%    failed      0.25%
+ 311  XP_010622672.1                46.97%    failed      0.05%
+ 312  ENSTSYP00000018937.1          65.73%    failed      0.01%
+ 313  ENSCDRP00005008669.1          67.95%    failed      0.05%
+ 314  XP_019486202.1                58.05%    failed      0.00%
+ 315  XP_039692779.1                59.08%    failed      1.15%
+ 316  XP_006914970.1                54.51%    failed      0.65%
+ 317  XP_028374422.1                56.57%    passed     64.25%
+ 318  XP_045712931.1                56.13%    passed     49.99%
+ 319  XP_045055815.2                55.83%    passed     70.64%
+ 320  XP_036886485.1                55.83%    passed     81.69%
+ 321  XP_036985923.2                55.69%    passed     69.86%
+ 322  ENSPCAP00000007620.1          68.24%    failed      1.04%
+ 323  XP_037376208.1                57.75%    failed      3.01%
+ 324  XP_004676668.1                57.02%    passed     23.27%
+ 325  XP_052578176.1                44.61%    failed      0.02%
+ 326  XP_028715884.1                48.01%    failed      0.49%
+ 327  ENSPEMP00000015749.2          44.76%    failed      0.07%
+ 328  ENSCGRP00015044976.1          43.57%    failed      0.02%
+ 329  CAH6777614.1                  41.21%    failed      0.10%
+ 330  XP_048279754.1                43.43%    failed      1.91%
+ 331  XP_041533334.1                44.31%    failed      0.23%
+ 332  XP_049995184.1                46.09%    failed      1.35%
+ 333  XP_057624406.1                46.68%    failed      1.70%
+ 334  XP_028642944.1                47.27%    failed      0.03%
+ 335  XP_034380880.1                46.38%    failed      0.01%
+ 336  XP_031201344.1                40.92%    failed      0.37%
+ 337  MGP_PahariEiJ_P0026025.None   59.53%    failed      1.32%
+ 338  ENSMUSP00000143305.2          45.79%    failed      0.00%
+ 339  ENSMSPP00010059081.1          46.09%    failed      0.00%
+ 340  MGP_CAROLIEiJ_P0090350.None   46.53%    failed      0.00%
+ 341  ENSRNOP00000052950.2          43.28%    failed      1.07%
+ 342  XP_032767280.1                45.49%    failed      0.00%
+ 343  XP_050996353.1                59.82%    failed      0.43%
+ 344  ENSNGAP00000006868.1          50.22%    failed      0.00%
+ 345  XP_020022637.1                39.59%    failed      0.00%
+ 346  ENSDNOP00000020014.1          50.66%    failed      0.13%
+ 347  XP_044992887.1                55.39%    passed     15.29%
+ 348  XP_005383497.1                43.87%    failed      0.11%
+ 349  XP_006893106.1                61.30%    passed     12.96%
+ 350  XP_013015814.1                45.79%    passed     19.70%
+ 351  XP_023556412.1                42.84%    failed      2.61%
+ 352  XP_012885673.1                40.47%    failed      0.60%
+ 353  XP_016047322.1                68.54%    passed     14.90%
+ 354  XP_015996851.2                58.05%    passed     10.92%
+ 355  ENSSHAP00000018370.2          69.28%    passed     18.84%
+ 356  XP_051846985.1                75.48%    passed     27.22%
+ 357  XP_043849241.1                68.09%    passed     25.53%
+ 358  ENSPCIP00000034118.1          68.69%    passed      6.27%
+ 359  XP_056664117.1                66.47%    passed     29.67%
+ 360  XP_044523594.1                66.62%    passed     53.05%
+ 361  XP_027731597.1                77.99%    failed      0.31%
+ 362  XP_048201963.1                68.83%    failed      0.00%
+ 363  XP_012890227.1                68.83%    failed      0.00%
+ 364  XP_042524613.1                68.83%    failed      0.00%
+ 365  XP_014398592.1                81.83%    passed      5.89%
+ 366  XP_006875301.1                17.43%    passed      7.75%
+ 367  XP_023596627.1                11.67%    failed      0.91%
+ 368  XP_049744834.1                11.96%    failed      1.01%
+ 369  ENSLAFP00000021199.1          20.53%    failed      0.69%
+ 370  XP_007941408.1                13.44%    passed     21.68%
+ 371  XP_057599841.1                22.60%    failed      0.00%
+ 372  ENSBMSP00010014285.1          23.19%    failed      0.00%
+ 373  XP_057407533.1                20.68%    failed      0.00%
+ 374  XP_043304413.1                20.68%    failed      0.00%
+ 375  XP_043733474.1                20.68%    failed      0.00%
+ 376  ENSCHYP00000015524.1          20.68%    failed      0.00%
+ 377  XP_027394018.1                20.68%    failed      0.00%
+ 378  ENSBIXP00005014416.1          26.14%    failed      0.00%
+ 379  ENSBGRP00000003303.1          23.63%    failed      0.00%
+ 380  ENSMMSP00000009485.1          20.68%    failed      0.00%
+ 381  XP_055250867.1                20.68%    failed      0.00%
+ 382  ENSMMSP00000015826.1          20.68%    failed      0.00%
+ 383  XP_014640976.1                18.61%    failed      0.00%
+ 384  ENSECAP00000033742.2          16.40%    failed      0.00%
+ 385  ENSEASP00005053576.1          21.27%    failed      0.00%
+ 386  XP_046499063.1                17.58%    failed      0.00%
+ 387  ENSUAMP00000010313.1          18.61%    failed      0.00%
+ 388  XP_026345676.2                19.79%    failed      0.00%
+ 389  ENSAMEP00000025824.1          18.76%    failed      0.00%
+ 390  XP_021543639.1                21.42%    failed      0.00%
+ 391  XP_045723373.1                21.42%    failed      0.00%
+ 392  XP_034864207.1                21.42%    failed      0.00%
+ 393  XP_032284339.1                21.71%    failed      0.00%
+ 394  XP_035924793.1                20.24%    failed      0.00%
+ 395  XP_004412779.1                22.60%    failed      0.00%
+ 396  XP_025742246.1                22.90%    failed      0.00%
+ 397  XP_027961165.1                22.90%    failed      0.00%
+ 398  XP_027443869.1                22.90%    failed      0.00%
+ 399  XP_044096848.1                20.24%    failed      0.00%
+ 400  ENSNVIP00000023874.1          20.24%    failed      0.00%
+ 401  XP_047577627.1                20.38%    failed      0.00%
+ 402  XP_022356445.1                20.38%    failed      0.00%
+ 403  XP_032211391.1                20.38%    failed      0.00%
+ 404  ENSMPUP00000000197.1          28.06%    failed      0.00%
+ 405  XP_045874055.1                20.24%    failed      0.00%
+ 406  ENSVVUP00000031210.1          20.53%    failed      0.00%
+ 407  XP_041623177.1                21.71%    failed      0.00%
+ 408  XP_055155994.1                21.71%    failed      0.00%
+ 409  ENSCAFP00845033737.1          20.53%    failed      0.00%
+ 410  ENSCAFP00020032666.1          25.70%    failed      0.00%
+ 411  XP_040306298.1                18.61%    failed      0.00%
+ 412  XP_026901059.1                18.61%    failed      0.00%
+ 413  XP_047702555.1                18.61%    failed      0.00%
+ 414  XP_043434393.1                18.61%    failed      0.00%
+ 415  XP_030182019.1                19.79%    failed      0.00%
+ 416  XP_046940828.1                19.79%    failed      0.00%
+ 417  ENSPPRP00000016168.1          21.27%    failed      0.00%
+ 418  ENSPLOP00000014281.1          19.79%    failed      0.00%
+ 419  XP_049470402.1                19.79%    failed      0.00%
+ 420  ENSFCTP00005015310.1          21.57%    failed      0.00%
+ 421  XP_039084576.1                18.61%    failed      0.00%
+ 422  XP_029788739.1                18.76%    failed      0.00%
+ 423  ENSUMAP00000014157.1          23.04%    failed      0.00%
+ 424  XP_036757232.2                20.09%    failed      0.00%
+ 425  ENSCDRP00005000623.1          27.03%    failed      0.00%
+ 426  XP_037378091.1                25.85%    failed      0.00%
+ 427  XP_047626231.1                25.26%    failed      0.00%
+ 428  ENSSSCP00000048953.2          27.03%    failed      0.00%
+ 429  XP_019483653.1                28.80%    failed      0.00%
+ 430  ENSRFEP00010000764.1          28.80%    failed      0.00%
+ 431  EPQ02366.1                    29.84%    failed      0.00%
+ 432  XP_036174452.1                29.84%    failed      0.00%
+ 433  XP_006760751.1                31.46%    failed      0.00%
+ 434  XP_008136712.3                29.84%    failed      0.00%
+ 435  XP_036278032.2                29.69%    failed      0.00%
+ 436  XP_055964371.1                23.19%    failed      0.00%
+ 437  ENSSARP00000002537.1          41.51%    failed      0.00%
+ 438  XP_049629391.1                23.49%    failed      0.02%
+ 439  XP_045415460.1                15.51%    failed      0.00%
+ 440  ENSPCOP00000003682.1          28.80%    failed      0.00%
+ 441  ENSMICP00000047650.1          22.90%    failed      0.00%
+ 442  ENSOGAP00000017663.1          21.57%    failed      0.55%
+ 443  XP_053453205.1                15.36%    failed      3.93%
+ 444  ENSPSMP00000030672.1          23.93%    failed      0.00%
+ 445  XP_032616743.1                21.12%    failed      0.00%
+ 446  XP_055147246.1                21.12%    failed      0.00%
+ 447  ENSP00000345374.3             21.12%    failed      0.00%
+ 448  ENSPTRP00000092614.1          21.12%    failed      0.00%
+ 449  ENSGGOP00000016048.2          21.12%    failed      0.00%
+ 450  XP_054334981.1                23.49%    failed      0.00%
+ 451  ENSPPYP00000014945.3          23.49%    failed      0.00%
+ 452  XP_023050902.1                21.12%    failed      0.00%
+ 453  XP_011784913.1                21.12%    failed      0.00%
+ 454  ENSMMUP00000070593.1          21.12%    failed      0.00%
+ 455  ENSMNEP00000004403.1          21.12%    failed      0.00%
+ 456  XP_050607925.1                21.12%    failed      0.00%
+ 457  ENSCATP00000031373.1          21.12%    failed      0.00%
+ 458  XP_025261112.1                21.12%    failed      0.00%
+ 459  ENSPANP00000006038.1          21.12%    failed      0.00%
+ 460  ENSMLEP00000007672.1          21.12%    failed      0.00%
+ 461  ENSCSAP00000002037.1          21.12%    failed      0.00%
+ 462  ENSRBIP00000010845.1          21.12%    failed      0.00%
+ 463  ENSRROP00000004141.1          21.12%    failed      0.00%
+ 464  XP_033085326.1                21.12%    failed      0.00%
+ 465  ENSMFAP00000063061.1          20.97%    failed      0.00%
+ 466  ENSSVLP00005016000.1          21.27%    failed      0.00%
+ 467  XP_047402691.1                21.27%    failed      0.00%
+ 468  ENSUPAP00010003529.1          23.58%    failed      0.00%
+ 469  ENSSTOP00000023793.2          20.97%    failed      0.00%
+ 470  ENSMMMP00000008811.1          23.49%    failed      0.02%
+ 471  XP_048200271.1                19.94%    passed      9.94%
+ 472  XP_042555615.1                20.83%    failed      0.00%
+ 473  XP_012889096.1                23.49%    failed      0.00%
+ 474  ENSHGLP00000005623.1          22.45%    failed      0.00%
+ 475  KFO22565.1                    24.52%    failed      0.01%
+ 476  XP_005411160.1                23.78%    failed      0.00%
+ 477  ENSOCUP00000021599.3          28.06%    failed      0.00%
+ 478  XP_040828379.1                31.17%    failed      0.00%
+ 479  XP_004597528.1                31.17%    failed      0.00%
+ 480  ENSPCAP00000003393.1          28.21%    failed      0.01%
+ 481  XP_019523448.1                75.48%    failed      0.04%
+WARNING: 233 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                         46.43%  403 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: XP_006069034.3 is identical to XP_055426287.1 but kept for subsequent analysis
+NOTE: ENSBIXP00005041840.1 is identical to ENSBTAP00000043123.5 but kept for subsequent analysis
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.285 seconds
+
+NOTE: 126 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.500)
+1. Initial log-likelihood: -159796.435
+2. Current log-likelihood: -151320.267
+3. Current log-likelihood: -151097.880
+4. Current log-likelihood: -151075.618
+5. Current log-likelihood: -151073.057
+Optimal log-likelihood: -151072.782
+Rate parameters:  A-C: 1.21835  A-G: 3.31173  A-T: 0.99299  C-G: 1.07653  C-T: 3.39907  G-T: 1.00000
+Base frequencies:  A: 0.229  C: 0.287  G: 0.279  T: 0.205
+Gamma shape alpha: 1.643
+Parameters optimization took 5 rounds (5.366 sec)
+Computing ML distances based on estimated model parameters...
+Computing ML distances took 0.808224 sec (of wall-clock time) 6.446290 sec(of CPU time)
+Computing RapidNJ tree took 0.051781 sec (of wall-clock time) 0.460350 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -155037.817
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+
+Do NNI search on 2 best initial trees
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 1: -150950.138
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 2: -150914.399
+Finish initializing candidate tree set (4)
+Current best tree score: -150914.399 / CPU time: 5.735
+Number of iterations: 2
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:13s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -150914.399
+Optimal log-likelihood: -150914.383
+Rate parameters:  A-C: 1.20659  A-G: 3.30892  A-T: 0.98593  C-G: 1.06427  C-T: 3.39997  G-T: 1.00000
+Base frequencies:  A: 0.229  C: 0.287  G: 0.279  T: 0.205
+Gamma shape alpha: 1.642
+Parameters optimization took 1 rounds (0.453 sec)
+BEST SCORE FOUND : -150914.383
+Total tree length: 40.727
+
+Total number of iterations: 2
+CPU time used for tree search: 45.333 sec (0h:0m:45s)
+Wall-clock time used for tree search: 5.743 sec (0h:0m:5s)
+Total CPU time used: 110.043 sec (0h:1m:50s)
+Total wall-clock time used: 14.152 sec (0h:0m:14s)
+
+Analysis results written to: 
+  IQ-TREE report:                final_metazoa_phylogenies/RTP4/final_tree/481_RTP3_RTP4_RTP5_mammalia_AA_curated.pal2nal.trimal.fasta.iqtree
+  Maximum-likelihood tree:       final_metazoa_phylogenies/RTP4/final_tree/481_RTP3_RTP4_RTP5_mammalia_AA_curated.pal2nal.trimal.fasta.treefile
+  Likelihood distances:          final_metazoa_phylogenies/RTP4/final_tree/481_RTP3_RTP4_RTP5_mammalia_AA_curated.pal2nal.trimal.fasta.mldist
+  Screen log file:               final_metazoa_phylogenies/RTP4/final_tree/481_RTP3_RTP4_RTP5_mammalia_AA_curated.pal2nal.trimal.fasta.log
+
+Date and Time: Thu Apr 23 15:38:56 2026
